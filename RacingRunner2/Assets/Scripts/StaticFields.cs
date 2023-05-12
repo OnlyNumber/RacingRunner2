@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StaticFields : MonoBehaviour
+public static class StaticFields
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public const string REGISTRATION_MENU_SCENE = "RegistrationMenu";
+    public const string MENU_SCENE  = "Menu";
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public const string LOG_IN_MENU_SCENE = "LogInMenu";
+
+
+
 }

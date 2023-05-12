@@ -1,0 +1,385 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void LogInScript::Start()
+extern void LogInScript_Start_m839C51D6974BF161718C7A0C2148935164B6E659 (void);
+// 0x00000002 System.Collections.IEnumerator LogInScript::CheckAndFixDependenciesAsync()
+extern void LogInScript_CheckAndFixDependenciesAsync_m5D60E6654D5D7716373E1ED60C22BA87DF473066 (void);
+// 0x00000003 System.Collections.IEnumerator LogInScript::CheckForAutoLogin()
+extern void LogInScript_CheckForAutoLogin_mBF30F223D5F0E259336DFC9661DBFDE6A03A1100 (void);
+// 0x00000004 System.Void LogInScript::AutoLogin()
+extern void LogInScript_AutoLogin_m0C242BFCDEF9EC3524CC9C0FA8C0764F5E351FA0 (void);
+// 0x00000005 System.Void LogInScript::InitializeFirebase()
+extern void LogInScript_InitializeFirebase_m8322D2E77D19D6C23A3A34317F9C08A6F7D15150 (void);
+// 0x00000006 System.Void LogInScript::AuthStateChanged(System.Object,System.EventArgs)
+extern void LogInScript_AuthStateChanged_m39FB6557431FDD74BB037893B02725C31B624CD4 (void);
+// 0x00000007 System.Void LogInScript::LogInButton()
+extern void LogInScript_LogInButton_mB174546562C2DAD42ABC42F901DDD09C8620673A (void);
+// 0x00000008 System.Collections.IEnumerator LogInScript::Login(System.String,System.String)
+extern void LogInScript_Login_mD3D38B8E52DAD1D80A2C9F1136CA9F6B150F0205 (void);
+// 0x00000009 System.Void LogInScript::SignOut()
+extern void LogInScript_SignOut_m16F8601A59A028FE17DB549A8667FAE5973E1544 (void);
+// 0x0000000A System.Void LogInScript::GoToRegistration()
+extern void LogInScript_GoToRegistration_mF8375B58BB8DB2C6B7C2A60491F9CFCBD99DDF40 (void);
+// 0x0000000B System.Void LogInScript::.ctor()
+extern void LogInScript__ctor_m63C57EDE45AC15D91D4B80A7F25038C6C25D444D (void);
+// 0x0000000C System.Void LogInScript/<>c__DisplayClass9_0::.ctor()
+extern void U3CU3Ec__DisplayClass9_0__ctor_mB0F2EB817EF0E1E1C52CDB82EAD15E3A1D52207C (void);
+// 0x0000000D System.Boolean LogInScript/<>c__DisplayClass9_0::<CheckAndFixDependenciesAsync>b__0()
+extern void U3CU3Ec__DisplayClass9_0_U3CCheckAndFixDependenciesAsyncU3Eb__0_m40D5D72A3BBAFCC6DECF27D3B5CEC54FA753F71C (void);
+// 0x0000000E System.Void LogInScript/<CheckAndFixDependenciesAsync>d__9::.ctor(System.Int32)
+extern void U3CCheckAndFixDependenciesAsyncU3Ed__9__ctor_mBE80FE766756209B3B6CA513DC1629C6AC58FC32 (void);
+// 0x0000000F System.Void LogInScript/<CheckAndFixDependenciesAsync>d__9::System.IDisposable.Dispose()
+extern void U3CCheckAndFixDependenciesAsyncU3Ed__9_System_IDisposable_Dispose_mF6408402DB0EA0CC631FC334DCBB107FAC5A50A8 (void);
+// 0x00000010 System.Boolean LogInScript/<CheckAndFixDependenciesAsync>d__9::MoveNext()
+extern void U3CCheckAndFixDependenciesAsyncU3Ed__9_MoveNext_m229AB7366A9609AD58BB571B55BD974E40F1EC86 (void);
+// 0x00000011 System.Object LogInScript/<CheckAndFixDependenciesAsync>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckAndFixDependenciesAsyncU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2ACFD418CEE9010618A1B3CFEF552BF3C31F19B9 (void);
+// 0x00000012 System.Void LogInScript/<CheckAndFixDependenciesAsync>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CCheckAndFixDependenciesAsyncU3Ed__9_System_Collections_IEnumerator_Reset_m64EC2CC3B2B503970AC09FEDA4B3AF957C71C313 (void);
+// 0x00000013 System.Object LogInScript/<CheckAndFixDependenciesAsync>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckAndFixDependenciesAsyncU3Ed__9_System_Collections_IEnumerator_get_Current_m500361CF9B5BF4AD2BAD73C739EE0E887FE4CF02 (void);
+// 0x00000014 System.Void LogInScript/<>c__DisplayClass10_0::.ctor()
+extern void U3CU3Ec__DisplayClass10_0__ctor_mDC8B7F7DDE2EDC72F34B10B362A07CD360EA7B91 (void);
+// 0x00000015 System.Boolean LogInScript/<>c__DisplayClass10_0::<CheckForAutoLogin>b__0()
+extern void U3CU3Ec__DisplayClass10_0_U3CCheckForAutoLoginU3Eb__0_m0B24389DF92CB97F46675D51EF5BA16766111CF3 (void);
+// 0x00000016 System.Void LogInScript/<CheckForAutoLogin>d__10::.ctor(System.Int32)
+extern void U3CCheckForAutoLoginU3Ed__10__ctor_m80F44425C679686A765B0049773916F007E74C29 (void);
+// 0x00000017 System.Void LogInScript/<CheckForAutoLogin>d__10::System.IDisposable.Dispose()
+extern void U3CCheckForAutoLoginU3Ed__10_System_IDisposable_Dispose_m905BB7FDA18721D84EA8756DFB40F09056E33CFF (void);
+// 0x00000018 System.Boolean LogInScript/<CheckForAutoLogin>d__10::MoveNext()
+extern void U3CCheckForAutoLoginU3Ed__10_MoveNext_m7E03B620E2C11A8645F7EFB99E8F21688FD2E6C0 (void);
+// 0x00000019 System.Object LogInScript/<CheckForAutoLogin>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckForAutoLoginU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m528A1537E1B8DE11B771C4013ABC49D780766E70 (void);
+// 0x0000001A System.Void LogInScript/<CheckForAutoLogin>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CCheckForAutoLoginU3Ed__10_System_Collections_IEnumerator_Reset_mB7134C59BAAB7FC961088D588B1A066D0D30AAB9 (void);
+// 0x0000001B System.Object LogInScript/<CheckForAutoLogin>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckForAutoLoginU3Ed__10_System_Collections_IEnumerator_get_Current_m52077DD1AF9E15B173F0E0423A98B76A86389235 (void);
+// 0x0000001C System.Void LogInScript/<>c__DisplayClass15_0::.ctor()
+extern void U3CU3Ec__DisplayClass15_0__ctor_mEBB2AA027A19B134C09317ACB257EE3A87C8AEAE (void);
+// 0x0000001D System.Boolean LogInScript/<>c__DisplayClass15_0::<Login>b__0()
+extern void U3CU3Ec__DisplayClass15_0_U3CLoginU3Eb__0_m7E7259905478D9DBDBEB7949BDB1F8AE88B67FB8 (void);
+// 0x0000001E System.Void LogInScript/<Login>d__15::.ctor(System.Int32)
+extern void U3CLoginU3Ed__15__ctor_m8DC187AFD430FB69C7B7DE552006FEA8EE31FB45 (void);
+// 0x0000001F System.Void LogInScript/<Login>d__15::System.IDisposable.Dispose()
+extern void U3CLoginU3Ed__15_System_IDisposable_Dispose_mD45BD0F29F3C6A21D2FBC98F94CEFCD3EA5A5616 (void);
+// 0x00000020 System.Boolean LogInScript/<Login>d__15::MoveNext()
+extern void U3CLoginU3Ed__15_MoveNext_m56D7F542A70234262447F6C193CB7D254F2A7270 (void);
+// 0x00000021 System.Object LogInScript/<Login>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoginU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAD8937587C4E4BDA7B442F92AFD2EA894B5FA2D0 (void);
+// 0x00000022 System.Void LogInScript/<Login>d__15::System.Collections.IEnumerator.Reset()
+extern void U3CLoginU3Ed__15_System_Collections_IEnumerator_Reset_m1B5C7DF239C8A061A7C4FA086C17B8DA8DF5DE80 (void);
+// 0x00000023 System.Object LogInScript/<Login>d__15::System.Collections.IEnumerator.get_Current()
+extern void U3CLoginU3Ed__15_System_Collections_IEnumerator_get_Current_m93462F5230F51426B819546841381A94CA3763DE (void);
+// 0x00000024 System.Void RegistrationScript::Awake()
+extern void RegistrationScript_Awake_m16D3056CB0937D500ABCAE73B1944237BE16E352 (void);
+// 0x00000025 System.Void RegistrationScript::InitializeFirebase()
+extern void RegistrationScript_InitializeFirebase_mF2B10AFDF3F75D39CAF3134FBF203F425C2D9D70 (void);
+// 0x00000026 System.Void RegistrationScript::RegisterButton()
+extern void RegistrationScript_RegisterButton_m128BDB0032A257C807957B1474F2CB51AE327400 (void);
+// 0x00000027 System.Collections.IEnumerator RegistrationScript::Register(System.String,System.String,System.String)
+extern void RegistrationScript_Register_m498D53B18701B368A3B0D8C60A29BA7988884612 (void);
+// 0x00000028 System.Void RegistrationScript::SaveData()
+extern void RegistrationScript_SaveData_mBD72ED5213D52B591BE4C1FCB19241C068909AE0 (void);
+// 0x00000029 System.Void RegistrationScript::GoToLogInMenu()
+extern void RegistrationScript_GoToLogInMenu_mB21E92A439B19AC13E6D760AEAA04E2AF222C12D (void);
+// 0x0000002A System.Void RegistrationScript::.ctor()
+extern void RegistrationScript__ctor_m29D253F55E53FE8839D7E6F5070A6CAA3DF3EDFF (void);
+// 0x0000002B System.Void RegistrationScript::<Awake>b__11_0(System.Threading.Tasks.Task`1<Firebase.DependencyStatus>)
+extern void RegistrationScript_U3CAwakeU3Eb__11_0_m267F65901416FE2ED700D49190C295EFDAD09EDD (void);
+// 0x0000002C System.Void RegistrationScript/<>c__DisplayClass14_0::.ctor()
+extern void U3CU3Ec__DisplayClass14_0__ctor_m5E7AD9B586D012DF5CC1705E2D36BCA906041558 (void);
+// 0x0000002D System.Boolean RegistrationScript/<>c__DisplayClass14_0::<Register>b__0()
+extern void U3CU3Ec__DisplayClass14_0_U3CRegisterU3Eb__0_m1738480D7812BE66A41D5CD323D88B413F15FD00 (void);
+// 0x0000002E System.Void RegistrationScript/<>c__DisplayClass14_1::.ctor()
+extern void U3CU3Ec__DisplayClass14_1__ctor_m03AB5BF398D8CD35B26D229A2A6C1A28F876CA04 (void);
+// 0x0000002F System.Boolean RegistrationScript/<>c__DisplayClass14_1::<Register>b__1()
+extern void U3CU3Ec__DisplayClass14_1_U3CRegisterU3Eb__1_mB2474572DE8AF1A83E523938622083D2796E844C (void);
+// 0x00000030 System.Void RegistrationScript/<Register>d__14::.ctor(System.Int32)
+extern void U3CRegisterU3Ed__14__ctor_m735365862DA372FA70FABA404E4E2FB6DDB90693 (void);
+// 0x00000031 System.Void RegistrationScript/<Register>d__14::System.IDisposable.Dispose()
+extern void U3CRegisterU3Ed__14_System_IDisposable_Dispose_m8329D3A6F34E1F26C6ABF4BBCA7E2D00832A84E3 (void);
+// 0x00000032 System.Boolean RegistrationScript/<Register>d__14::MoveNext()
+extern void U3CRegisterU3Ed__14_MoveNext_m5E57FEADAF11E873BBEBEFF4977A46A292DD9E61 (void);
+// 0x00000033 System.Object RegistrationScript/<Register>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRegisterU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE897A7DC88487A1CEC7A175D3E0045E5D3BB0E16 (void);
+// 0x00000034 System.Void RegistrationScript/<Register>d__14::System.Collections.IEnumerator.Reset()
+extern void U3CRegisterU3Ed__14_System_Collections_IEnumerator_Reset_mF99F08B6398E0E462E3661D9F3B8FFD669046B06 (void);
+// 0x00000035 System.Object RegistrationScript/<Register>d__14::System.Collections.IEnumerator.get_Current()
+extern void U3CRegisterU3Ed__14_System_Collections_IEnumerator_get_Current_mCF1F9B318FC06CF4F50FC5DBF350A42A67EC349D (void);
+// 0x00000036 System.Void FirebaseDatabaseController::set_reverseList(System.Collections.Generic.List`1<Firebase.Database.DataSnapshot>)
+extern void FirebaseDatabaseController_set_reverseList_m95532DDE76B7D19F8CB022E9FD93E5582A550CA9 (void);
+// 0x00000037 System.Collections.Generic.List`1<Firebase.Database.DataSnapshot> FirebaseDatabaseController::get_reverseList()
+extern void FirebaseDatabaseController_get_reverseList_m50F38D5AFA9AD40779E1ECB4E47E4A02D3827EC1 (void);
+// 0x00000038 UserData FirebaseDatabaseController::get_UserDataTransfer()
+extern void FirebaseDatabaseController_get_UserDataTransfer_mC195636266570B66F16348DB46259EA224400AD4 (void);
+// 0x00000039 System.Void FirebaseDatabaseController::add_onDataLoadedPlayer(System.Action)
+extern void FirebaseDatabaseController_add_onDataLoadedPlayer_mDA5428931910A30647046B74CD481881E270493A (void);
+// 0x0000003A System.Void FirebaseDatabaseController::remove_onDataLoadedPlayer(System.Action)
+extern void FirebaseDatabaseController_remove_onDataLoadedPlayer_m90AB29BAAA4AC0343B173581DBB392E0CDF2EC37 (void);
+// 0x0000003B System.Void FirebaseDatabaseController::add_onDataLoadedScore(System.Action)
+extern void FirebaseDatabaseController_add_onDataLoadedScore_m643C96B13310123DDAB6547FE2045078B11B5F14 (void);
+// 0x0000003C System.Void FirebaseDatabaseController::remove_onDataLoadedScore(System.Action)
+extern void FirebaseDatabaseController_remove_onDataLoadedScore_mE23D0F8FDF24147B5E1651CEA5C558436D3F4C51 (void);
+// 0x0000003D System.Void FirebaseDatabaseController::Start()
+extern void FirebaseDatabaseController_Start_m07C537B780B1103263150E424A03E63D6AD60F23 (void);
+// 0x0000003E System.Collections.IEnumerator FirebaseDatabaseController::LoadAllUserByScore()
+extern void FirebaseDatabaseController_LoadAllUserByScore_m3990348D3225724851492439DEE97E385AC744C0 (void);
+// 0x0000003F System.Collections.IEnumerator FirebaseDatabaseController::LoadData(System.String)
+extern void FirebaseDatabaseController_LoadData_m277B51B32F39D2F4F9688712429EF1C6BFACD6CF (void);
+// 0x00000040 System.Void FirebaseDatabaseController::ChangeCurrentUser(System.String,System.String,System.Int32,System.Int32,System.Single,System.Int32)
+extern void FirebaseDatabaseController_ChangeCurrentUser_m56C888F539BBE9C98365FB398EED858B89986097 (void);
+// 0x00000041 System.Void FirebaseDatabaseController::SaveData(System.String,System.String,System.Int32,System.Int32,System.Single,System.Int32)
+extern void FirebaseDatabaseController_SaveData_mCD7398B8F21F0DC3638D6FF44BE439F36011F48E (void);
+// 0x00000042 System.Void FirebaseDatabaseController::.ctor()
+extern void FirebaseDatabaseController__ctor_mDF8B1777D55D21072F3C819A49C1C482A1779E0E (void);
+// 0x00000043 System.Void FirebaseDatabaseController/<>c__DisplayClass15_0::.ctor()
+extern void U3CU3Ec__DisplayClass15_0__ctor_mFF1079D128FC26870B22F8C2F7CD3ABF5A7D24BB (void);
+// 0x00000044 System.Boolean FirebaseDatabaseController/<>c__DisplayClass15_0::<LoadAllUserByScore>b__0()
+extern void U3CU3Ec__DisplayClass15_0_U3CLoadAllUserByScoreU3Eb__0_m4E34DB919ACDFB63C56208916591081A8C457DF8 (void);
+// 0x00000045 System.Void FirebaseDatabaseController/<LoadAllUserByScore>d__15::.ctor(System.Int32)
+extern void U3CLoadAllUserByScoreU3Ed__15__ctor_m4D5F96B166C439CF70973F1BCF96295FCA4660EE (void);
+// 0x00000046 System.Void FirebaseDatabaseController/<LoadAllUserByScore>d__15::System.IDisposable.Dispose()
+extern void U3CLoadAllUserByScoreU3Ed__15_System_IDisposable_Dispose_m676035B1D6AC694F71B6DF65E67738C192722DC3 (void);
+// 0x00000047 System.Boolean FirebaseDatabaseController/<LoadAllUserByScore>d__15::MoveNext()
+extern void U3CLoadAllUserByScoreU3Ed__15_MoveNext_mB4A197E301E8654CE85410B794437ECAF508DA61 (void);
+// 0x00000048 System.Object FirebaseDatabaseController/<LoadAllUserByScore>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadAllUserByScoreU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBCE673E02F1F82F7C9CBF2B52AD89B0AC2176012 (void);
+// 0x00000049 System.Void FirebaseDatabaseController/<LoadAllUserByScore>d__15::System.Collections.IEnumerator.Reset()
+extern void U3CLoadAllUserByScoreU3Ed__15_System_Collections_IEnumerator_Reset_mBEAABBEE8C273D4C97E8B2FE330CFFAB853E2F83 (void);
+// 0x0000004A System.Object FirebaseDatabaseController/<LoadAllUserByScore>d__15::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadAllUserByScoreU3Ed__15_System_Collections_IEnumerator_get_Current_mF3642291F5D20334F20C3B11CF863036542753AC (void);
+// 0x0000004B System.Void FirebaseDatabaseController/<>c__DisplayClass16_0::.ctor()
+extern void U3CU3Ec__DisplayClass16_0__ctor_mE96C239E92C087BB1F0708A3598B250FE0CEBAB7 (void);
+// 0x0000004C System.Boolean FirebaseDatabaseController/<>c__DisplayClass16_0::<LoadData>b__0()
+extern void U3CU3Ec__DisplayClass16_0_U3CLoadDataU3Eb__0_m1BCF753AB92AEFB1761480A4C2C8FBD41D14DC7E (void);
+// 0x0000004D System.Void FirebaseDatabaseController/<LoadData>d__16::.ctor(System.Int32)
+extern void U3CLoadDataU3Ed__16__ctor_m051959CDB914AF089995592034EC8FFC3ADA6E86 (void);
+// 0x0000004E System.Void FirebaseDatabaseController/<LoadData>d__16::System.IDisposable.Dispose()
+extern void U3CLoadDataU3Ed__16_System_IDisposable_Dispose_mD604B51EC5577B7E8C124D38E6DEF5C99191A77D (void);
+// 0x0000004F System.Boolean FirebaseDatabaseController/<LoadData>d__16::MoveNext()
+extern void U3CLoadDataU3Ed__16_MoveNext_mE066803E0ADDE8819CBE725106A29AA9159F1941 (void);
+// 0x00000050 System.Object FirebaseDatabaseController/<LoadData>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadDataU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC833BBA67736B6A011875EABE9B99553C0FC55B7 (void);
+// 0x00000051 System.Void FirebaseDatabaseController/<LoadData>d__16::System.Collections.IEnumerator.Reset()
+extern void U3CLoadDataU3Ed__16_System_Collections_IEnumerator_Reset_m5501E3A4E390E57E344AE529754FD497FDFA2FB3 (void);
+// 0x00000052 System.Object FirebaseDatabaseController/<LoadData>d__16::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadDataU3Ed__16_System_Collections_IEnumerator_get_Current_m8059BBCEB456F8132C60E182963A5C08CD779DE5 (void);
+// 0x00000053 System.Void UserData::.ctor(System.String,System.String,System.Int32,System.Int32,System.Single,System.Int32)
+extern void UserData__ctor_mC8B47A729B5D361026170E0623CF7AAC45628043 (void);
+// 0x00000054 System.Void StaticFields::Start()
+extern void StaticFields_Start_m9E1811FC3B8A4E9AEBE742C4B2C0F9F4B2BBB095 (void);
+// 0x00000055 System.Void StaticFields::Update()
+extern void StaticFields_Update_m91CF2ACABA8D6E39B353E21798827DCBC8670B83 (void);
+// 0x00000056 System.Void StaticFields::.ctor()
+extern void StaticFields__ctor_mACCBD4888BF5107516A96B83D0B9EAA864BA1F30 (void);
+static Il2CppMethodPointer s_methodPointers[86] = 
+{
+	LogInScript_Start_m839C51D6974BF161718C7A0C2148935164B6E659,
+	LogInScript_CheckAndFixDependenciesAsync_m5D60E6654D5D7716373E1ED60C22BA87DF473066,
+	LogInScript_CheckForAutoLogin_mBF30F223D5F0E259336DFC9661DBFDE6A03A1100,
+	LogInScript_AutoLogin_m0C242BFCDEF9EC3524CC9C0FA8C0764F5E351FA0,
+	LogInScript_InitializeFirebase_m8322D2E77D19D6C23A3A34317F9C08A6F7D15150,
+	LogInScript_AuthStateChanged_m39FB6557431FDD74BB037893B02725C31B624CD4,
+	LogInScript_LogInButton_mB174546562C2DAD42ABC42F901DDD09C8620673A,
+	LogInScript_Login_mD3D38B8E52DAD1D80A2C9F1136CA9F6B150F0205,
+	LogInScript_SignOut_m16F8601A59A028FE17DB549A8667FAE5973E1544,
+	LogInScript_GoToRegistration_mF8375B58BB8DB2C6B7C2A60491F9CFCBD99DDF40,
+	LogInScript__ctor_m63C57EDE45AC15D91D4B80A7F25038C6C25D444D,
+	U3CU3Ec__DisplayClass9_0__ctor_mB0F2EB817EF0E1E1C52CDB82EAD15E3A1D52207C,
+	U3CU3Ec__DisplayClass9_0_U3CCheckAndFixDependenciesAsyncU3Eb__0_m40D5D72A3BBAFCC6DECF27D3B5CEC54FA753F71C,
+	U3CCheckAndFixDependenciesAsyncU3Ed__9__ctor_mBE80FE766756209B3B6CA513DC1629C6AC58FC32,
+	U3CCheckAndFixDependenciesAsyncU3Ed__9_System_IDisposable_Dispose_mF6408402DB0EA0CC631FC334DCBB107FAC5A50A8,
+	U3CCheckAndFixDependenciesAsyncU3Ed__9_MoveNext_m229AB7366A9609AD58BB571B55BD974E40F1EC86,
+	U3CCheckAndFixDependenciesAsyncU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2ACFD418CEE9010618A1B3CFEF552BF3C31F19B9,
+	U3CCheckAndFixDependenciesAsyncU3Ed__9_System_Collections_IEnumerator_Reset_m64EC2CC3B2B503970AC09FEDA4B3AF957C71C313,
+	U3CCheckAndFixDependenciesAsyncU3Ed__9_System_Collections_IEnumerator_get_Current_m500361CF9B5BF4AD2BAD73C739EE0E887FE4CF02,
+	U3CU3Ec__DisplayClass10_0__ctor_mDC8B7F7DDE2EDC72F34B10B362A07CD360EA7B91,
+	U3CU3Ec__DisplayClass10_0_U3CCheckForAutoLoginU3Eb__0_m0B24389DF92CB97F46675D51EF5BA16766111CF3,
+	U3CCheckForAutoLoginU3Ed__10__ctor_m80F44425C679686A765B0049773916F007E74C29,
+	U3CCheckForAutoLoginU3Ed__10_System_IDisposable_Dispose_m905BB7FDA18721D84EA8756DFB40F09056E33CFF,
+	U3CCheckForAutoLoginU3Ed__10_MoveNext_m7E03B620E2C11A8645F7EFB99E8F21688FD2E6C0,
+	U3CCheckForAutoLoginU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m528A1537E1B8DE11B771C4013ABC49D780766E70,
+	U3CCheckForAutoLoginU3Ed__10_System_Collections_IEnumerator_Reset_mB7134C59BAAB7FC961088D588B1A066D0D30AAB9,
+	U3CCheckForAutoLoginU3Ed__10_System_Collections_IEnumerator_get_Current_m52077DD1AF9E15B173F0E0423A98B76A86389235,
+	U3CU3Ec__DisplayClass15_0__ctor_mEBB2AA027A19B134C09317ACB257EE3A87C8AEAE,
+	U3CU3Ec__DisplayClass15_0_U3CLoginU3Eb__0_m7E7259905478D9DBDBEB7949BDB1F8AE88B67FB8,
+	U3CLoginU3Ed__15__ctor_m8DC187AFD430FB69C7B7DE552006FEA8EE31FB45,
+	U3CLoginU3Ed__15_System_IDisposable_Dispose_mD45BD0F29F3C6A21D2FBC98F94CEFCD3EA5A5616,
+	U3CLoginU3Ed__15_MoveNext_m56D7F542A70234262447F6C193CB7D254F2A7270,
+	U3CLoginU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAD8937587C4E4BDA7B442F92AFD2EA894B5FA2D0,
+	U3CLoginU3Ed__15_System_Collections_IEnumerator_Reset_m1B5C7DF239C8A061A7C4FA086C17B8DA8DF5DE80,
+	U3CLoginU3Ed__15_System_Collections_IEnumerator_get_Current_m93462F5230F51426B819546841381A94CA3763DE,
+	RegistrationScript_Awake_m16D3056CB0937D500ABCAE73B1944237BE16E352,
+	RegistrationScript_InitializeFirebase_mF2B10AFDF3F75D39CAF3134FBF203F425C2D9D70,
+	RegistrationScript_RegisterButton_m128BDB0032A257C807957B1474F2CB51AE327400,
+	RegistrationScript_Register_m498D53B18701B368A3B0D8C60A29BA7988884612,
+	RegistrationScript_SaveData_mBD72ED5213D52B591BE4C1FCB19241C068909AE0,
+	RegistrationScript_GoToLogInMenu_mB21E92A439B19AC13E6D760AEAA04E2AF222C12D,
+	RegistrationScript__ctor_m29D253F55E53FE8839D7E6F5070A6CAA3DF3EDFF,
+	RegistrationScript_U3CAwakeU3Eb__11_0_m267F65901416FE2ED700D49190C295EFDAD09EDD,
+	U3CU3Ec__DisplayClass14_0__ctor_m5E7AD9B586D012DF5CC1705E2D36BCA906041558,
+	U3CU3Ec__DisplayClass14_0_U3CRegisterU3Eb__0_m1738480D7812BE66A41D5CD323D88B413F15FD00,
+	U3CU3Ec__DisplayClass14_1__ctor_m03AB5BF398D8CD35B26D229A2A6C1A28F876CA04,
+	U3CU3Ec__DisplayClass14_1_U3CRegisterU3Eb__1_mB2474572DE8AF1A83E523938622083D2796E844C,
+	U3CRegisterU3Ed__14__ctor_m735365862DA372FA70FABA404E4E2FB6DDB90693,
+	U3CRegisterU3Ed__14_System_IDisposable_Dispose_m8329D3A6F34E1F26C6ABF4BBCA7E2D00832A84E3,
+	U3CRegisterU3Ed__14_MoveNext_m5E57FEADAF11E873BBEBEFF4977A46A292DD9E61,
+	U3CRegisterU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE897A7DC88487A1CEC7A175D3E0045E5D3BB0E16,
+	U3CRegisterU3Ed__14_System_Collections_IEnumerator_Reset_mF99F08B6398E0E462E3661D9F3B8FFD669046B06,
+	U3CRegisterU3Ed__14_System_Collections_IEnumerator_get_Current_mCF1F9B318FC06CF4F50FC5DBF350A42A67EC349D,
+	FirebaseDatabaseController_set_reverseList_m95532DDE76B7D19F8CB022E9FD93E5582A550CA9,
+	FirebaseDatabaseController_get_reverseList_m50F38D5AFA9AD40779E1ECB4E47E4A02D3827EC1,
+	FirebaseDatabaseController_get_UserDataTransfer_mC195636266570B66F16348DB46259EA224400AD4,
+	FirebaseDatabaseController_add_onDataLoadedPlayer_mDA5428931910A30647046B74CD481881E270493A,
+	FirebaseDatabaseController_remove_onDataLoadedPlayer_m90AB29BAAA4AC0343B173581DBB392E0CDF2EC37,
+	FirebaseDatabaseController_add_onDataLoadedScore_m643C96B13310123DDAB6547FE2045078B11B5F14,
+	FirebaseDatabaseController_remove_onDataLoadedScore_mE23D0F8FDF24147B5E1651CEA5C558436D3F4C51,
+	FirebaseDatabaseController_Start_m07C537B780B1103263150E424A03E63D6AD60F23,
+	FirebaseDatabaseController_LoadAllUserByScore_m3990348D3225724851492439DEE97E385AC744C0,
+	FirebaseDatabaseController_LoadData_m277B51B32F39D2F4F9688712429EF1C6BFACD6CF,
+	FirebaseDatabaseController_ChangeCurrentUser_m56C888F539BBE9C98365FB398EED858B89986097,
+	FirebaseDatabaseController_SaveData_mCD7398B8F21F0DC3638D6FF44BE439F36011F48E,
+	FirebaseDatabaseController__ctor_mDF8B1777D55D21072F3C819A49C1C482A1779E0E,
+	U3CU3Ec__DisplayClass15_0__ctor_mFF1079D128FC26870B22F8C2F7CD3ABF5A7D24BB,
+	U3CU3Ec__DisplayClass15_0_U3CLoadAllUserByScoreU3Eb__0_m4E34DB919ACDFB63C56208916591081A8C457DF8,
+	U3CLoadAllUserByScoreU3Ed__15__ctor_m4D5F96B166C439CF70973F1BCF96295FCA4660EE,
+	U3CLoadAllUserByScoreU3Ed__15_System_IDisposable_Dispose_m676035B1D6AC694F71B6DF65E67738C192722DC3,
+	U3CLoadAllUserByScoreU3Ed__15_MoveNext_mB4A197E301E8654CE85410B794437ECAF508DA61,
+	U3CLoadAllUserByScoreU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBCE673E02F1F82F7C9CBF2B52AD89B0AC2176012,
+	U3CLoadAllUserByScoreU3Ed__15_System_Collections_IEnumerator_Reset_mBEAABBEE8C273D4C97E8B2FE330CFFAB853E2F83,
+	U3CLoadAllUserByScoreU3Ed__15_System_Collections_IEnumerator_get_Current_mF3642291F5D20334F20C3B11CF863036542753AC,
+	U3CU3Ec__DisplayClass16_0__ctor_mE96C239E92C087BB1F0708A3598B250FE0CEBAB7,
+	U3CU3Ec__DisplayClass16_0_U3CLoadDataU3Eb__0_m1BCF753AB92AEFB1761480A4C2C8FBD41D14DC7E,
+	U3CLoadDataU3Ed__16__ctor_m051959CDB914AF089995592034EC8FFC3ADA6E86,
+	U3CLoadDataU3Ed__16_System_IDisposable_Dispose_mD604B51EC5577B7E8C124D38E6DEF5C99191A77D,
+	U3CLoadDataU3Ed__16_MoveNext_mE066803E0ADDE8819CBE725106A29AA9159F1941,
+	U3CLoadDataU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC833BBA67736B6A011875EABE9B99553C0FC55B7,
+	U3CLoadDataU3Ed__16_System_Collections_IEnumerator_Reset_m5501E3A4E390E57E344AE529754FD497FDFA2FB3,
+	U3CLoadDataU3Ed__16_System_Collections_IEnumerator_get_Current_m8059BBCEB456F8132C60E182963A5C08CD779DE5,
+	UserData__ctor_mC8B47A729B5D361026170E0623CF7AAC45628043,
+	StaticFields_Start_m9E1811FC3B8A4E9AEBE742C4B2C0F9F4B2BBB095,
+	StaticFields_Update_m91CF2ACABA8D6E39B353E21798827DCBC8670B83,
+	StaticFields__ctor_mACCBD4888BF5107516A96B83D0B9EAA864BA1F30,
+};
+static const int32_t s_InvokerIndices[86] = 
+{
+	3490,
+	3398,
+	3398,
+	3490,
+	3490,
+	1577,
+	3490,
+	1220,
+	5303,
+	3490,
+	3490,
+	3490,
+	3340,
+	2825,
+	3490,
+	3340,
+	3398,
+	3490,
+	3398,
+	3490,
+	3340,
+	2825,
+	3490,
+	3340,
+	3398,
+	3490,
+	3398,
+	3490,
+	3340,
+	2825,
+	3490,
+	3340,
+	3398,
+	3490,
+	3398,
+	3490,
+	3490,
+	3490,
+	723,
+	3490,
+	3490,
+	3490,
+	2842,
+	3490,
+	3340,
+	3490,
+	3340,
+	2825,
+	3490,
+	3340,
+	3398,
+	3490,
+	3398,
+	2842,
+	3398,
+	3398,
+	2842,
+	2842,
+	2842,
+	2842,
+	3490,
+	3398,
+	2504,
+	164,
+	164,
+	3490,
+	3490,
+	3340,
+	2825,
+	3490,
+	3340,
+	3398,
+	3490,
+	3398,
+	3490,
+	3340,
+	2825,
+	3490,
+	3340,
+	3398,
+	3490,
+	3398,
+	164,
+	3490,
+	3490,
+	3490,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	86,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
