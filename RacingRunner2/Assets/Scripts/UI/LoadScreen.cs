@@ -4,7 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
 
-public class LoadScreen : MonoBehaviour
+public class LoadScreen : PanelController
 {
     [SerializeField] private float _endOfBoundsEnd;
 
@@ -24,19 +24,22 @@ public class LoadScreen : MonoBehaviour
     }
 
     [ContextMenu("EndLoading")]
-    public void EndLoading()
+    public override void ClosePanel()
     {
         //The delay is needed so that it does not jump
         DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(transform.DOMoveX(-_endOfBoundsEnd, _duration));
-
-
-
     }
 
     [ContextMenu("StartLoading")]
-    public IEnumerator StartLoading(string sceneName)
+    public override void  ShowPanel(string sceneName)
     {
-        
+        StartCoroutine(StartLoad(sceneName));
+
+    }
+
+    public IEnumerator StartLoad(string sceneName)
+    {
+
 
         //Instantly jump to the top and start downloading 
         transform.DOMoveX(_startOfBounds, 0);

@@ -8,8 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class Authentification : MonoBehaviour
 {
-    [SerializeField]
-    private LoadScreen _loadScreen;
+    [ SerializeField] protected PanelController ErrorMessage;
+    [SerializeField] private PanelController _loadScreen;
 
 
     public DependencyStatus dependencyStatus;
@@ -18,7 +18,9 @@ public class Authentification : MonoBehaviour
 
     public virtual void StartInit()
     {
-        _loadScreen.EndLoading();
+        
+
+        _loadScreen.ClosePanel();
 
         StartCoroutine(CheckAndFixDependenciesAsync());
     }
@@ -116,7 +118,7 @@ public class Authentification : MonoBehaviour
 
     public void StartLoadScene(string nextScene)
     {
-        StartCoroutine(_loadScreen.StartLoading(nextScene));
+        _loadScreen.ShowPanel(nextScene);
     }
 
 }

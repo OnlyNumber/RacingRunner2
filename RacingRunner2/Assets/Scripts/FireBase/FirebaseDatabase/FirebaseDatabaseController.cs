@@ -7,7 +7,6 @@ using System;
 
 public class FirebaseDatabaseController : MonoBehaviour
 {
-    //Firebase
     private DatabaseReference dbRef;
 
     public List<DataSnapshot> reverseList { private set; get; }
@@ -24,19 +23,17 @@ public class FirebaseDatabaseController : MonoBehaviour
     {
         dbRef = FirebaseDatabase.DefaultInstance.RootReference;
 
-        StartCoroutine(LoadData(DataHolder.firebaseUser.UserId.ToString()));
+        //StartCoroutine(LoadData(DataHolder.firebaseUser.UserId.ToString()));
 
-        Debug.Log(DataHolder.firebaseUser.UserId.ToString());
+        //Debug.Log(DataHolder.firebaseUser.UserId.ToString());
 
-        StartCoroutine(LoadAllUserByScore());
+        //StartCoroutine(LoadAllUserByScore());
 
     }
 
     private IEnumerator LoadAllUserByScore()
     {
         reverseList = new List<DataSnapshot>();
-
-        //Debug.Log("LoadAllUserByScore");
 
         var user = dbRef.Child("users").OrderByChild("bestTime").GetValueAsync();
 

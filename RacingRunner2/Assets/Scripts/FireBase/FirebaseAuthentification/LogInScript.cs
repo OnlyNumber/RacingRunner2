@@ -14,8 +14,6 @@ public class LogInScript : Authentification
     private TMP_InputField _emailField;
     [SerializeField]
     private TMP_InputField _passwordField;
-    [SerializeField]
-    private string _errorField;
 
     private void Awake()
     {
@@ -62,7 +60,7 @@ public class LogInScript : Authentification
                     message = "Account does not exist";
                     break;
             }
-            _errorField = message;
+            ErrorMessage.ShowPanel(message);
         }
         else
         {

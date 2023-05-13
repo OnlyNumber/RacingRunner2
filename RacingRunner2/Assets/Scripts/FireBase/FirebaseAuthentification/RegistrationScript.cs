@@ -25,10 +25,6 @@ public class RegistrationScript : Authentification
     [SerializeField]
     private TMP_InputField _repeatPasswordField;
 
-    [SerializeField] 
-    private string _errorField;
-    
-
     private void Awake()
     {
         dbRef = FirebaseDatabase.DefaultInstance.RootReference;
@@ -49,11 +45,12 @@ public class RegistrationScript : Authentification
 
         if(_username == "")
         {
-            _errorField = "Missing name";
+
+            ErrorMessage.ShowPanel("Missing name");
         }
         else if(_passwordField.text != _repeatPasswordField.text)
         {
-            _errorField = "Passwords does not match";
+            ErrorMessage.ShowPanel("Passwords does not match");
         }
         else
         {
@@ -70,9 +67,7 @@ public class RegistrationScript : Authentification
 
                 AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
 
-                string message = "Register failed";
-
-                _errorField = message;
+                ErrorMessage.ShowPanel("Register failed");
             }
             else
             {
@@ -95,7 +90,9 @@ public class RegistrationScript : Authentification
 
                         AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
 
-                        _errorField = "_username set failed";
+                        ErrorMessage.ShowPanel("_username set failed");
+                        
+
                     }
                     else
                     {
@@ -117,7 +114,7 @@ public class RegistrationScript : Authentification
         UserData userData = new UserData(User.UserId, _nicknameField.text, 0, 0,-1, 0);
 
         string json = JsonUtility.ToJson(userData);
-        Debug.Log("work");
+        
         dbRef.Child("users").Child(User.UserId).SetRawJsonValueAsync(json);
     }
 
