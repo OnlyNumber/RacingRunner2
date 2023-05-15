@@ -6,8 +6,10 @@ public static class StaticFields
 {
     public const string REGISTRATION_MENU_SCENE = "RegistrationMenu";
     public const string MENU_SCENE  = "Menu";
-
     public const string LOG_IN_MENU_SCENE = "LogInMenu";
+    public const string GAME_PLAY_SCENE = "GamePlay";
+
+
 
     public static Color NOT_SELECTED_COLOR { private set; get; } = Color.black;
 

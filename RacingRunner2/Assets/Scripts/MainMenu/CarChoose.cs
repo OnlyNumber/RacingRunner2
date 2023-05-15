@@ -22,7 +22,7 @@ public class CarChoose : MonoBehaviour
 
         NextCar(_firebase.UserDataTransfer.car);
 
-        Debug.Log(_currentCar);
+        //Debug.Log(_currentCar);
     }
 
     public void NextCar(int nextCar)
@@ -38,10 +38,20 @@ public class CarChoose : MonoBehaviour
 
         _myCars[_currentCar].SetActive(true);
 
+        Debug.Log(_firebase.UserDataTransfer.avatarIcon);
 
-        _firebase.ChangeCurrentUser(_firebase.UserDataTransfer.id, _firebase.UserDataTransfer.nickName, _firebase.UserDataTransfer.goldCoins, _firebase.UserDataTransfer.avatarIcon, _firebase.UserDataTransfer.bestTime, _currentCar);
+        //_firebase.ChangeCurrentUser(_firebase.UserDataTransfer.id, _firebase.UserDataTransfer.nickName, _firebase.UserDataTransfer.goldCoins, _firebase.UserDataTransfer.avatarIcon, _firebase.UserDataTransfer.bestTime, _currentCar);
 
     }
+
+    public void SavePlayerChoice()
+    {
+        Debug.Log(_currentCar);
+
+        _firebase.ChangeCurrentUser(_firebase.UserDataTransfer.id, _firebase.UserDataTransfer.nickName, _firebase.UserDataTransfer.goldCoins, _firebase.UserDataTransfer.avatarIcon, _firebase.UserDataTransfer.bestTime, _currentCar);
+    }
+
+
 
 
 

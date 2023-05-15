@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
@@ -15,15 +16,11 @@ public class MenuController : MonoBehaviour
 
     private PanelController _currentPanel;
 
-
-
     private void Start()
     {
         _currentPanel = _loadingScreen;
         GoToMain();
     }
-
-
 
     public void GoToMain()
     {
@@ -55,8 +52,6 @@ public class MenuController : MonoBehaviour
         GoToNextPanel(_panelOptions);
     }
 
-
-
     private void GoToNextPanel(PanelController nextPanel)
     {
         _currentPanel.ClosePanel();
@@ -68,6 +63,18 @@ public class MenuController : MonoBehaviour
         _currentPanel.ShowPanel();
     }
 
+    public void GoToLogIn()
+    {
+
+        _loadingScreen.ShowPanel(StaticFields.LOG_IN_MENU_SCENE);
+
+    }
+    public void GoToGamePlay()
+    {
+
+        _loadingScreen.ShowPanel(StaticFields.GAME_PLAY_SCENE);
+
+    }
 
 
 }

@@ -47,9 +47,9 @@ public class LoadScreen : PanelController
 
         yield return new WaitForSecondsRealtime(_waitDuration);
 
+        if(sceneName != null && sceneName != "")
         SceneManager.LoadScene(sceneName);
 
     }
-
 
 }
