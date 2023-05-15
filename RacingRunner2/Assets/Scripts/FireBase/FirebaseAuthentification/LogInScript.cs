@@ -30,7 +30,7 @@ public class LogInScript : Authentification
 
     private IEnumerator Login(string _email, string _password)
     {
-        var LoginTask = auth.SignInWithEmailAndPasswordAsync(_email, _password);
+        var LoginTask = Auth.SignInWithEmailAndPasswordAsync(_email, _password);
         
         yield return new WaitUntil(predicate: () => LoginTask.IsCompleted);
 
@@ -77,7 +77,7 @@ public class LogInScript : Authentification
 
     public static void SignOut()
     {
-        auth.SignOut();
+        Auth.SignOut();
     }
 
     public void GoToRegistration()

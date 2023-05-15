@@ -8,12 +8,12 @@ using UnityEngine.SceneManagement;
 
 public class Authentification : MonoBehaviour
 {
-    [ SerializeField] protected PanelController ErrorMessage;
+    [SerializeField] protected PanelController ErrorMessage;
     [SerializeField] private PanelController _loadScreen;
 
 
-    public DependencyStatus dependencyStatus;
-    public static FirebaseAuth auth;
+    private DependencyStatus _dependencyStatus;
+    protected static FirebaseAuth Auth;
     protected FirebaseUser User;
 
     public virtual void StartInit()
@@ -31,9 +31,9 @@ public class Authentification : MonoBehaviour
 
         yield return new WaitUntil(() => dependencyTask.IsCompleted);
 
-        dependencyStatus = dependencyTask.Result;
+        _dependencyStatus = dependencyTask.Result;
 
-        if (dependencyStatus == DependencyStatus.Available)
+        if (_dependencyStatus == DependencyStatus.Available)
         {
             InitializeFirebase();
 
@@ -45,16 +45,16 @@ public class Authentification : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Error:" + dependencyStatus);
+            Debug.LogError("Error:" + _dependencyStatus);
         }
     }
 
 
     private void InitializeFirebase()
     {
-        auth = FirebaseAuth.DefaultInstance;
+        Auth = FirebaseAuth.DefaultInstance;
 
-        auth.StateChanged += AuthStateChanged;
+        Auth.StateChanged += AuthStateChanged;
 
         AuthStateChanged(this, null);
 
@@ -63,14 +63,14 @@ public class Authentification : MonoBehaviour
 
     void AuthStateChanged(object sender, System.EventArgs eventArgs)
     {
-        if (auth.CurrentUser != User)
+        if (Auth.CurrentUser != User)
         {
-            bool signedIn = User != auth.CurrentUser && auth.CurrentUser != null;
+            bool signedIn = User != Auth.CurrentUser && Auth.CurrentUser != null;
             if (!signedIn && User != null)
             {
                 Debug.Log("Signed out " + User.UserId);
             }
-            User = auth.CurrentUser;
+            User = Auth.CurrentUser;
             if (signedIn)
             {
                 Debug.Log("Signed in " + User.UserId);
@@ -113,7 +113,7 @@ public class Authentification : MonoBehaviour
 
     public static void SingOut()
     {
-        auth.SignOut();
+        Auth.SignOut();
     }
 
     public void StartLoadScene(string nextScene)

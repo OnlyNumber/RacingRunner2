@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using Firebase.Database;
 using System;
 
@@ -116,5 +115,11 @@ public class FirebaseDatabaseController : MonoBehaviour
         dbRef.Child("users").Child(id).SetRawJsonValueAsync(json);
 
     }
+
+    public void SingOut()
+    {
+        Authentification.SingOut();
+    }
+
 
 }

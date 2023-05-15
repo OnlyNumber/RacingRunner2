@@ -11,14 +11,19 @@ public class MenuController : MonoBehaviour
     [SerializeField] private PanelController _loadingScreen;
     [SerializeField] private PanelController _panelLeaderBoard;
     [SerializeField] private PanelController _panelGarage;
+    [SerializeField] private PanelController _panelOptions;
 
     private PanelController _currentPanel;
+
+
 
     private void Start()
     {
         _currentPanel = _loadingScreen;
         GoToMain();
     }
+
+
 
     public void GoToMain()
     {
@@ -44,6 +49,12 @@ public class MenuController : MonoBehaviour
     {
         GoToNextPanel(_panelGarage);
     }
+
+    public void GoToOptions()
+    {
+        GoToNextPanel(_panelOptions);
+    }
+
 
 
     private void GoToNextPanel(PanelController nextPanel)

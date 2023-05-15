@@ -47,7 +47,7 @@ public class RegistrationScript : Authentification
         }
         else
         {
-            var RegisterTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
+            var RegisterTask = Auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
 
             yield return new WaitUntil(predicate: () => RegisterTask.IsCompleted);
 
