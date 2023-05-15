@@ -26,11 +26,11 @@ public class ControllLereaderBoard : MonoBehaviour
 
         bool isPlayerPlaced = false;
 
-        Debug.Log(_amountBestPlayers + " == " + _firebase.ReverseList.Count);
+       // Debug.Log(_amountBestPlayers + " == " + _firebase.ReverseList.Count);
 
         for (int index = 0; index < _amountBestPlayers; index++)
         {
-            Debug.Log(index);
+            //Debug.Log(index);
 
             if (float.Parse(_firebase.ReverseList[index].Child("bestTime").Value.ToString()) < 0)
             {
