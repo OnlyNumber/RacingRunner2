@@ -17,7 +17,6 @@ public class ErrorMessage : PanelController
 
         transform.DOScale(new Vector3(1,1,1), 1);
 
-        //transform.DOScaleX(1, 1);
         _errorField.text = errorText;
 
         Debug.Log("ShowError");

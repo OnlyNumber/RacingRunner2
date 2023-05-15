@@ -11,11 +11,7 @@ using UnityEngine.SceneManagement;
 public class RegistrationScript : Authentification
 {
     DatabaseReference dbRef;
-
-    
-
-  
-
+     
     [SerializeField]
     private TMP_InputField _emailField;
     [SerializeField]
@@ -40,9 +36,6 @@ public class RegistrationScript : Authentification
 
     private IEnumerator Register(string _email, string _password, string _username)
     {
-
-        
-
         if(_username == "")
         {
 

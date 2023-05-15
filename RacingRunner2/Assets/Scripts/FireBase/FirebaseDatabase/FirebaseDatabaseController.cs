@@ -23,7 +23,7 @@ public class FirebaseDatabaseController : MonoBehaviour
     {
         dbRef = FirebaseDatabase.DefaultInstance.RootReference;
 
-        //StartCoroutine(LoadData(DataHolder.firebaseUser.UserId.ToString()));
+        StartCoroutine(LoadData(DataHolder.firebaseUser.UserId.ToString()));
 
         //Debug.Log(DataHolder.firebaseUser.UserId.ToString());
 
@@ -100,6 +100,8 @@ public class FirebaseDatabaseController : MonoBehaviour
     public void ChangeCurrentUser(string id, string nickName, int goldCoins, int avatarIcon, float bestTime, int car)
     {
         _userData = new UserData(id, nickName, goldCoins, avatarIcon, bestTime, car);
+
+        
 
         SaveData(id, nickName, goldCoins, avatarIcon, bestTime, car);
 
