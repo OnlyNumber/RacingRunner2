@@ -40,8 +40,6 @@ public class CarChoose : MonoBehaviour
 
         Debug.Log(_firebase.UserDataTransfer.avatarIcon);
 
-        //_firebase.ChangeCurrentUser(_firebase.UserDataTransfer.id, _firebase.UserDataTransfer.nickName, _firebase.UserDataTransfer.goldCoins, _firebase.UserDataTransfer.avatarIcon, _firebase.UserDataTransfer.bestTime, _currentCar);
-
     }
 
     public void SavePlayerChoice()

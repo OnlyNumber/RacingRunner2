@@ -1,0 +1,780 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50875
+Successfully changed project path to: C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2
+C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 158.67 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008573 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 135.00 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (501ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 148.24 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1866ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (160ms)
+		EndReloadAssembly (1467ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (927ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (647ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3645 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 215 unused Assets / (93.4 KB). Loaded Objects now: 3982.
+Memory consumption went from 139.2 MB to 139.1 MB.
+Total: 4.273200 ms (FindLiveObjects: 0.419200 ms CreateObjectMapping: 0.436100 ms MarkObjects: 3.214900 ms  DeleteObjects: 0.202000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186841.021408 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionCustom/New Folder/SM_Bld_Tent_Refugee_Damaged_01_Collision.fbx
+  artifactKey: Guid(aacf0bc990c1ed24492238b49e69c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionCustom/New Folder/SM_Bld_Tent_Refugee_Damaged_01_Collision.fbx using Guid(aacf0bc990c1ed24492238b49e69c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c6a0b1b7d8f5417155b40dbbf2fae2') in 0.124071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.808365 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Group_02.prefab
+  artifactKey: Guid(08d82685b2b71814f9241ed7ee2e8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Group_02.prefab using Guid(08d82685b2b71814f9241ed7ee2e8251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca25e2ed5ccbbef346181d7117b798cc') in 0.453351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Large_03.prefab
+  artifactKey: Guid(4eb4d037a0f57f64987e735d1ae47ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Large_03.prefab using Guid(4eb4d037a0f57f64987e735d1ae47ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f114a8e9b89ff806804caca6435782c') in 0.558025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Small_01.prefab
+  artifactKey: Guid(347b600295e5b61419922faa4dd55b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Small_01.prefab using Guid(347b600295e5b61419922faa4dd55b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da18731093d3fc4757521f4b6aadb4b') in 0.437449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Flowers_04.prefab
+  artifactKey: Guid(2782dec6256301047bb26888e2c27841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Flowers_04.prefab using Guid(2782dec6256301047bb26888e2c27841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07096b26ac1748db27fb3d8b5bcb0793') in 0.376032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Exit_02.prefab
+  artifactKey: Guid(8c11c9eac09f5ab4286d2a42010a5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Exit_02.prefab using Guid(8c11c9eac09f5ab4286d2a42010a5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71a0786d29733e9382078a114b3535e') in 0.281148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Flowers_02.prefab
+  artifactKey: Guid(4a464718d611e2a46bc4a681a284a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Flowers_02.prefab using Guid(4a464718d611e2a46bc4a681a284a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a143e0d1dd5e8a4344bd45ce3fc377d') in 0.250520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Female_02_Alt_02.prefab
+  artifactKey: Guid(00a4fd9006af6464ba1f4699fe232493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Female_02_Alt_02.prefab using Guid(00a4fd9006af6464ba1f4699fe232493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efd3ba942cfea2dc9e79892372ace89') in 0.977010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Male_01_Alt_01.prefab
+  artifactKey: Guid(3b83cbe22b3a0de4b836a9b21d1bc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Male_01_Alt_01.prefab using Guid(3b83cbe22b3a0de4b836a9b21d1bc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1275661af0abd081325140f7bc165895') in 0.585903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Characters/Attachments/SM_Chr_Attach_Book_Pouch_02.prefab
+  artifactKey: Guid(fca1e3dd35059784a9b452424961c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Characters/Attachments/SM_Chr_Attach_Book_Pouch_02.prefab using Guid(fca1e3dd35059784a9b452424961c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60d7197b0f199428cda9c6167ec9a2c') in 0.318983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_End_01.prefab
+  artifactKey: Guid(e1cb7672813155644b52e49dbe1723c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_End_01.prefab using Guid(e1cb7672813155644b52e49dbe1723c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b05d23fb71b3b6222c35801bdb2dbb6') in 0.317777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Fern_01.prefab
+  artifactKey: Guid(7e300dbb61c38f242baa9f83334d45ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Fern_01.prefab using Guid(7e300dbb61c38f242baa9f83334d45ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee47fb7d31ff1476bf5df76d0fe49cf') in 0.279460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Characters/Attachments/SM_Chr_Attach_Chin_Strap_01_Female.prefab
+  artifactKey: Guid(bf5b054f56d9a4145b85f9256ebe4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Characters/Attachments/SM_Chr_Attach_Chin_Strap_01_Female.prefab using Guid(bf5b054f56d9a4145b85f9256ebe4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2181737868aee3de4f31d92f8f8a371') in 0.286533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Slope_Up_01.prefab
+  artifactKey: Guid(c1fbb082341330645a11719cd57dc170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Slope_Up_01.prefab using Guid(c1fbb082341330645a11719cd57dc170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9251adf78aca795b56495e26a3083566') in 0.337125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Grass_02.prefab
+  artifactKey: Guid(f2aca044b25c4a44fb7e1e321447c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Grass_02.prefab using Guid(f2aca044b25c4a44fb7e1e321447c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25817a85c64696e027ab4ccdbaa3b4fc') in 0.295966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Crater_01.prefab
+  artifactKey: Guid(ab8178582e45f3b4195daaabcecec50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Crater_01.prefab using Guid(ab8178582e45f3b4195daaabcecec50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7beb42172f20b4d5dd3998be97a94cf') in 0.279883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Male_01_Alt_02.prefab
+  artifactKey: Guid(82bf002e6f0093b4486817df2ad566d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Male_01_Alt_02.prefab using Guid(82bf002e6f0093b4486817df2ad566d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe41963e7f938e2fd331631400a57892') in 0.608266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Male_02_Alt_04.prefab
+  artifactKey: Guid(1f98a0b68f1591a48a507169b6d232ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Characters/Alt_Soldiers/SM_Chr_Soldier_Male_02_Alt_04.prefab using Guid(1f98a0b68f1591a48a507169b6d232ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bed38f88ef27b67e0932e131752e07') in 0.649965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Large_04.prefab
+  artifactKey: Guid(28c747cbe8f8504498f9e6d42fa3203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Large_04.prefab using Guid(28c747cbe8f8504498f9e6d42fa3203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edc38a5872be4503a5604120c5015cb') in 0.364271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Exit_01.prefab
+  artifactKey: Guid(ec59bb4edb21b3a49ba78ad5b6ed7cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_DirtRoad_Exit_01.prefab using Guid(ec59bb4edb21b3a49ba78ad5b6ed7cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c115ccc00711f1325ef2fc9a987bb5') in 0.311090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Flowers_03.prefab
+  artifactKey: Guid(cd49ab1d2ef97ef48aaac69a01c02137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Flowers_03.prefab using Guid(cd49ab1d2ef97ef48aaac69a01c02137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec91237ae7717db29cda3ea523be512c') in 0.279626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Large_01.prefab
+  artifactKey: Guid(220216071731a4b4cb569ab7be5d7619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Bush_Large_01.prefab using Guid(220216071731a4b4cb569ab7be5d7619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523541fba25413219923115d0bc5b9ce') in 0.309021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Grass_01.prefab
+  artifactKey: Guid(fdb9364759532af46830dc9d42ad3a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Grass_01.prefab using Guid(fdb9364759532af46830dc9d42ad3a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb1c6c9666c5a2bd8b4ebed7c400237') in 0.354411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Cactus_01.prefab
+  artifactKey: Guid(468a0a241bb2fca448b4211a1d7f5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Cactus_01.prefab using Guid(468a0a241bb2fca448b4211a1d7f5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2923886fbdc9282c3f15fef2c0840ce') in 0.324001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Cactus_03.prefab
+  artifactKey: Guid(cc85bfe8febac73469fd9a2bb51aa118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Environment/SM_Env_Cactus_03.prefab using Guid(cc85bfe8febac73469fd9a2bb51aa118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35b054d01f520305a2f4d9d43eeebdd') in 0.306673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.380354 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Shop_10_Destroyed.fbx
+  artifactKey: Guid(e9ced82c3bf43af46870b618cbc44352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Shop_10_Destroyed.fbx using Guid(e9ced82c3bf43af46870b618cbc44352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a656118e92725bc65fd2a81ac7262f92') in 0.111735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Open_01.fbx
+  artifactKey: Guid(c0730a773b071f546a143a8d1cf5a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Open_01.fbx using Guid(c0730a773b071f546a143a8d1cf5a3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718a31c009279f369cea9cf63647e97f') in 0.025425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Refugee_Closed_01.fbx
+  artifactKey: Guid(c6b4714ded7e85042afb3bb36b3c126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Refugee_Closed_01.fbx using Guid(c6b4714ded7e85042afb3bb36b3c126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b438dc3a741e553a0eeefbe50bf109cf') in 0.018965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Cover_01.fbx
+  artifactKey: Guid(50e39df14ed30f34d858e81639a5a698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Cover_01.fbx using Guid(50e39df14ed30f34d858e81639a5a698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47497af8d851c5232b5888c011061a1') in 0.015891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_03_Destroyed.fbx
+  artifactKey: Guid(8a7c845f87fb400419d62fcca18ba806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_03_Destroyed.fbx using Guid(8a7c845f87fb400419d62fcca18ba806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2438367fcfadeb5b424c9bfc7a4cea2') in 0.021310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_04_Destroyed.fbx
+  artifactKey: Guid(5c281f8b56b4b3744bd602bcfbb1ac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_04_Destroyed.fbx using Guid(5c281f8b56b4b3744bd602bcfbb1ac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319b4da87062f195d86d219ccb43f488') in 0.018173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Shop_Door_02.fbx
+  artifactKey: Guid(b3e70becc12b68d4aa2fcaad93c56903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Shop_Door_02.fbx using Guid(b3e70becc12b68d4aa2fcaad93c56903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5ca36364bdf85fcedc8c5e82ffe822') in 0.042566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Entrance_01.fbx
+  artifactKey: Guid(3d00e1855e15a614c93f1155f01e1a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Entrance_01.fbx using Guid(3d00e1855e15a614c93f1155f01e1a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f75d093747771ea4f6d88e269d2933') in 0.032682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_01.fbx
+  artifactKey: Guid(fb9b43f267ac69b4cb6fd820cd945924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_01.fbx using Guid(fb9b43f267ac69b4cb6fd820cd945924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e630dd7ad19c17e7944d895821375fcc') in 0.037438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tiles_01.fbx
+  artifactKey: Guid(ddca9d9b1ba2e314b940db2a25937c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tiles_01.fbx using Guid(ddca9d9b1ba2e314b940db2a25937c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184c72653c59145250ec8a758f62a8b8') in 0.018843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Sandbags_01.fbx
+  artifactKey: Guid(e643fce08cbaee94f8a0687fb884590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Sandbags_01.fbx using Guid(e643fce08cbaee94f8a0687fb884590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7643695213bed358191bceeb158e7a29') in 0.046311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_03.fbx
+  artifactKey: Guid(a085f430cd5dee9429e15568d3445990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_03.fbx using Guid(a085f430cd5dee9429e15568d3445990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaad2adc47c84c5603efa636b277368') in 0.031989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Small_03.fbx
+  artifactKey: Guid(f265d466abc958c408a19700c09648c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Small_03.fbx using Guid(f265d466abc958c408a19700c09648c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b0851eab36a4f78a039b2f2e59ff2f') in 0.019413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Fence_03.fbx
+  artifactKey: Guid(7fc5058f1fd8765458ffc66343a5ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Fence_03.fbx using Guid(7fc5058f1fd8765458ffc66343a5ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987da5af0bc032360ca2495a8d75003d') in 0.019179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_02.fbx
+  artifactKey: Guid(4046ffe64b62b6d46befde0f6bd4291e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_02.fbx using Guid(4046ffe64b62b6d46befde0f6bd4291e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f1ead960dfdd0462bd8f99d5ae54ae') in 0.017977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Archway_02.fbx
+  artifactKey: Guid(33976e746eb1c124faadd7235b42cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Archway_02.fbx using Guid(33976e746eb1c124faadd7235b42cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c992aefd8636234a31a05f97290bd690') in 0.015502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ArchwayBridge_01.fbx
+  artifactKey: Guid(cce86d3cca99cb24c8f90fb3d13b6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ArchwayBridge_01.fbx using Guid(cce86d3cca99cb24c8f90fb3d13b6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6977e2f87c45ef0231a51a9fa5d313ea') in 0.016914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Large_01.fbx
+  artifactKey: Guid(d5eb3fc6229f0864095868e64c5d93d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Large_01.fbx using Guid(d5eb3fc6229f0864095868e64c5d93d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b464167eb9f76544d4c6655cc04b810') in 0.028254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_House_01.fbx
+  artifactKey: Guid(928eb044c0ca7c548a63e4cda2ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_House_01.fbx using Guid(928eb044c0ca7c548a63e4cda2ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa8e7211ac5468c112e5a2e0b6e5601') in 0.019540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Door_02.fbx
+  artifactKey: Guid(49cae8380aa08cf419ae497cba71be17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Door_02.fbx using Guid(49cae8380aa08cf419ae497cba71be17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daef6c5b922bba55a3e0829ac99e6596') in 0.030919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Large_02.fbx
+  artifactKey: Guid(3634425369a10b643a98445599f854f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Large_02.fbx using Guid(3634425369a10b643a98445599f854f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad83064987f31556c56daffe4c885ce7') in 0.027181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Slope_02.fbx
+  artifactKey: Guid(f1f29e5d9918f194f936b1db218fc2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Slope_02.fbx using Guid(f1f29e5d9918f194f936b1db218fc2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3451e0b414857ce66df13e4da8c185e4') in 0.017898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Edge_02.fbx
+  artifactKey: Guid(7b19bf47ec812fc4d827a27d643229a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Edge_02.fbx using Guid(7b19bf47ec812fc4d827a27d643229a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9d16d0ef81082874cb8f8877c15dc2') in 0.016877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Archway_Pillar_01.fbx
+  artifactKey: Guid(01dc4f63d19732b4cb3d20a5983fb900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Archway_Pillar_01.fbx using Guid(01dc4f63d19732b4cb3d20a5983fb900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc011f6f286759ccc9518a929b6e97d') in 0.018449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Archway_01_Destroyed.fbx
+  artifactKey: Guid(18e99c9400f95f14ab85f827109682ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Archway_01_Destroyed.fbx using Guid(18e99c9400f95f14ab85f827109682ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ccce6042ea33be56eace38cd0764dc') in 0.017013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Edge_01.fbx
+  artifactKey: Guid(7823afe000d696043a96b88cbd3b70a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Edge_01.fbx using Guid(7823afe000d696043a96b88cbd3b70a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1030bda7b04ad97086c9ab17aab83b42') in 0.018895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Small_04.fbx
+  artifactKey: Guid(f782d134a98427b449f14558245077f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Small_04.fbx using Guid(f782d134a98427b449f14558245077f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed7e01fa31905df1db8c8e3d598816b') in 0.018011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Destroyed_01.fbx
+  artifactKey: Guid(ce4816784744ccf499c072ce4f4389ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Tent_Destroyed_01.fbx using Guid(ce4816784744ccf499c072ce4f4389ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3492d259f50c555e884141663fd1e84b') in 0.017494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Fence_02.fbx
+  artifactKey: Guid(31f75a30df3999a439dc4ddb37dc62b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Fence_02.fbx using Guid(31f75a30df3999a439dc4ddb37dc62b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ff1e07ffaed143bbf270fd74b3ca4c') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ArchwayBridge_02_Destroyed.fbx
+  artifactKey: Guid(f6525f4d763741247b3efe3798cf957c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ArchwayBridge_02_Destroyed.fbx using Guid(f6525f4d763741247b3efe3798cf957c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58a7cfef87cb6b15ed84127ac5b37e9') in 0.018900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Dome_01.fbx
+  artifactKey: Guid(b560d4d6b68f559448673e53e2dec152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Dome_01.fbx using Guid(b560d4d6b68f559448673e53e2dec152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a251ca900829b90ebff83a79c2a717b8') in 0.017543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Small_02.fbx
+  artifactKey: Guid(e39c3263af396c943a882b34f8fe63ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_ClothCover_Small_02.fbx using Guid(e39c3263af396c943a882b34f8fe63ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08f0d0db41eed65d3261d7d2e69a5b6') in 0.016320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Hatch_01.fbx
+  artifactKey: Guid(b8b82f9f2ac7d5642bf3b027a9b5becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Village_Hatch_01.fbx using Guid(b8b82f9f2ac7d5642bf3b027a9b5becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd498a8e344b5e9be4c8f1cbc15ab4f4') in 0.016911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Bld_Shop_13.fbx
+  artifactKey: Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Bld_Shop_13.fbx using Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3caffbb5ba3c92456f09c7269de169') in 0.046514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.212060 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_Cardboard_Box_04_Convex.asset
+  artifactKey: Guid(f9656ffa891a79249ad95b666e70d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_Cardboard_Box_04_Convex.asset using Guid(f9656ffa891a79249ad95b666e70d72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ace724144ae4a87459730cfb9f8109') in 0.012515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_Cardboard_Box_06_Convex.asset
+  artifactKey: Guid(0971b9245717d1d42b17bc4e4f2da200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_Cardboard_Box_06_Convex.asset using Guid(0971b9245717d1d42b17bc4e4f2da200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf52f089f9e467db22e094bfcaf2dc5') in 0.013048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_CardboardBox_01_Convex.asset
+  artifactKey: Guid(9161c6a260087f043b8dba408a3147f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_CardboardBox_01_Convex.asset using Guid(9161c6a260087f043b8dba408a3147f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a443d124d810c9f6163ae835686eadb') in 0.012987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cardboard_Box_05.fbx
+  artifactKey: Guid(385f6b6e49c2b1b46acced722528511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cardboard_Box_05.fbx using Guid(385f6b6e49c2b1b46acced722528511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9687eb5643b2c32df0ada620ad5a617') in 0.023699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cart_Stall_01.fbx
+  artifactKey: Guid(810236f6a4d110548996e6294272c7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cart_Stall_01.fbx using Guid(810236f6a4d110548996e6294272c7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fbedf3489e8277d467178d3bb8c653') in 0.053163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cart_Tray_01.fbx
+  artifactKey: Guid(ce730584ee35aec42809903f9df4537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cart_Tray_01.fbx using Guid(ce730584ee35aec42809903f9df4537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094dea2054516a6ad95c55d4365469b7') in 0.065364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Prop_CardboardBox_02.fbx
+  artifactKey: Guid(4ecef4779e816de4bb67a94fda21e3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Prop_CardboardBox_02.fbx using Guid(4ecef4779e816de4bb67a94fda21e3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3303a36152f79f4ed71797706cf6ec3a') in 0.018742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.489101 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cart_Wood_01.fbx
+  artifactKey: Guid(889ed087ce0dc9d4f945bd290b763d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Prop_Cart_Wood_01.fbx using Guid(889ed087ce0dc9d4f945bd290b763d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8eec5572f0a992d52be170aa3273af0') in 0.046733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.387673 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Car_Medium_01_Convex.asset
+  artifactKey: Guid(0cb8868acf11efa4fa9a270905e25231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Car_Medium_01_Convex.asset using Guid(0cb8868acf11efa4fa9a270905e25231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3485c5a76245fada903b44498fd330') in 0.013443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292622 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Car_Medium_Destroyed_01_Convex.asset
+  artifactKey: Guid(075be9c6d93b2e940b3562708bb6cc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Car_Medium_Destroyed_01_Convex.asset using Guid(075be9c6d93b2e940b3562708bb6cc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0a3fe24cf1801e54e6cd13c9eeeb53') in 0.010064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Veh_Car_Small_01.fbx
+  artifactKey: Guid(50acca939f1e4554eb873ab665d96835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Veh_Car_Small_01.fbx using Guid(50acca939f1e4554eb873ab665d96835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f56a68a27165b4343fa709408af989') in 0.061413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.256342 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Car_Small_Destroyed_01_Convex.asset
+  artifactKey: Guid(2994f153855be8348b5a67bdac1bbb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Car_Small_Destroyed_01_Convex.asset using Guid(2994f153855be8348b5a67bdac1bbb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25e5322904b3817a3a4fe411402e687') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/SM_Veh_Light_Armored_Car_01_Convex.asset
+  artifactKey: Guid(4810ea06ddb759f4fb5bbde5928ed88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/SM_Veh_Light_Armored_Car_01_Convex.asset using Guid(4810ea06ddb759f4fb5bbde5928ed88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f038173cb463525d6bbe7dc450cefd53') in 0.010067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Light_Armored_Car_01_Convex.asset
+  artifactKey: Guid(9c07e35ee8735c64f9ead0f126e32b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Light_Armored_Car_01_Convex.asset using Guid(9c07e35ee8735c64f9ead0f126e32b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ae649637e7ca1539d10ef291fa1c9f') in 0.008588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.234376 seconds.
+  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Light_Armored_Car_01_Destroyed_Convex.asset
+  artifactKey: Guid(6a8fd7fd39dc5644284e37761f8b9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Veh_Light_Armored_Car_01_Destroyed_Convex.asset using Guid(6a8fd7fd39dc5644284e37761f8b9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac75bf12d73991d0f81deecf2494c880') in 0.015369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.154744 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_Cardboard_Box_05.prefab
+  artifactKey: Guid(3d5e4dddd50fc5e47a3174f5fc104094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_Cardboard_Box_05.prefab using Guid(3d5e4dddd50fc5e47a3174f5fc104094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a72f1102075eeedfecaf8a590964686') in 0.332750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_CardboardBox_01.prefab
+  artifactKey: Guid(e35dbe6b33a2b5442b4bfba6bf424f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_CardboardBox_01.prefab using Guid(e35dbe6b33a2b5442b4bfba6bf424f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8f382c6f4f2c1a55e4e16646589f6a') in 0.328499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_Cart_Tray_01.prefab
+  artifactKey: Guid(582b6bbb86289fb40b735d5934c086fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_Cart_Tray_01.prefab using Guid(582b6bbb86289fb40b735d5934c086fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91465101f27ce1b05de70f4e5c8a1d3') in 0.271704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_Cardboard_Box_06.prefab
+  artifactKey: Guid(e76737f3ebdd46245ad296cdebe5a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_Cardboard_Box_06.prefab using Guid(e76737f3ebdd46245ad296cdebe5a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2ef42657b440c7d3d8de5d53630bab') in 0.224455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_CardboardBox_03.prefab
+  artifactKey: Guid(63675ace7f3b0c74cbfffbe020088399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PolygonMilitary/Prefabs/Props/SM_Prop_CardboardBox_03.prefab using Guid(63675ace7f3b0c74cbfffbe020088399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70677132cc8550955adb3eb9c188284d') in 0.328433 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009847 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.52 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <0313f29eb857419498961dc39155d5eb>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <0313f29eb857419498961dc39155d5eb>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
+Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1393ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (418ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.61 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (86.5 KB). Loaded Objects now: 4030.
+Memory consumption went from 155.2 MB to 155.1 MB.
+Total: 2.890300 ms (FindLiveObjects: 0.271100 ms CreateObjectMapping: 0.187400 ms MarkObjects: 2.314800 ms  DeleteObjects: 0.115800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 6.93 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1368ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1123ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (64ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 151 unused Assets / (86.4 KB). Loaded Objects now: 4033.
+Memory consumption went from 155.2 MB to 155.1 MB.
+Total: 3.680100 ms (FindLiveObjects: 0.545900 ms CreateObjectMapping: 0.334200 ms MarkObjects: 2.452200 ms  DeleteObjects: 0.346500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
