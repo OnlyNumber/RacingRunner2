@@ -27,7 +27,7 @@ public class FirebaseDatabaseController : MonoBehaviour
 
         //Debug.Log(DataHolder.firebaseUser.UserId.ToString());
 
-        //StartCoroutine(LoadAllUserByScore());
+        StartCoroutine(LoadAllUserByScore());
 
     }
 

@@ -22,13 +22,7 @@ public class CarChoose : MonoBehaviour
 
         NextCar(_firebase.UserDataTransfer.car);
 
-
-
-        //_currentCar = _firebase.UserDataTransfer.car;
-
         Debug.Log(_currentCar);
-
-        //_myCars[_currentCar].SetActive(true);
     }
 
     public void NextCar(int nextCar)
