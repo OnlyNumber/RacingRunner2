@@ -8,7 +8,7 @@ public class FirebaseDatabaseController : MonoBehaviour
 {
     private DatabaseReference dbRef;
 
-    public List<DataSnapshot> reverseList { private set; get; }
+    public List<DataSnapshot> ReverseList { private set; get; }
 
     private UserData _userData;
 
@@ -32,7 +32,7 @@ public class FirebaseDatabaseController : MonoBehaviour
 
     private IEnumerator LoadAllUserByScore()
     {
-        reverseList = new List<DataSnapshot>();
+        ReverseList = new List<DataSnapshot>();
 
         var user = dbRef.Child("users").OrderByChild("bestTime").GetValueAsync();
 
@@ -52,10 +52,8 @@ public class FirebaseDatabaseController : MonoBehaviour
 
             foreach (DataSnapshot clidSnapshot in snapshot.Children)
             {
-                reverseList.Add(clidSnapshot);
+                ReverseList.Add(clidSnapshot);
             }
-
-            reverseList.Reverse();
 
             onDataLoadedScore?.Invoke();
         }
@@ -108,6 +106,8 @@ public class FirebaseDatabaseController : MonoBehaviour
 
     public void SaveData(string id, string nickName, int goldCoins, int avatarIcon, float bestTime, int car)
     {
+        Debug.Log("SaveData");
+
         UserData user2229 = new UserData( id,  nickName,  goldCoins,avatarIcon,  bestTime,  car);
 
         string json = JsonUtility.ToJson(user2229);
