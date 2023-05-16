@@ -20,6 +20,8 @@ GameObject:
   - component: {fileID: -2939974957303310071}
   - component: {fileID: 7953605532886850683}
   - component: {fileID: 5139488241146568642}
+  - component: {fileID: 419271133679790200}
+  - component: {fileID: -1515413015349372119}
   m_Layer: 0
   m_Name: PlayerCars
   m_TagString: Untagged
@@ -86,6 +88,7 @@ MonoBehaviour:
   - {fileID: -2939974957303310071}
   - {fileID: 7953605532886850683}
   - {fileID: 5139488241146568642}
+  - {fileID: -1515413015349372119}
   SimulationBehaviours: []
 --- !u!54 &3310880295832860922
 Rigidbody:
@@ -226,6 +229,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
   _maxAmountOfNitro: 100
+--- !u!114 &419271133679790200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493345966776852680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae29fd28ddbb3cf4cbc47f7acc3551cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkZone: 80
+--- !u!114 &-1515413015349372119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493345966776852680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc5375e1e25f574c89788125eba8f7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  linesX:
+  - -7.5
+  - -2.5
+  - 2.5
+  - 7.5
+  _speed: 50
 --- !u!1 &7732128527173314531
 GameObject:
   m_ObjectHideFlags: 0
