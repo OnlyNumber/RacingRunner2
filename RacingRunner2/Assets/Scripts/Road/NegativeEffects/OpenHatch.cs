@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenHatch : MonoBehaviour
+public class OpenHatch : MonoBehaviour, IEffect
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField, Range(0,1)] private float _powerOfSpeedDecreace;
+
+
+    public Coroutine Effect(GameObject objectForEffect)
     {
-        
+        objectForEffect.GetComponent<ISpeedControl>().MultiplySpeed(_powerOfSpeedDecreace);
+
+        return null;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
 }

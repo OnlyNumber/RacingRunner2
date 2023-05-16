@@ -4,9 +4,11 @@ using UnityEngine;
 
 public interface ISpeedControl
 {
-    public float ChangeSpeed();
+    public void ChangeSpeed();
 
-    public void ChangeBoost(float multiply);
+    public void MultiplyBoost(float multiply);
 
     public void MultiplySpeed(float multiply);
+
+    public float GetSpeed();
 }

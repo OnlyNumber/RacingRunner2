@@ -7,11 +7,11 @@ public class DestroyedCar : NetworkBehaviour, IEffect
 {
     [SerializeField] private float _distanceToMove;
 
-    public Coroutine Effect(ISpeedControl speedControl, IChangePosition positionControl)
+    public Coroutine Effect(GameObject objectForEffect)
     {
-        speedControl.MultiplySpeed(0);
+        objectForEffect.GetComponent<ISpeedControl>().MultiplySpeed(0);
 
-        positionControl.MovePos(new Vector3(0, 0, _distanceToMove));
+        objectForEffect.GetComponent<IChangePosition>().MovePos(new Vector3(0, 0, _distanceToMove));
 
         return null;
     }

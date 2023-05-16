@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 3117656527899176670}
   - component: {fileID: -2939974957303310071}
   - component: {fileID: 7953605532886850683}
+  - component: {fileID: 5139488241146568642}
   m_Layer: 0
   m_Name: PlayerCars
   m_TagString: Untagged
@@ -55,7 +56,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  speed: 0
 --- !u!114 &-7993901303196725366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,6 +85,7 @@ MonoBehaviour:
   - {fileID: 9124647483472692024}
   - {fileID: -2939974957303310071}
   - {fileID: 7953605532886850683}
+  - {fileID: 5139488241146568642}
   SimulationBehaviours: []
 --- !u!54 &3310880295832860922
 Rigidbody:
@@ -143,7 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  speed: 0
 --- !u!114 &4377506972819894496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  _boost: 20
+  _boost: 0
+  _speed: 0
 --- !u!65 &3117656527899176670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -211,6 +212,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+--- !u!114 &5139488241146568642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493345966776852680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ebc4bb3e6670b43b19b4971c3c7095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  _maxAmountOfNitro: 100
 --- !u!1 &7732128527173314531
 GameObject:
   m_ObjectHideFlags: 0

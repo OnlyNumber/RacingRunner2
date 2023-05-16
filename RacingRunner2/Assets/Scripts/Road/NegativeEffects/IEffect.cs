@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IEffect
 {
-    public Coroutine Effect(ISpeedControl speedControl, IChangePosition positionControl);
+    public Coroutine Effect(GameObject objectForEffect);
 }

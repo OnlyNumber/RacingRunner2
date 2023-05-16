@@ -16,9 +16,9 @@ public class PlayerMovement : NetworkBehaviour
 
     public override void FixedUpdateNetwork()
     {
-        _moveController?.MoveForward(_speedController.ChangeSpeed());
+        _speedController.ChangeSpeed();
 
-
+        _moveController?.MoveForward(_speedController.GetSpeed());
 
     }
 
