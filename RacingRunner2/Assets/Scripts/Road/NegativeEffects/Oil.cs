@@ -1,11 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using System;
-using System.Threading.Tasks;
+using Fusion;
 
-public class Oil : MonoBehaviour, IEffect
+public class Oil : NetworkBehaviour, IEffect
 {
     [SerializeField] private float _slowdownTime;
 

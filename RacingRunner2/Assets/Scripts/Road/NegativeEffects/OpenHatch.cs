@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fusion;
 
-public class OpenHatch : MonoBehaviour, IEffect
+public class OpenHatch : NetworkBehaviour, IEffect
 {
     [SerializeField, Range(0,1)] private float _powerOfSpeedDecreace;
 

@@ -13,7 +13,7 @@ public class MoveLine : NetworkBehaviour, ILineMover
 
     public override void FixedUpdateNetwork()
     {
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(linesX[_currentLine], transform.position.y  ), _speed * Runner.DeltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(linesX[_currentLine], transform.position.y, transform.position.z  ), _speed * Runner.DeltaTime);
     }
 
     public void MoveToLine(int line)

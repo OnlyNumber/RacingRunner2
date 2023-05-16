@@ -102,7 +102,7 @@ GameObject:
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7352804114446154760
 Transform:
   m_ObjectHideFlags: 0
@@ -131,6 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4801914548e7866458823675b790a9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
   _powerOfSpeedDecreace: 0
 --- !u!135 &7352804114446154762
 SphereCollider:
@@ -190,10 +191,11 @@ MonoBehaviour:
   DestroyWhenStateAuthorityLeaves: 0
   AllowStateAuthorityOverride: 1
   AoiPositionSource: {fileID: 0}
-  Flags: 133377
+  Flags: 2305
   NetworkGuid:
     RawGuidValue: 315ad9369a087454a8bf92895c4e6343
   NestedObjects: []
   NetworkedBehaviours:
+  - {fileID: 7352804114446154761}
   - {fileID: 7352804114446154763}
   SimulationBehaviours: []
