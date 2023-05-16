@@ -32,10 +32,7 @@ public class NitroSystem : NetworkBehaviour
     {
         if (addedNitro > 0 )
         {
-
             _currentAmountOfNitro = _currentAmountOfNitro + addedNitro > _maxAmountOfNitro ?  _maxAmountOfNitro : _currentAmountOfNitro + addedNitro;
-
-        
         }
     }
 
