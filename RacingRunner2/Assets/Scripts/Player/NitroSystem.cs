@@ -4,11 +4,13 @@ using UnityEngine;
 using Fusion;
 using System;
 
-public class NitroSystem : NetworkBehaviour
+public class NitroSystem : NetworkBehaviour, IPercantage
 {
     public event Action OnNitroChange;
 
-    private float _currentAmountOfNitro
+    private float _currentAmountOfNitro;
+
+    private float CurrentAmountOfNitro
     {
         get
         {
@@ -24,26 +26,33 @@ public class NitroSystem : NetworkBehaviour
     
 
 
-    private float _speedDecreaceNitro;
+    [SerializeField] private float _speedDecreaceNitro;
 
     [SerializeField] private float _maxAmountOfNitro;
+
+    private void Start()
+    {
+        CurrentAmountOfNitro = 0;
+    }
 
     public void AddNitro(float addedNitro)
     {
         if (addedNitro > 0 )
         {
-            _currentAmountOfNitro = _currentAmountOfNitro + addedNitro > _maxAmountOfNitro ?  _maxAmountOfNitro : _currentAmountOfNitro + addedNitro;
+            CurrentAmountOfNitro = CurrentAmountOfNitro + addedNitro > _maxAmountOfNitro ?  _maxAmountOfNitro : CurrentAmountOfNitro + addedNitro;
         }
     }
 
     public void Boosting()
     {
-        _currentAmountOfNitro -= _speedDecreaceNitro * Runner.DeltaTime;
+        CurrentAmountOfNitro -= _speedDecreaceNitro * Runner.DeltaTime;
 
         GetComponent<ISpeedControl>().MultiplyBoost(3);
 
     }
 
-
-
+    public float GetPercent()
+    {
+        return _currentAmountOfNitro / _maxAmountOfNitro;
+    }
 }

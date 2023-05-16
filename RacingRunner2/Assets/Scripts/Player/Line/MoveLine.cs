@@ -11,9 +11,24 @@ public class MoveLine : NetworkBehaviour, ILineMover
 
     [SerializeField] private float _speed;
 
+    private IMoveAble movement;
+
+    private void Start()
+    {
+        movement = GetComponent<IMoveAble>();
+    }
+
     public override void FixedUpdateNetwork()
     {
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(linesX[_currentLine], transform.position.y, transform.position.z  ), _speed * Runner.DeltaTime);
+        if(Mathf.Abs(transform.position.x - linesX[_currentLine]) < 0.1f)
+        {
+            movement.SetDirection(new Vector3(0, 0, 1));
+        }
+
+        //transform.position = Vector3.MoveTowards(transform.position,new Vector3( linesX[_currentLine],transform.position.y, transform.position.z), _speed * Runner.DeltaTime);
+
+        //transform.position = new Vector3(transform.position.x + 1 * _speed * Runner.DeltaTime,0,transform.position.z);
+
     }
 
     public void MoveToLine(int line)
@@ -23,9 +38,14 @@ public class MoveLine : NetworkBehaviour, ILineMover
             _currentLine + line :
             _currentLine;
 
-
+        if(line > 0)
+            movement.SetDirection(new Vector3(1, 0, 1));
+        else
+        {
+            movement.SetDirection(new Vector3(-1, 0, 1));
+        }   
 
     }
 
-
+    
 }

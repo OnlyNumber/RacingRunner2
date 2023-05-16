@@ -14,6 +14,8 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         //Runner.Spawn(_roadSpawner);
     }
 
+    
+
     public void PlayerJoined(PlayerRef player)
     {
         if(1 == Runner.SessionInfo.PlayerCount)

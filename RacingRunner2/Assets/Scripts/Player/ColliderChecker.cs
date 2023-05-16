@@ -29,6 +29,8 @@ public class ColliderChecker : NetworkBehaviour
 
         if (other.gameObject.CompareTag("PowerUp"))
         {
+            Debug.Log("PowerUp");
+
             negativeEffect = other.GetComponent<IEffect>().Effect(gameObject);
         }
 

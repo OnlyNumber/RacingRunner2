@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7325883932633606856}
   - component: {fileID: 7335345710940149452}
   - component: {fileID: 7343417342747342324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: InterpolationTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e6ba70160d107854b899d32cc6f26cf0, type: 2}
+  - {fileID: 2100000, guid: f46fef7fcd2d6634398c7e2d9bb057d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 7352804114446154762}
   - component: {fileID: 7352804114446154763}
   - component: {fileID: 7352804114446154764}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hatch obstacle
   m_TagString: Obstacle
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}

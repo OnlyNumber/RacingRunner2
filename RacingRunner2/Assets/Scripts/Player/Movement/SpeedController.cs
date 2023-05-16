@@ -11,6 +11,8 @@ public class SpeedController : NetworkBehaviour, ISpeedControl
 
     [SerializeField] private float _speed = 0;
 
+    [SerializeField] private float _maxSpeed;
+
     private float _boostMultiplier = 1;
 
     public void MultiplyBoost(float multiply)
@@ -20,7 +22,12 @@ public class SpeedController : NetworkBehaviour, ISpeedControl
 
     public void ChangeSpeed()
     {
-        _speed += _boost * _boostMultiplier * Runner.DeltaTime;
+        if (_speed < _maxSpeed)
+        {
+            _speed += _boost * _boostMultiplier * Runner.DeltaTime;
+        } 
+        
+
     }
 
     public void MultiplySpeed(float multiply)
@@ -32,5 +39,10 @@ public class SpeedController : NetworkBehaviour, ISpeedControl
     public float GetSpeed()
     {
         return _speed;
+    }
+
+    public float GetPercent()
+    {
+        return _speed / _maxSpeed;
     }
 }

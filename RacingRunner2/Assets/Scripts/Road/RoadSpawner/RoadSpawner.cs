@@ -10,11 +10,14 @@ public class RoadSpawner : NetworkBehaviour, ISpawner
 
     [SerializeField] private float _distanceBetweenFragments;
 
-    [SerializeField] private NetworkBehaviour _fragmentRoad; 
+    [SerializeField] private NetworkBehaviour _fragmentRoad;
 
-   
 
-    [ContextMenu("SpawnRoad")]
+    private void Start()
+    {
+        Spawn();
+    }
+
     public void Spawn()
     {
         for (int index = 0; index < _amountOfRoadsFragment; index++)
