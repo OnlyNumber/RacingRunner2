@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: -5327508223722818320}
   - component: {fileID: 2228160039397039892}
   - component: {fileID: -930604771335633760}
+  - component: {fileID: 6326034890741793581}
   m_Layer: 0
   m_Name: PlayerCars
   m_TagString: Untagged
@@ -95,6 +96,7 @@ MonoBehaviour:
   - {fileID: -1515413015349372119}
   - {fileID: -5327508223722818320}
   - {fileID: -930604771335633760}
+  - {fileID: 6326034890741793581}
   SimulationBehaviours: []
 --- !u!114 &8608728399672481360
 MonoBehaviour:
@@ -311,6 +313,21 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e488389b7f54fd947a7fd0656c1c29b7, type: 3}
   - {fileID: 21300000, guid: a2e06dcd6a4ff704d958dd3461214d10, type: 3}
   - {fileID: 21300000, guid: 3a846ca4057661c4ca5cb1fbe6d5fffe, type: 3}
+--- !u!114 &6326034890741793581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493345966776852680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab4cd92a8e6d7f449cbfef1ffab0722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  _camera: {fileID: 316614952117568471}
+  _audioListener: {fileID: 1478485424907554947}
 --- !u!1 &811373441194613999
 GameObject:
   m_ObjectHideFlags: 0

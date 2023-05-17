@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
+using System;
 
 public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 {
     public static SpawnerShared instance;
 
+    public event Action onPlayersConnected;
 
     public struct PlayerData
     {
@@ -53,14 +55,13 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         {
 
 
-
              Runner.Spawn(_playerPrebaf, Vector3.zero, Quaternion.identity, player);
         }
 
-        /*if(Runner.SessionInfo.PlayerCount == 2)
+        if(Runner.SessionInfo.PlayerCount == 2)
         {
-            Debug.Log(players.Count);
-        }*/
+            onPlayersConnected?.Invoke();
+        }
 
 
     }
@@ -83,6 +84,11 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         foreach (var data in _userData)
         {
             Debug.LogError(data.name);
+        }
+
+        if (Runner.SessionInfo.PlayerCount == 2)
+        {
+            onPlayersConnected?.Invoke();
         }
 
     }

@@ -12,9 +12,11 @@ public class FirebaseDriver : NetworkBehaviour
     [Networked(OnChanged = nameof(OnSkinChanged))]
     private string _nickName { get; set; }
 
-    private int _avatar;
+    [Networked]
+    private int _avatar { get; set; }
 
-    private int _car;
+    [Networked]
+    private int _car { get; set; }
 
     [SerializeField] private Image firstUserImage;
 
@@ -32,22 +34,13 @@ public class FirebaseDriver : NetworkBehaviour
     {
         Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
 
+        SpawnerShared.instance.onPlayersConnected += SetInfo;
+
     }
 
     public override void FixedUpdateNetwork()
     {
-        if(Runner.SessionInfo.PlayerCount == Runner.SessionInfo.MaxPlayers)
-        {
-            firstUserImage.sprite = _myAvatars[SpawnerShared.instance._userData[0].avatar];
-
-            firstUserText.text = SpawnerShared.instance._userData[0].name;
-
-            secondUserImage.sprite = _myAvatars[SpawnerShared.instance._userData[1].avatar];
-
-            secondUserText.text = SpawnerShared.instance._userData[1].name;
-
-            //Debug.Log
-        }
+        
     }
 
 
@@ -63,6 +56,23 @@ public class FirebaseDriver : NetworkBehaviour
     {
         changed.Behaviour.OnSkinChange();
     }
+
+    public void SetInfo()
+    {
+        Debug.Log("SetInfo");
+
+        firstUserImage.sprite = _myAvatars[SpawnerShared.instance._userData[0].avatar];
+
+        firstUserText.text = SpawnerShared.instance._userData[0].name;
+
+
+
+
+        secondUserImage.sprite = _myAvatars[SpawnerShared.instance._userData[1].avatar];
+
+        secondUserText.text = SpawnerShared.instance._userData[1].name;
+    }
+
 
     private void OnSkinChange()
     {
