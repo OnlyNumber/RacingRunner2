@@ -18,17 +18,13 @@ public class FirebaseDriver : NetworkBehaviour
     [Networked]
     private int _car { get; set; }
 
-    [SerializeField] private Image firstUserImage;
+    [SerializeField] private PlayerItem _firstPlayerItem;
 
-    [SerializeField] private TMP_Text firstUserText;
+    [SerializeField] private PlayerItem _secondPlayerItem;
 
-    [SerializeField] private Image secondUserImage;
-
-    [SerializeField] private TMP_Text secondUserText;
+    [SerializeField] private PanelController _panelVS;
 
     [SerializeField] private List<Sprite> _myAvatars;
-
-
 
     private void Start()
     {
@@ -37,12 +33,6 @@ public class FirebaseDriver : NetworkBehaviour
         SpawnerShared.instance.onPlayersConnected += SetInfo;
 
     }
-
-    public override void FixedUpdateNetwork()
-    {
-        
-    }
-
 
     [Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
     private void Rpc_RequestChangeSkin(string name,int avatar, int car, RpcInfo info = default)
@@ -56,30 +46,42 @@ public class FirebaseDriver : NetworkBehaviour
     {
         changed.Behaviour.OnSkinChange();
     }
-
+    [ContextMenu("SetInfo")]
     public void SetInfo()
     {
         Debug.Log("SetInfo");
 
-        firstUserImage.sprite = _myAvatars[SpawnerShared.instance._userData[0].avatar];
+        List<SpawnerShared.PlayerData> info = SpawnerShared.instance.CopyData();
 
-        firstUserText.text = SpawnerShared.instance._userData[0].name;
+        //_firstPlayerItem.SetInfo(_myAvatars[info[0].avatar], info[0].name);
 
+        //_secondPlayerItem.SetInfo(_myAvatars[info[1].avatar], info[1].name);
 
+        StartCoroutine(ShowPanels());
 
-
-        secondUserImage.sprite = _myAvatars[SpawnerShared.instance._userData[1].avatar];
-
-        secondUserText.text = SpawnerShared.instance._userData[1].name;
     }
 
 
     private void OnSkinChange()
     {
         SpawnerShared.instance.CheckAndAdd(new SpawnerShared.PlayerData(_nickName, _avatar, _car));
+    }
 
-        //_carList[0].SetActive(false);
-        //_carList[skinNumber].SetActive(true);
+    private IEnumerator ShowPanels()
+    {
+        _firstPlayerItem.ShowPanel();
+
+        _secondPlayerItem.ShowPanel();
+
+        yield return new WaitForSecondsRealtime(2);
+
+        _firstPlayerItem.ClosePanel();
+
+        _secondPlayerItem.ClosePanel();
+
+        yield return new WaitForSecondsRealtime(2);
+
+        _panelVS.ClosePanel();
 
     }
 

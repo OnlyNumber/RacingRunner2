@@ -11,11 +11,7 @@ public class NetworkPlayer : NetworkBehaviour, IPlayerJoined
 
    public void PlayerJoined(PlayerRef player)
     {
-        if(player == Runner.LocalPlayer)
-        {
-
-        }
-        else
+        if(player != Runner.LocalPlayer)
         {
             _camera.enabled = false;
 

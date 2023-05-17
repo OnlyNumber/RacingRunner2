@@ -14,12 +14,16 @@ public class MenuController : MonoBehaviour
     [SerializeField] private PanelController _panelGarage;
     [SerializeField] private PanelController _panelOptions;
 
+    [SerializeField] private FirebaseDatabaseController _firebase;
+
     private PanelController _currentPanel;
 
     private void Start()
     {
         _currentPanel = _loadingScreen;
-        GoToMain();
+
+        _firebase.onDataLoadedPlayer += GoToMain;
+
     }
 
     public void GoToMain()

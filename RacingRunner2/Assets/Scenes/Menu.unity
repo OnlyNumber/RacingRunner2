@@ -441,6 +441,7 @@ MonoBehaviour:
   _panelLeaderBoard: {fileID: 731727775}
   _panelGarage: {fileID: 803568002}
   _panelOptions: {fileID: 835806255}
+  _firebase: {fileID: 1461471042}
 --- !u!1001 &193278707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6523,7 +6524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1804090.5, y: 3751405.5}
+  m_AnchoredPosition: {x: -1806821.6, y: 3757319.5}
   m_SizeDelta: {x: 19.2112, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1385355271

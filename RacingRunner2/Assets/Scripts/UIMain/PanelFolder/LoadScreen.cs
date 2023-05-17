@@ -6,10 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class LoadScreen : PanelController
 {
-    [SerializeField] private float _endOfBoundsEnd;
-
-    [SerializeField] private float _startOfBounds;
-
     [SerializeField] private float _duration;
 
     [SerializeField] private float _timeBeforeMove;
@@ -23,14 +19,14 @@ public class LoadScreen : PanelController
         _startPos = transform.position;
     }
 
-    [ContextMenu("EndLoading")]
     public override void ClosePanel()
     {
+        //Screen.width
+
         //The delay is needed so that it does not jump
-        DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(transform.DOMoveX(-_endOfBoundsEnd, _duration));
+        DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(transform.DOMoveX(Screen.width/2 - Screen.width , _duration));
     }
 
-    [ContextMenu("StartLoading")]
     public override void  ShowPanel(string sceneName)
     {
         StartCoroutine(StartLoad(sceneName));
@@ -42,7 +38,7 @@ public class LoadScreen : PanelController
 
 
         //Instantly jump to the top and start downloading 
-        transform.DOMoveX(_startOfBounds, 0);
+        transform.DOMoveX(Screen.width / 2 + Screen.width, 0);
         DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(transform.DOMoveX(_startPos.x, _duration));
 
         yield return new WaitForSecondsRealtime(_waitDuration);
