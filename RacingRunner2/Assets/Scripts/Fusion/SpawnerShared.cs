@@ -26,9 +26,9 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 
     [SerializeField] private RoadSpawner _roadSpawner;
 
-    private List<NetworkBehaviour> players = new List<NetworkBehaviour>();
+    //private List<NetworkBehaviour> players = new List<NetworkBehaviour>();
 
-    private List<PlayerData> _userData = new List<PlayerData>();
+    public List<PlayerData> _userData = new List<PlayerData>();
 
 
     private void Start()
@@ -43,26 +43,6 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         }
     }
 
-
-    public void CheckAndAdd(PlayerData user)
-    {
-        if (!_userData.Contains(user))
-        {
-            _userData.Add(user);
-        }
-        else
-        {
-            return;
-        }
-        Debug.Log(_userData.Count);
-
-        foreach (var data in _userData)
-        {
-            Debug.LogError(data.name);
-        }
-
-    }
-
     public void PlayerJoined(PlayerRef player)
     {
         if(Runner.SessionInfo.PlayerCount == 1)
@@ -74,16 +54,40 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 
 
 
-            players.Add( Runner.Spawn(_playerPrebaf, Vector3.zero, Quaternion.identity, player));
+             Runner.Spawn(_playerPrebaf, Vector3.zero, Quaternion.identity, player);
         }
 
-        if(Runner.SessionInfo.PlayerCount == 2)
+        /*if(Runner.SessionInfo.PlayerCount == 2)
         {
             Debug.Log(players.Count);
-        }
+        }*/
 
 
     }
+
+    public void CheckAndAdd(PlayerData user)
+    {
+
+        if (!_userData.Contains(user))
+        {
+            _userData.Add(user);
+        }
+        else
+        {
+            return;
+        }
+
+
+        Debug.Log(_userData.Count);
+
+        foreach (var data in _userData)
+        {
+            Debug.LogError(data.name);
+        }
+
+    }
+
+    
 
 
 

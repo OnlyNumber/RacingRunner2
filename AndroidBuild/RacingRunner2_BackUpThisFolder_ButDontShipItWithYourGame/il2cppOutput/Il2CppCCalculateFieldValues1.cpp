@@ -32504,6 +32504,13 @@ struct Behaviour_tC48CB75EA8921074E7C13DF4D997E1CBBB079015  : public MonoBehavio
 {
 };
 
+// CameraController
+struct CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Cinemachine.ICinemachineCamera CameraController::brain
+	RuntimeObject* ___brain_4;
+};
+
 // CarChoose
 struct CarChoose_t819E388283458A843605594C60B8FB0E8FD0D73E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -32839,13 +32846,6 @@ struct ControllLereaderBoard_tA460C0101A55E7C2D3DA836F90FA9EF42E6F94B4  : public
 	FirebaseDatabaseController_t6B8CEC1B864B06C80533A860FBF4340852C28641* ____firebase_7;
 	// System.Collections.Generic.List`1<UnityEngine.Sprite> ControllLereaderBoard::_sprites
 	List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* ____sprites_8;
-};
-
-// CumeraController
-struct CumeraController_t9E23E43056F9D8E805EE4A770EB75A0D751CF84B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Cinemachine.ICinemachineCamera CumeraController::brain
-	RuntimeObject* ___brain_4;
 };
 
 // DG.Tweening.Core.DOTweenComponent
@@ -35365,10 +35365,8 @@ struct SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C  : public Simulat
 	NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ____playerPrebaf_10;
 	// RoadSpawner SpawnerShared::_roadSpawner
 	RoadSpawner_t080B06499FD7FD15FA6FCD097A58A7B7919302DE* ____roadSpawner_11;
-	// System.Collections.Generic.List`1<System.String> SpawnerShared::_userDatas
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____userDatas_12;
-	// System.Collections.Generic.List`1<SpawnerShared/PlayerData> SpawnerShared::test
-	List_1_tA6D93ACC36DDEFAEB527C29E5BA30E58E8062DBE* ___test_13;
+	// System.Collections.Generic.List`1<SpawnerShared/PlayerData> SpawnerShared::_userData
+	List_1_tA6D93ACC36DDEFAEB527C29E5BA30E58E8062DBE* ____userData_12;
 };
 
 struct SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C_StaticFields
@@ -35696,24 +35694,34 @@ struct DestroyedCar_t30551720B4347EFBDF4740D7F750ABA0DD57E0D5_StaticFields
 // FirebaseDriver
 struct FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F  : public NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3
 {
-	// System.String FirebaseDriver::_nickName
-	String_t* ____nickName_17;
-	// System.Int32 FirebaseDriver::avatar
-	int32_t ___avatar_18;
-	// System.Int32 FirebaseDriver::car
-	int32_t ___car_19;
-	// System.String FirebaseDriver::cache_nickName
-	String_t* ___cache_nickName_23;
+	// System.String FirebaseDriver::__nickName
+	String_t* _____nickName_17;
+	// System.Int32 FirebaseDriver::_avatar
+	int32_t ____avatar_18;
+	// System.Int32 FirebaseDriver::_car
+	int32_t ____car_19;
+	// UnityEngine.UI.Image FirebaseDriver::firstUserImage
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___firstUserImage_20;
+	// TMPro.TMP_Text FirebaseDriver::firstUserText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___firstUserText_21;
+	// UnityEngine.UI.Image FirebaseDriver::secondUserImage
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___secondUserImage_22;
+	// TMPro.TMP_Text FirebaseDriver::secondUserText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___secondUserText_23;
+	// System.Collections.Generic.List`1<UnityEngine.Sprite> FirebaseDriver::_myAvatars
+	List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* ____myAvatars_24;
+	// System.String FirebaseDriver::cache__nickName
+	String_t* ___cache__nickName_28;
 };
 
 struct FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F_StaticFields
 {
 	// Fusion.Changed`1<FirebaseDriver> FirebaseDriver::$IL2CPP_CHANGED
-	Changed_1_tC3BC58921F0A6909BA2A717453DC8ED2BD545C66 ___U24IL2CPP_CHANGED_20;
+	Changed_1_tC3BC58921F0A6909BA2A717453DC8ED2BD545C66 ___U24IL2CPP_CHANGED_25;
 	// Fusion.ChangedDelegate`1<FirebaseDriver> FirebaseDriver::$IL2CPP_CHANGED_DELEGATE
-	ChangedDelegate_1_tEE437C12D18CD776491A52589FA90CC97E6A721C* ___U24IL2CPP_CHANGED_DELEGATE_21;
+	ChangedDelegate_1_tEE437C12D18CD776491A52589FA90CC97E6A721C* ___U24IL2CPP_CHANGED_DELEGATE_26;
 	// Fusion.NetworkBehaviourCallbacks`1<FirebaseDriver> FirebaseDriver::$IL2CPP_NETWORK_BEHAVIOUR_CALLBACKS
-	NetworkBehaviourCallbacks_1_tA4796EA2DC1D476901649FB52248919767440058* ___U24IL2CPP_NETWORK_BEHAVIOUR_CALLBACKS_22;
+	NetworkBehaviourCallbacks_1_tA4796EA2DC1D476901649FB52248919767440058* ___U24IL2CPP_NETWORK_BEHAVIOUR_CALLBACKS_27;
 };
 
 // FragmentSpawner
@@ -41044,9 +41052,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5062[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5063[5] = 
 {
 	static_cast<int32_t>(offsetof(FirebaseDatabaseController_t6B8CEC1B864B06C80533A860FBF4340852C28641, ___dbRef_4)),static_cast<int32_t>(offsetof(FirebaseDatabaseController_t6B8CEC1B864B06C80533A860FBF4340852C28641, ___U3CReverseListU3Ek__BackingField_5)),static_cast<int32_t>(offsetof(FirebaseDatabaseController_t6B8CEC1B864B06C80533A860FBF4340852C28641, ____userData_6)),static_cast<int32_t>(offsetof(FirebaseDatabaseController_t6B8CEC1B864B06C80533A860FBF4340852C28641, ___onDataLoadedPlayer_7)),static_cast<int32_t>(offsetof(FirebaseDatabaseController_t6B8CEC1B864B06C80533A860FBF4340852C28641, ___onDataLoadedScore_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5064[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5064[12] = 
 {
-	static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ____nickName_17)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___avatar_18)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___car_19)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F_StaticFields, ___U24IL2CPP_CHANGED_20)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F_StaticFields, ___U24IL2CPP_CHANGED_DELEGATE_21)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F_StaticFields, ___U24IL2CPP_NETWORK_BEHAVIOUR_CALLBACKS_22)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___cache_nickName_23)),};
+	static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, _____nickName_17)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ____avatar_18)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ____car_19)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___firstUserImage_20)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___firstUserText_21)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___secondUserImage_22)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___secondUserText_23)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ____myAvatars_24)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F_StaticFields, ___U24IL2CPP_CHANGED_25)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F_StaticFields, ___U24IL2CPP_CHANGED_DELEGATE_26)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F_StaticFields, ___U24IL2CPP_NETWORK_BEHAVIOUR_CALLBACKS_27)),static_cast<int32_t>(offsetof(FirebaseDriver_tCF6AAAE78E46C2D7951357B69A4E941142F9B47F, ___cache__nickName_28)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5065[6] = 
 {
 	static_cast<int32_t>(offsetof(UserData_tDFEC70DF1A749DA400CDBE27B7E6DD2E480376AA, ___id_0)),static_cast<int32_t>(offsetof(UserData_tDFEC70DF1A749DA400CDBE27B7E6DD2E480376AA, ___nickName_1)),static_cast<int32_t>(offsetof(UserData_tDFEC70DF1A749DA400CDBE27B7E6DD2E480376AA, ___goldCoins_2)),static_cast<int32_t>(offsetof(UserData_tDFEC70DF1A749DA400CDBE27B7E6DD2E480376AA, ___avatarIcon_3)),static_cast<int32_t>(offsetof(UserData_tDFEC70DF1A749DA400CDBE27B7E6DD2E480376AA, ___bestTime_4)),static_cast<int32_t>(offsetof(UserData_tDFEC70DF1A749DA400CDBE27B7E6DD2E480376AA, ___car_5)),};
@@ -41059,18 +41067,18 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5068[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5069[3] = 
 {
 	static_cast<int32_t>(offsetof(PlayerData_t0BC99DFF97A377A5D00582A3CE183B7EE076654A, ___name_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(PlayerData_t0BC99DFF97A377A5D00582A3CE183B7EE076654A, ___avatar_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(PlayerData_t0BC99DFF97A377A5D00582A3CE183B7EE076654A, ___car_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5070[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5070[4] = 
 {
-	static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C_StaticFields, ___instance_9)),static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C, ____playerPrebaf_10)),static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C, ____roadSpawner_11)),static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C, ____userDatas_12)),static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C, ___test_13)),};
+	static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C_StaticFields, ___instance_9)),static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C, ____playerPrebaf_10)),static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C, ____roadSpawner_11)),static_cast<int32_t>(offsetof(SpawnerShared_t9155F6449923026C26609DA54F6F0BA82168941C, ____userData_12)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5071[3] = 
 {
 	static_cast<int32_t>(offsetof(CarChoose_t819E388283458A843605594C60B8FB0E8FD0D73E, ____myCars_4)),static_cast<int32_t>(offsetof(CarChoose_t819E388283458A843605594C60B8FB0E8FD0D73E, ____firebase_5)),static_cast<int32_t>(offsetof(CarChoose_t819E388283458A843605594C60B8FB0E8FD0D73E, ____currentCar_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5072[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5072[1] = 
+{
+	static_cast<int32_t>(offsetof(CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5, ___brain_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5073[5] = 
 {
 	static_cast<int32_t>(offsetof(ColliderChecker_t3540B5E313D5E82B86F1C55CB3B9CBE396B5049A, ___positiveEffect_17)),static_cast<int32_t>(offsetof(ColliderChecker_t3540B5E313D5E82B86F1C55CB3B9CBE396B5049A, ___negativeEffect_18)),static_cast<int32_t>(offsetof(ColliderChecker_t3540B5E313D5E82B86F1C55CB3B9CBE396B5049A_StaticFields, ___U24IL2CPP_CHANGED_19)),static_cast<int32_t>(offsetof(ColliderChecker_t3540B5E313D5E82B86F1C55CB3B9CBE396B5049A_StaticFields, ___U24IL2CPP_CHANGED_DELEGATE_20)),static_cast<int32_t>(offsetof(ColliderChecker_t3540B5E313D5E82B86F1C55CB3B9CBE396B5049A_StaticFields, ___U24IL2CPP_NETWORK_BEHAVIOUR_CALLBACKS_21)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5073[1] = 
-{
-	static_cast<int32_t>(offsetof(CumeraController_t9E23E43056F9D8E805EE4A770EB75A0D751CF84B, ___brain_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5075[4] = 
 {
 	static_cast<int32_t>(offsetof(ComputerPlatform_t449731624301AF61134A9B920D25E6FDD10E8D67, ___tapPosition_0)),static_cast<int32_t>(offsetof(ComputerPlatform_t449731624301AF61134A9B920D25E6FDD10E8D67, ___secondTap_1)),static_cast<int32_t>(offsetof(ComputerPlatform_t449731624301AF61134A9B920D25E6FDD10E8D67, ___isSwiping_2)),static_cast<int32_t>(offsetof(ComputerPlatform_t449731624301AF61134A9B920D25E6FDD10E8D67, ___checkZone_3)),};

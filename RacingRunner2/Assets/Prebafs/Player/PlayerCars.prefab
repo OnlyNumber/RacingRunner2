@@ -301,8 +301,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  avatar: 0
-  car: 0
+  firstUserImage: {fileID: 5367720212383443663}
+  firstUserText: {fileID: 5779629824668983692}
+  secondUserImage: {fileID: 5592984529221177914}
+  secondUserText: {fileID: 4211895707209319666}
+  _myAvatars:
+  - {fileID: 21300000, guid: 1801d954d4736c547ae949c76a0a82bc, type: 3}
+  - {fileID: 21300000, guid: f1e26711000d1c24aab7a7ed0b84927b, type: 3}
+  - {fileID: 21300000, guid: e488389b7f54fd947a7fd0656c1c29b7, type: 3}
+  - {fileID: 21300000, guid: a2e06dcd6a4ff704d958dd3461214d10, type: 3}
+  - {fileID: 21300000, guid: 3a846ca4057661c4ca5cb1fbe6d5fffe, type: 3}
 --- !u!1 &811373441194613999
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1548511478070195769
 RectTransform:
   m_ObjectHideFlags: 0
