@@ -760,10 +760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 759ccd106c839fa4fbb84c208806d48e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _nitroIndicator: {fileID: 2146526124}
-  _place: {fileID: 268528205}
-  _speedometr: {fileID: 675016772}
-  _nitroButton: {fileID: 0}
 --- !u!1 &462103506
 GameObject:
   m_ObjectHideFlags: 0
