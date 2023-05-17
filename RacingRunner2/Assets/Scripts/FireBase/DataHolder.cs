@@ -10,4 +10,6 @@ public static class DataHolder
 
     public static int car;
 
+    public static UserData USER_DATA;
+
 }

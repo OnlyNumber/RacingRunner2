@@ -31,18 +31,12 @@ public class InterfaceController : MonoBehaviour
     {
         _speedController = GetComponent<ISpeedControl>();
 
-
-
         _nitroSystem.OnNitroChange += ChangeNitroAmount;
     }
 
     private void Update()
     {
-
         UpdateInterface();
-
-
-
     }
 
     public void ChangeNitroAmount()
@@ -54,20 +48,11 @@ public class InterfaceController : MonoBehaviour
 
     public void ChangeSpeedometr()
     {
-        //float tr;
-
-        //tr =  _maxSpeedometr * _speedController.GetPercent();
-
         _speedometrArrow.transform.eulerAngles = new Vector3(0, 0, _minSpeedometr + _maxSpeedometr * _speedController.GetPercent());
-
     }
     
     private void UpdateInterface()
     {
-
         ChangeSpeedometr();
-
     }
-
-
 }

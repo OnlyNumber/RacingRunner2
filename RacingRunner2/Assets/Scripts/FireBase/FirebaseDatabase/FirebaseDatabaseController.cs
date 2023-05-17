@@ -90,6 +90,9 @@ public class FirebaseDatabaseController : MonoBehaviour
                 
                 );
 
+            DataHolder.USER_DATA = _userData;
+
+
             onDataLoadedPlayer?.Invoke();
         }
     }

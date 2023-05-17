@@ -20,7 +20,7 @@ public class Authentification : MonoBehaviour
     {
         
 
-        _loadScreen.ClosePanel();
+        //_loadScreen.ClosePanel();
 
         StartCoroutine(CheckAndFixDependenciesAsync());
     }
@@ -90,6 +90,8 @@ public class Authentification : MonoBehaviour
         }
         else
         {
+
+            _loadScreen.ClosePanel();
             Debug.Log("No User");
         }
     }
@@ -99,13 +101,6 @@ public class Authentification : MonoBehaviour
         if (User != null)
         {
             DataHolder.firebaseUser = User;
-
-            if (DataHolder.firebaseUser == null)
-            {
-                Debug.Log("DataHolder.firebaseUser == null");
-            }
-
-            Debug.Log(User.UserId);
 
             SceneManager.LoadScene(StaticFields.MENU_SCENE);
         }

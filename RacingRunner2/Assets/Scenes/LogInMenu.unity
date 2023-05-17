@@ -397,7 +397,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ErrorMessage: {fileID: 695740202767605608}
   _loadScreen: {fileID: 4104192960725439185}
-  dependencyStatus: 0
   _emailField: {fileID: 615881512}
   _passwordField: {fileID: 1487445129}
 --- !u!4 &83305068
