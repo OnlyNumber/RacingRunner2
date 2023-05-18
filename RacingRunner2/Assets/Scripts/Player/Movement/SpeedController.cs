@@ -8,6 +8,7 @@ public class SpeedController : NetworkBehaviour, ISpeedControl
 {
     [SerializeField] private float _boost;
 
+    [SerializeField] private float _afterMaxSpeedModifier;
 
     [SerializeField] private float _speed = 0;
 
@@ -25,7 +26,11 @@ public class SpeedController : NetworkBehaviour, ISpeedControl
         if (_speed < _maxSpeed)
         {
             _speed += _boost * _boostMultiplier * Runner.DeltaTime;
-        } 
+        }
+        else
+        {
+            _speed += _boost * _boostMultiplier * _afterMaxSpeedModifier * Runner.DeltaTime;
+        }
         
 
     }

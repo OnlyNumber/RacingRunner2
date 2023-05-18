@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using Fusion;
 
 public class InterfaceController : MonoBehaviour
 {
@@ -34,14 +34,21 @@ public class InterfaceController : MonoBehaviour
         _nitroSystem.OnNitroChange += ChangeNitroAmount;
 
 
-
-        PlayerInterfaceSingle.instance._camera.Follow = transform;
+        
 
         _speedometrArrow = PlayerInterfaceSingle.instance.drivingInterface._speedArrow;
 
         _nitroIndicator = PlayerInterfaceSingle.instance.drivingInterface.nitroStep;
 
         _place = PlayerInterfaceSingle.instance.drivingInterface.place;
+    }
+
+    private void Start()
+    {
+        if (GetComponent<NetworkObject>().HasInputAuthority)
+        {
+            PlayerInterfaceSingle.instance._camera.Follow = transform;
+        }
     }
 
     private void Update()

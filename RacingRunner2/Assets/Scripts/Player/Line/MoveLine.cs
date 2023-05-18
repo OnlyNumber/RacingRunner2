@@ -16,6 +16,9 @@ public class MoveLine : NetworkBehaviour, ILineMover
     private void Start()
     {
         movement = GetComponent<IMoveAble>();
+
+        MoveToLine(-1);
+    
     }
 
     public override void FixedUpdateNetwork()

@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4027407471672495802}
   - component: {fileID: 3625743071704539202}
   - component: {fileID: 969532633995282689}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4027407471672495802
 Transform:
@@ -94,12 +94,12 @@ GameObject:
   - component: {fileID: 5558091005174699355}
   - component: {fileID: 1061563908429355726}
   - component: {fileID: 5458669285175104357}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5558091005174699355
 Transform:
@@ -177,12 +177,12 @@ GameObject:
   - component: {fileID: 4712750421124381609}
   - component: {fileID: 3268386318643427568}
   - component: {fileID: 4507750094099642136}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4712750421124381609
 Transform:
@@ -260,12 +260,12 @@ GameObject:
   - component: {fileID: 1807260157220918089}
   - component: {fileID: 1057256879077512153}
   - component: {fileID: 1550464836202387119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1807260157220918089
 Transform:
@@ -343,12 +343,12 @@ GameObject:
   - component: {fileID: 8157442787053788702}
   - component: {fileID: 5672979376026272080}
   - component: {fileID: 6319232617384792403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8157442787053788702
 Transform:
@@ -426,12 +426,12 @@ GameObject:
   - component: {fileID: 5394825329359114779}
   - component: {fileID: 1754057286897994475}
   - component: {fileID: 2734620023205820099}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5394825329359114779
 Transform:
@@ -509,12 +509,12 @@ GameObject:
   - component: {fileID: 1390152455595369402}
   - component: {fileID: 8559536394793135701}
   - component: {fileID: 7539425052935650942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1390152455595369402
 Transform:
@@ -592,12 +592,12 @@ GameObject:
   - component: {fileID: 904026849947620441}
   - component: {fileID: 932218998797594205}
   - component: {fileID: 922882843377604893}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &904026849947620441
 Transform:
@@ -675,12 +675,12 @@ GameObject:
   - component: {fileID: 8846336218800802227}
   - component: {fileID: 1386589054330072629}
   - component: {fileID: 6461525137739624119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8846336218800802227
 Transform:
@@ -758,12 +758,12 @@ GameObject:
   - component: {fileID: 963927783405461506}
   - component: {fileID: 938112850843097606}
   - component: {fileID: 947318985259167046}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &963927783405461506
 Transform:
@@ -841,12 +841,12 @@ GameObject:
   - component: {fileID: 1376249328519054349}
   - component: {fileID: 1404345609330621961}
   - component: {fileID: 1395106360322394441}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1376249328519054349
 Transform:
@@ -924,12 +924,12 @@ GameObject:
   - component: {fileID: 1549310999822186638}
   - component: {fileID: 1577409656244519562}
   - component: {fileID: 1568731008358528458}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1549310999822186638
 Transform:
@@ -1007,12 +1007,12 @@ GameObject:
   - component: {fileID: 1672547097055328194}
   - component: {fileID: 1680479441327721926}
   - component: {fileID: 1689718569145727622}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1672547097055328194
 Transform:
@@ -1090,12 +1090,12 @@ GameObject:
   - component: {fileID: 1832271138659807594}
   - component: {fileID: 1804218833548659566}
   - component: {fileID: 1812850907870444590}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1832271138659807594
 Transform:
@@ -1173,12 +1173,12 @@ GameObject:
   - component: {fileID: 1932080048009382613}
   - component: {fileID: 1924293842631160017}
   - component: {fileID: 1915474866222401425}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1932080048009382613
 Transform:
@@ -1256,12 +1256,12 @@ GameObject:
   - component: {fileID: 2051784446908500541}
   - component: {fileID: 2025828775427534905}
   - component: {fileID: 2034612982343731065}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2051784446908500541
 Transform:
@@ -1339,12 +1339,12 @@ GameObject:
   - component: {fileID: 2268770368221538330}
   - component: {fileID: 2240572966683185694}
   - component: {fileID: 2249908713959646558}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2268770368221538330
 Transform:
@@ -1422,12 +1422,12 @@ GameObject:
   - component: {fileID: 1755333025108809945}
   - component: {fileID: 9164034799829112430}
   - component: {fileID: 1194726991747079813}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1755333025108809945
 Transform:
@@ -1505,12 +1505,12 @@ GameObject:
   - component: {fileID: 2486515658843141326}
   - component: {fileID: 2514617510770429642}
   - component: {fileID: 2505376325256264074}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2486515658843141326
 Transform:
@@ -1588,12 +1588,12 @@ GameObject:
   - component: {fileID: 2601050392208115789}
   - component: {fileID: 2629150074584494665}
   - component: {fileID: 2620473912943478025}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2601050392208115789
 Transform:
@@ -1671,12 +1671,12 @@ GameObject:
   - component: {fileID: 2787340112997041921}
   - component: {fileID: 2795267023596862725}
   - component: {fileID: 2804508639807326789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2787340112997041921
 Transform:
@@ -1754,12 +1754,12 @@ GameObject:
   - component: {fileID: 5524205324155451331}
   - component: {fileID: 6928283407550338475}
   - component: {fileID: 3545602538374356531}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5524205324155451331
 Transform:
@@ -1837,12 +1837,12 @@ GameObject:
   - component: {fileID: 4716510142270093849}
   - component: {fileID: 4075514554433999431}
   - component: {fileID: 1092321425156546178}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4716510142270093849
 Transform:
@@ -1920,12 +1920,12 @@ GameObject:
   - component: {fileID: 2951268760619680169}
   - component: {fileID: 2923210894056487853}
   - component: {fileID: 2931845427779701997}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2951268760619680169
 Transform:
@@ -2003,12 +2003,12 @@ GameObject:
   - component: {fileID: 3304322890172681736}
   - component: {fileID: 2593577026739690729}
   - component: {fileID: 8593869563039121723}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3304322890172681736
 Transform:
@@ -2075,6 +2075,89 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3002374234523623007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2999893456490321771}
+  - component: {fileID: 3015363307176699041}
+  - component: {fileID: 3025719621710866897}
+  m_Layer: 10
+  m_Name: SM_Prop_LightPole_Base_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2999893456490321771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002374234523623007}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.5138, y: 0, z: 17.76}
+  m_LocalScale: {x: 1.4145117, y: 1.2681737, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6636009853844937665}
+  m_RootOrder: 57
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3015363307176699041
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002374234523623007}
+  m_Mesh: {fileID: 4300000, guid: dcebe5dc4450dd045ae34ed6555510a7, type: 3}
+--- !u!23 &3025719621710866897
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002374234523623007}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e6ba70160d107854b899d32cc6f26cf0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3016417669523781402
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,12 +2169,12 @@ GameObject:
   - component: {fileID: 3585512234609853016}
   - component: {fileID: 2528142146845779324}
   - component: {fileID: 8065183686343846003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3585512234609853016
 Transform:
@@ -2169,12 +2252,12 @@ GameObject:
   - component: {fileID: 3118931001549339158}
   - component: {fileID: 3111139225067929618}
   - component: {fileID: 3102322187287476050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3118931001549339158
 Transform:
@@ -2252,12 +2335,12 @@ GameObject:
   - component: {fileID: 6300306728494669354}
   - component: {fileID: 5458573147014827424}
   - component: {fileID: 7994885085097379482}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6300306728494669354
 Transform:
@@ -2335,12 +2418,12 @@ GameObject:
   - component: {fileID: 7318380863614408973}
   - component: {fileID: 4607356661506003576}
   - component: {fileID: 8037178595606363924}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7318380863614408973
 Transform:
@@ -2418,12 +2501,12 @@ GameObject:
   - component: {fileID: 3306183897302317822}
   - component: {fileID: 3280233649830248698}
   - component: {fileID: 3289015397328238522}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3306183897302317822
 Transform:
@@ -2501,12 +2584,12 @@ GameObject:
   - component: {fileID: 3379037863016650969}
   - component: {fileID: 3350843686455583453}
   - component: {fileID: 3360181922141296029}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3379037863016650969
 Transform:
@@ -2573,6 +2656,89 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3394740862331557319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3390082506396811435}
+  - component: {fileID: 3417539482364119849}
+  - component: {fileID: 3407218272906787029}
+  m_Layer: 10
+  m_Name: SM_Prop_Powerpole_Single_Line_02 (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3390082506396811435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394740862331557319}
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: 10.4572, y: 6.8304, z: 17.7985}
+  m_LocalScale: {x: 1, y: 1.2681737, z: 1.4145117}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6636009853844937665}
+  m_RootOrder: 59
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3417539482364119849
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394740862331557319}
+  m_Mesh: {fileID: 4300000, guid: 08ba954505edd0341b434a04c05fc979, type: 3}
+--- !u!23 &3407218272906787029
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394740862331557319}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e6ba70160d107854b899d32cc6f26cf0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3423520331903529355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2584,12 +2750,12 @@ GameObject:
   - component: {fileID: 629827485603345236}
   - component: {fileID: 7232217443525048795}
   - component: {fileID: 1093890817012168133}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &629827485603345236
 Transform:
@@ -2656,6 +2822,89 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3666546400958817487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3668569780764028411}
+  - component: {fileID: 3643441788295863857}
+  - component: {fileID: 3653861874437624641}
+  m_Layer: 10
+  m_Name: SM_Prop_LightPole_Base_04 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3668569780764028411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666546400958817487}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.675, y: 0, z: 17.76}
+  m_LocalScale: {x: 1.4145117, y: 1.2681737, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6636009853844937665}
+  m_RootOrder: 58
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3643441788295863857
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666546400958817487}
+  m_Mesh: {fileID: 4300000, guid: dcebe5dc4450dd045ae34ed6555510a7, type: 3}
+--- !u!23 &3653861874437624641
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3666546400958817487}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e6ba70160d107854b899d32cc6f26cf0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4062906671067511243
 GameObject:
   m_ObjectHideFlags: 0
@@ -2667,12 +2916,12 @@ GameObject:
   - component: {fileID: 7913214017085078194}
   - component: {fileID: 6770923146435299758}
   - component: {fileID: 3934282555569715112}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7913214017085078194
 Transform:
@@ -2750,12 +2999,12 @@ GameObject:
   - component: {fileID: 4393266519836332225}
   - component: {fileID: 4367457012348250821}
   - component: {fileID: 4376661218856672645}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4393266519836332225
 Transform:
@@ -2833,12 +3082,12 @@ GameObject:
   - component: {fileID: 4400918473794790554}
   - component: {fileID: 4429118246742285982}
   - component: {fileID: 4419780178447051230}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4400918473794790554
 Transform:
@@ -2916,12 +3165,12 @@ GameObject:
   - component: {fileID: 5895376944841783214}
   - component: {fileID: 6641908177019266337}
   - component: {fileID: 2651438551552569696}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5895376944841783214
 Transform:
@@ -2999,12 +3248,12 @@ GameObject:
   - component: {fileID: 7689918102988858541}
   - component: {fileID: 4002372407776296308}
   - component: {fileID: 8275570474191921978}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7689918102988858541
 Transform:
@@ -3082,12 +3331,12 @@ GameObject:
   - component: {fileID: 6261788875779259161}
   - component: {fileID: 5026672928850614882}
   - component: {fileID: 1336138956635898486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6261788875779259161
 Transform:
@@ -3165,12 +3414,12 @@ GameObject:
   - component: {fileID: 4902816885275216202}
   - component: {fileID: 4930907674975253326}
   - component: {fileID: 4922240140870796302}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4902816885275216202
 Transform:
@@ -3248,12 +3497,12 @@ GameObject:
   - component: {fileID: 5531543046152000276}
   - component: {fileID: 5523570982156265744}
   - component: {fileID: 5514375963795005008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5531543046152000276
 Transform:
@@ -3331,12 +3580,12 @@ GameObject:
   - component: {fileID: 5768537544615395522}
   - component: {fileID: 5794340283117632198}
   - component: {fileID: 5785143077514907014}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5768537544615395522
 Transform:
@@ -3414,12 +3663,12 @@ GameObject:
   - component: {fileID: 6854866761599209504}
   - component: {fileID: 7534164375847821189}
   - component: {fileID: 5722471887840160591}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Arch_banner_finish_free
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6854866761599209504
 Transform:
@@ -3428,13 +3677,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6082869602657798810}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0, y: 2.28, z: 16.26}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 6.17, z: 17.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6817818886765229827}
-  m_RootOrder: 1
+  m_Father: {fileID: 6636009853844937665}
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &7534164375847821189
 MeshFilter:
@@ -3497,12 +3746,12 @@ GameObject:
   - component: {fileID: 6275548657292860483}
   - component: {fileID: 6301501103706383943}
   - component: {fileID: 6292154224289960199}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6275548657292860483
 Transform:
@@ -3580,12 +3829,12 @@ GameObject:
   - component: {fileID: 3762151360803325596}
   - component: {fileID: 4732473311035306861}
   - component: {fileID: 1129358384946361784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3762151360803325596
 Transform:
@@ -3663,12 +3912,12 @@ GameObject:
   - component: {fileID: 805831203548235535}
   - component: {fileID: 6828915252463005694}
   - component: {fileID: 5514241620846944361}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &805831203548235535
 Transform:
@@ -3745,7 +3994,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6817818886765229827}
   - component: {fileID: 2161001026210525076}
-  m_Layer: 0
+  - component: {fileID: 6667071344134597677}
+  m_Layer: 10
   m_Name: FinishFragment
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
@@ -3765,7 +4015,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6636009853844937665}
-  - {fileID: 6854866761599209504}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3792,6 +4041,19 @@ MonoBehaviour:
   NestedObjects: []
   NetworkedBehaviours: []
   SimulationBehaviours: []
+--- !u!65 &6667071344134597677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817818886765229836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.23587, y: 6.42869, z: 5.2268333}
+  m_Center: {x: -0.31767845, y: 2.7437663, z: 19.683416}
 --- !u!1 &6848518538228596893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3803,12 +4065,12 @@ GameObject:
   - component: {fileID: 6853684818388926985}
   - component: {fileID: 6879663614361810957}
   - component: {fileID: 6870290333781413709}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6853684818388926985
 Transform:
@@ -3886,12 +4148,12 @@ GameObject:
   - component: {fileID: 5709099399301093168}
   - component: {fileID: 3096878334975803537}
   - component: {fileID: 1524632711822169501}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5709099399301093168
 Transform:
@@ -3969,12 +4231,12 @@ GameObject:
   - component: {fileID: 7031664917803118593}
   - component: {fileID: 7057468683333093893}
   - component: {fileID: 7048273415310097733}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7031664917803118593
 Transform:
@@ -4052,12 +4314,12 @@ GameObject:
   - component: {fileID: 7390321126111177856}
   - component: {fileID: 7416274598482908804}
   - component: {fileID: 7406929657703162308}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7390321126111177856
 Transform:
@@ -4133,12 +4395,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6636009853844937665}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sprites
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6636009853844937665
 Transform:
@@ -4208,6 +4470,10 @@ Transform:
   - {fileID: 6261788875779259161}
   - {fileID: 1755333025108809945}
   - {fileID: 4570980678404456491}
+  - {fileID: 6854866761599209504}
+  - {fileID: 2999893456490321771}
+  - {fileID: 3668569780764028411}
+  - {fileID: 3390082506396811435}
   m_Father: {fileID: 6817818886765229827}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4222,12 +4488,12 @@ GameObject:
   - component: {fileID: 4570980678404456491}
   - component: {fileID: 3714685986492977046}
   - component: {fileID: 8158192972332226269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4570980678404456491
 Transform:
@@ -4305,12 +4571,12 @@ GameObject:
   - component: {fileID: 6419996135000149080}
   - component: {fileID: 7657759278578014030}
   - component: {fileID: 6726685132388948418}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6419996135000149080
 Transform:
@@ -4388,12 +4654,12 @@ GameObject:
   - component: {fileID: 7963953683286880970}
   - component: {fileID: 7989933513803696334}
   - component: {fileID: 7980562163270057870}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7963953683286880970
 Transform:
@@ -4471,12 +4737,12 @@ GameObject:
   - component: {fileID: 8472051907427891593}
   - component: {fileID: 8500141662575559565}
   - component: {fileID: 8491472215595873485}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8472051907427891593
 Transform:
@@ -4554,12 +4820,12 @@ GameObject:
   - component: {fileID: 4341411092267490476}
   - component: {fileID: 8791398028406970289}
   - component: {fileID: 5794711332953832412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4341411092267490476
 Transform:
@@ -4637,12 +4903,12 @@ GameObject:
   - component: {fileID: 8799335451572480718}
   - component: {fileID: 6183920178482353269}
   - component: {fileID: 7197847800714894872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8799335451572480718
 Transform:
@@ -4720,12 +4986,12 @@ GameObject:
   - component: {fileID: 6910336380714515313}
   - component: {fileID: 5753963837108035216}
   - component: {fileID: 3304542622848436024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6910336380714515313
 Transform:
@@ -4803,12 +5069,12 @@ GameObject:
   - component: {fileID: 9032944037729477591}
   - component: {fileID: 9024968611313310163}
   - component: {fileID: 9015771121722666643}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SM_Env_Road_01 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &9032944037729477591
 Transform:

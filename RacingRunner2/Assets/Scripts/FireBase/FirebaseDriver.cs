@@ -28,7 +28,11 @@ public class FirebaseDriver : NetworkBehaviour
 
     private void Start()
     {
-        //Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
+        GetComponent<ISpeedControl>().MultiplyBoost(0);
+
+        GetComponent<ISpeedControl>().MultiplySpeed(0);
+
+        Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
 
         SpawnerShared.instance.onPlayersConnected += SetInfo;
 
@@ -82,6 +86,8 @@ public class FirebaseDriver : NetworkBehaviour
         yield return new WaitForSecondsRealtime(2);
 
         _panelVS.ClosePanel();
+
+        GetComponent<ISpeedControl>().MultiplyBoost(1);
 
     }
 
