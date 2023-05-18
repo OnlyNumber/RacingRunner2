@@ -3201,9 +3201,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
   _boost: 3
-  _afterMaxSpeedModifier: 0
+  _afterMaxSpeedModifier: 0.1
   _speed: 0
   _maxSpeed: 60
+  _boostScale: 1
 --- !u!65 &8713763154278132205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3258,6 +3259,7 @@ MonoBehaviour:
   _interpolationDataSource: 0
   _speedDecreaceNitro: 10
   _maxAmountOfNitro: 100
+  _nitroBoost: 2
 --- !u!114 &2078434617950180513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3353,6 +3355,8 @@ MonoBehaviour:
   _nitroSystem: {fileID: 1851074203292798966}
   _minSpeedometr: 60
   _maxSpeedometr: -240
+  _networkObject: {fileID: 8380200498017229092}
+  _evet: {fileID: 0}
 --- !u!114 &1527591621234160936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3375,6 +3379,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e488389b7f54fd947a7fd0656c1c29b7, type: 3}
   - {fileID: 21300000, guid: a2e06dcd6a4ff704d958dd3461214d10, type: 3}
   - {fileID: 21300000, guid: 3a846ca4057661c4ca5cb1fbe6d5fffe, type: 3}
+  _myCars:
+  - {fileID: 1843591387854616015}
+  - {fileID: 2434908442487036247}
+  - {fileID: 3874123822359231405}
+  - {fileID: 5609006422393222647}
+  - {fileID: 5314163521843709502}
+  - {fileID: 5815931204749575875}
 --- !u!114 &6569827577584448075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4163,7 +4174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &571221065996367672
 Transform:
   m_ObjectHideFlags: 0
@@ -4188,7 +4199,6 @@ Transform:
   - {fileID: 4642878268276479050}
   - {fileID: 6502034258318691828}
   - {fileID: 876364903562736373}
-  - {fileID: 1608167048723304673}
   m_Father: {fileID: 8961213433072876489}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5570,89 +5580,6 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7688159817436995137
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1608167048723304673}
-  - component: {fileID: 7698094939702725122}
-  - component: {fileID: 2639114323178105619}
-  m_Layer: 7
-  m_Name: SM_Veh_Ute_WireMesh_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1608167048723304673
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7688159817436995137}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 571221065996367672}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7698094939702725122
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7688159817436995137}
-  m_Mesh: {fileID: 4300002, guid: 828efc2661e31544e99ed745a2fbf1df, type: 3}
---- !u!23 &2639114323178105619
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7688159817436995137}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 4294967295
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: dd570b72a64abbd4f804357fb3f5486b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5

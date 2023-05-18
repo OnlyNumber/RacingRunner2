@@ -18,7 +18,7 @@ public class Oil : NetworkBehaviour, IEffect
     {
         objectForEffect.GetComponent<ISpeedControl>().MultiplySpeed(_powerOfSlowdownEffect);
 
-        objectForEffect.GetComponent<ISpeedControl>().MultiplyBoost(_powerOfSlowdownEffect);
+        objectForEffect.GetComponent<ISpeedControl>().MultiplyBoostScale(_powerOfSlowdownEffect);
 
         Debug.Log("PlayerSlowdown");
         
@@ -27,7 +27,7 @@ public class Oil : NetworkBehaviour, IEffect
         Debug.Log("Stop PlayerSlowdown");
 
 
-        objectForEffect.GetComponent<ISpeedControl>().MultiplyBoost(1);
+        objectForEffect.GetComponent<ISpeedControl>().MultiplyBoostScale(1);
 
 
     }

@@ -15,13 +15,12 @@ public class RoadSpawner : NetworkBehaviour, ISpawner
     [SerializeField] private NetworkObject _startFragment;
 
     [SerializeField] private NetworkObject _finishFragment;
-    private void Start()
-    {
-        Spawn();
-    }
+    
 
     public void Spawn()
     {
+        Debug.Log("Spawn");
+
         Runner.Spawn(_startFragment);
 
         for (int index = 1; index < _amountOfRoadsFragment; index++)

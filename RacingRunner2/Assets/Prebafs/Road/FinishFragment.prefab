@@ -3995,6 +3995,7 @@ GameObject:
   - component: {fileID: 6817818886765229827}
   - component: {fileID: 2161001026210525076}
   - component: {fileID: 6667071344134597677}
+  - component: {fileID: 8092854401715174659}
   m_Layer: 10
   m_Name: FinishFragment
   m_TagString: Untagged
@@ -4039,7 +4040,8 @@ MonoBehaviour:
   NetworkGuid:
     RawGuidValue: 5fcab300047992d409fe18c58c1af775
   NestedObjects: []
-  NetworkedBehaviours: []
+  NetworkedBehaviours:
+  - {fileID: 8092854401715174659}
   SimulationBehaviours: []
 --- !u!65 &6667071344134597677
 BoxCollider:
@@ -4054,6 +4056,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 21.23587, y: 6.42869, z: 5.2268333}
   m_Center: {x: -0.31767845, y: 2.7437663, z: 19.683416}
+--- !u!114 &8092854401715174659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817818886765229836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  InterpolationSpace: 0
+  InterpolationTarget: {fileID: 0}
+  InterpolateErrorCorrection: 1
+  InterpolatedErrorCorrectionSettings:
+    MinRate: 3.3
+    MaxRate: 10
+    PosBlendStart: 0.25
+    PosBlendEnd: 1
+    PosMinCorrection: 0.025
+    PosTeleportDistance: 2
+    RotBlendStart: 0.1
+    RotBlendEnd: 0.5
+    RotTeleportRadians: 1.5
+  UseLegacySharedModeInterpolation: 0
+  TargetInterpolationDelay: 0.03
 --- !u!1 &6848518538228596893
 GameObject:
   m_ObjectHideFlags: 0

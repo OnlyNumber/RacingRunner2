@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Fusion;
+using UnityEngine.EventSystems;
 
 public class InterfaceController : MonoBehaviour
 {
@@ -27,33 +28,61 @@ public class InterfaceController : MonoBehaviour
 
     [SerializeField] private float _maxSpeedometr;
 
+    [SerializeField] private NetworkObject _networkObject;
+
+    [SerializeField] EventTrigger _evet;
+
     private void Awake()
     {
         _speedController = GetComponent<ISpeedControl>();
 
         _nitroSystem.OnNitroChange += ChangeNitroAmount;
 
-
-        
+        _nitroButton = PlayerInterfaceSingle.instance.drivingInterface.nitroButton;
 
         _speedometrArrow = PlayerInterfaceSingle.instance.drivingInterface._speedArrow;
 
         _nitroIndicator = PlayerInterfaceSingle.instance.drivingInterface.nitroStep;
 
         _place = PlayerInterfaceSingle.instance.drivingInterface.place;
+
+        EventTrigger.Entry firstEntry = new EventTrigger.Entry();
+
+        firstEntry.eventID = EventTriggerType.PointerDown;
+
+        firstEntry.callback.AddListener((a) => { GetComponent<NitroSystem>().ActivateBoost(); });
+
+        EventTrigger.Entry secondEntry = new EventTrigger.Entry();
+
+
+
+        secondEntry.eventID = EventTriggerType.PointerUp;
+
+        secondEntry.callback.AddListener((a) => { GetComponent<NitroSystem>().DeactivateBoost(); });
+
+
+
+        _nitroButton.GetComponent<EventTrigger>().triggers.Add(firstEntry);
+
+        _nitroButton.GetComponent<EventTrigger>().triggers.Add(secondEntry);
     }
 
     private void Start()
     {
-        if (GetComponent<NetworkObject>().HasInputAuthority)
+        if (_networkObject.HasInputAuthority)
         {
             PlayerInterfaceSingle.instance._camera.Follow = transform;
         }
+
+
     }
 
     private void Update()
     {
-        UpdateInterface();
+        if (_networkObject.HasInputAuthority)
+        {
+            UpdateInterface();
+        }
     }
 
     public void ChangeNitroAmount()

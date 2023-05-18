@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ISpeedControl : IPercantage
+public interface ISpeedControl : IPercantage, IBoost
 {
     public void ChangeSpeed();
 
-    public void MultiplyBoost(float multiply);
+    public float GetSpeed();
 
     public void MultiplySpeed(float multiply);
 
-    public float GetSpeed();
 }
