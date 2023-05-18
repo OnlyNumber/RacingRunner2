@@ -241,6 +241,7 @@ UnityEngine.Application::get_dataPath
 UnityEngine.Application::get_persistentDataPath
 UnityEngine.Application::get_streamingAssetsPath
 UnityEngine.Application::get_unityVersion
+UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
 UnityEngine.Application::GetStackTraceLogType
 UnityEngine.AsyncOperation::get_isDone

@@ -5,20 +5,22 @@ using Fusion;
 
 public class PlayerMovement : NetworkBehaviour
 {
+    [SerializeField] private float _sideSpeed;
+
     private IMoveAble _moveController;
-    private ISpeedControl _speedController; 
+    private ISpeedControl _speedControllerForward; 
 
     private void Awake()
     {
         _moveController = GetComponent<IMoveAble>();
-        _speedController = GetComponent<ISpeedControl>();
+        _speedControllerForward = GetComponent<ISpeedControl>();
     }
 
     public override void FixedUpdateNetwork()
     {
-        _speedController.ChangeSpeed();
+        _speedControllerForward.ChangeSpeed();
 
-        _moveController?.MoveForward(_speedController.GetSpeed());
+        _moveController?.MoveForward(_speedControllerForward.GetSpeed(), _sideSpeed);
 
     }
 

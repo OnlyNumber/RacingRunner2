@@ -26,14 +26,16 @@ public class PlayerItem : PanelController
     {
         _rectTransform = GetComponent<RectTransform>();
     }
+
     [ContextMenu("ClosePanel")]
     public override void ClosePanel()
     {
 
-        DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(_rectTransform.DOAnchorPosX(_endX, _duration)).Append(transform.DOScale(0, 0));//.DOMoveX(-_endOfBoundsEnd, _duration));
+        DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(_rectTransform.DOAnchorPosX(_endX, _duration)).Append(transform.DOScale(0, 0));
 
     }
 
+    [ContextMenu("ShowPaneasdadwl")]
     public override void ShowPanel(string errorText = null)
     {
 

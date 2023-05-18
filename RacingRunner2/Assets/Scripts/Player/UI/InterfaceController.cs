@@ -14,7 +14,7 @@ public class InterfaceController : MonoBehaviour
     private TMP_Text _place;
 
     [SerializeField]
-    private GameObject _speedometrArrow;
+    private Transform _speedometrArrow;
 
     [SerializeField]
     private Button _nitroButton;
@@ -32,6 +32,16 @@ public class InterfaceController : MonoBehaviour
         _speedController = GetComponent<ISpeedControl>();
 
         _nitroSystem.OnNitroChange += ChangeNitroAmount;
+
+
+
+        PlayerInterfaceSingle.instance._camera.Follow = transform;
+
+        _speedometrArrow = PlayerInterfaceSingle.instance.drivingInterface._speedArrow;
+
+        _nitroIndicator = PlayerInterfaceSingle.instance.drivingInterface.nitroStep;
+
+        _place = PlayerInterfaceSingle.instance.drivingInterface.place;
     }
 
     private void Update()
@@ -48,7 +58,7 @@ public class InterfaceController : MonoBehaviour
 
     public void ChangeSpeedometr()
     {
-        _speedometrArrow.transform.eulerAngles = new Vector3(0, 0, _minSpeedometr + _maxSpeedometr * _speedController.GetPercent());
+        _speedometrArrow.eulerAngles = new Vector3(0, 0, _minSpeedometr + _maxSpeedometr * _speedController.GetPercent());
     }
     
     private void UpdateInterface()

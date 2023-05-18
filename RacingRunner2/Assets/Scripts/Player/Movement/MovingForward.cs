@@ -9,9 +9,20 @@ public class MovingForward : NetworkBehaviour, IMoveAble
 
     private Vector3 _direction = new Vector3(0,0,1);
 
-    public void MoveForward(float speed)
+    NetworkTransform trans;
+
+    private void Awake()
     {
-        _rigidbody.MovePosition(transform.position + new Vector3(_direction.x * 30 * Runner.DeltaTime, _direction.y, _direction.z * speed * Runner.DeltaTime));
+        trans = GetComponent<NetworkTransform>();
+    }
+
+    public void MoveForward(float speed, float sideSpeed)
+    {
+        //_rigidbody.MovePosition(transform.position + new Vector3(_direction.x * sideSpeed * Runner.DeltaTime, _direction.y, _direction.z * speed * Runner.DeltaTime));
+
+        if (Runner.DeltaTime < 0.1) 
+        trans.TeleportToPosition(transform.position + new Vector3(_direction.x * sideSpeed * Runner.DeltaTime, _direction.y, _direction.z * speed * Runner.DeltaTime));
+
     }
 
     public void SetDirection(Vector3 direction)

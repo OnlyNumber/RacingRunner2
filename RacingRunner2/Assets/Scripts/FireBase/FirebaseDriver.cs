@@ -28,7 +28,7 @@ public class FirebaseDriver : NetworkBehaviour
 
     private void Start()
     {
-        Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
+        //Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
 
         SpawnerShared.instance.onPlayersConnected += SetInfo;
 
@@ -53,9 +53,9 @@ public class FirebaseDriver : NetworkBehaviour
 
         List<SpawnerShared.PlayerData> info = SpawnerShared.instance.CopyData();
 
-        //_firstPlayerItem.SetInfo(_myAvatars[info[0].avatar], info[0].name);
+        _firstPlayerItem.SetInfo(_myAvatars[info[0].avatar], info[0].name);
 
-        //_secondPlayerItem.SetInfo(_myAvatars[info[1].avatar], info[1].name);
+        _secondPlayerItem.SetInfo(_myAvatars[info[1].avatar], info[1].name);
 
         StartCoroutine(ShowPanels());
 
