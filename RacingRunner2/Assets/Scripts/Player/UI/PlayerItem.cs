@@ -36,7 +36,7 @@ public class PlayerItem : PanelController
     }
 
     [ContextMenu("ShowPaneasdadwl")]
-    public override void ShowPanel(string errorText = null)
+    public override void ShowPanel()
     {
 
         DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(_rectTransform.DOAnchorPosX(_showX, _duration));

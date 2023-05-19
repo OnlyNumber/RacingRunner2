@@ -27,7 +27,7 @@ public class CarChoose : MonoBehaviour
 
     public void NextCar(int nextCar)
     {
-        Debug.Log(_currentCar + nextCar +"=="+ _myCars.Count);
+        //Debug.Log(_currentCar + nextCar +"=="+ _myCars.Count);
 
         if (_currentCar + nextCar < 0 || _currentCar + nextCar >= _myCars.Count  )
             return;
@@ -44,9 +44,9 @@ public class CarChoose : MonoBehaviour
 
     public void SavePlayerChoice()
     {
-        Debug.Log(_currentCar);
+        //Debug.Log(_currentCar);
 
-        _firebase.ChangeCurrentUser(_firebase.UserDataTransfer.id, _firebase.UserDataTransfer.nickName, _firebase.UserDataTransfer.goldCoins, _firebase.UserDataTransfer.avatarIcon, _firebase.UserDataTransfer.bestTime, _currentCar);
+        _firebase.SaveCar(_currentCar);
     }
 
 

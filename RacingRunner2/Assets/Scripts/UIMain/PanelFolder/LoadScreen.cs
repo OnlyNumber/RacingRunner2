@@ -4,7 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
 
-public class LoadScreen : PanelController
+public class LoadScreen : MonoBehaviour
 {
     [SerializeField] private float _duration;
 
@@ -19,7 +19,7 @@ public class LoadScreen : PanelController
         _startPos = transform.position;
     }
 
-    public override void ClosePanel()
+    public  void ClosePanel()
     {
         //Screen.width
 
@@ -27,12 +27,14 @@ public class LoadScreen : PanelController
         DOTween.Sequence().AppendInterval(_timeBeforeMove).Append(transform.DOMoveX(Screen.width/2 - Screen.width , _duration));
     }
 
-    public override void  ShowPanel(string sceneName)
+
+    [ContextMenu("ShowPanel")]
+    public  void  ShowPanel(string sceneName)
     {
         StartCoroutine(StartLoad(sceneName));
 
     }
-
+    
     public IEnumerator StartLoad(string sceneName)
     {
 

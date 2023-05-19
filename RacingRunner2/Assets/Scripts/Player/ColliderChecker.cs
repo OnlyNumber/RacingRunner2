@@ -9,11 +9,6 @@ public class ColliderChecker : NetworkBehaviour
 
     private Coroutine negativeEffect;
 
-    private void Start()
-    {
-
-    }
-
 
     private void OnTriggerEnter(Collider other)
     {

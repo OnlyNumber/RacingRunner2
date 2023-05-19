@@ -5,13 +5,13 @@ using TMPro;
 using DG.Tweening;
 using UnityEngine.UI;
 
-public class ErrorMessage : PanelController
+public class ErrorMessage : MonoBehaviour
 {
     [SerializeField] private float _duration;
 
     [SerializeField] private TMP_Text _errorField;
 
-    public override void ShowPanel(string errorText)
+    public void ShowPanel(string errorText)
     {
 
 
@@ -23,7 +23,7 @@ public class ErrorMessage : PanelController
 
     }
 
-    public override void ClosePanel()
+    public void ClosePanel()
     {
         Debug.Log("CloseErrorPanel");
 

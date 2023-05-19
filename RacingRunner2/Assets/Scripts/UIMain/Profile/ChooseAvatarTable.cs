@@ -18,7 +18,9 @@ public class ChooseAvatarTable : MonoBehaviour
 
     [SerializeField] private Transform _placeForAvatars;
 
-    [SerializeField] private MenuController _menuController;
+    [SerializeField] private PanelController _currentPanel;
+
+    [SerializeField] private PanelController _nextPanel;
 
     private void Start()
     {
@@ -49,7 +51,9 @@ public class ChooseAvatarTable : MonoBehaviour
                 _changeThisAvatars.ToArray());
 
             transferButton.onClick.AddListener(SetAllBlack);
-            transferButton.onClick.AddListener(_menuController.GoToMain);
+            transferButton.onClick.AddListener(_currentPanel.ClosePanel);
+            transferButton.onClick.AddListener(_nextPanel.ShowPanel);
+
             transferButton.onClick.AddListener(transferButton.gameObject.GetComponent<ChooseButton>().ChangeIcon);
             imageId++;
         }

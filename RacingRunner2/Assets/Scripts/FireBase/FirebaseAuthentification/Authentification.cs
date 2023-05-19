@@ -8,8 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class Authentification : MonoBehaviour
 {
-    [SerializeField] protected PanelController ErrorMessage;
-    [SerializeField] private PanelController _loadScreen;
+    [SerializeField] protected ErrorMessage ErrorMessage;
+    [SerializeField] private LoadScreen _loadScreen;
 
 
     private DependencyStatus _dependencyStatus;

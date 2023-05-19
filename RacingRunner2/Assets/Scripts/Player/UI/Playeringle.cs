@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using TMPro;
 
 public class Playeringle : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class Playeringle : MonoBehaviour
     [SerializeField] public FinishPanel _finish;
 
     [SerializeField] public FirebaseDatabaseController _firebase;
+
+    [SerializeField] public TMP_Text _textCountdown;
 
     void Start()
     {

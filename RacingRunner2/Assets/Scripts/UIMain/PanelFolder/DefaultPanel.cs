@@ -12,7 +12,7 @@ public class DefaultPanel : PanelController
         transform.DOScale(0, 1);
     }
 
-    public override void ShowPanel(string errorText = null)
+    public override void ShowPanel()
     {
         transform.DOScale(1, _duration);
     }

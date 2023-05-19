@@ -37,7 +37,7 @@ public class ChooseButton : MonoBehaviour
 
         _background.color = StaticFields.SELECTED_COLOR;
 
-        _firebase.ChangeCurrentUser(_firebase.UserDataTransfer.id, _firebase.UserDataTransfer.nickName, _firebase.UserDataTransfer.goldCoins, _iconNumber, _firebase.UserDataTransfer.bestTime, _firebase.UserDataTransfer.car);
+        _firebase.SaveAvatar(_iconNumber);
     }
 
 }

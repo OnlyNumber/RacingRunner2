@@ -22,6 +22,11 @@ public class FirebaseDatabaseController : MonoBehaviour
     {
         dbRef = FirebaseDatabase.DefaultInstance.RootReference;
 
+        if(DataHolder.USER_DATA != null)
+        {
+            SaveData(DataHolder.USER_DATA.id, DataHolder.USER_DATA.nickName, 0 , DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.bestTime, DataHolder.USER_DATA.car);
+        }
+
         StartCoroutine(LoadData(DataHolder.firebaseUser.UserId.ToString()));
 
         StartCoroutine(LoadAllUserByScore());
@@ -88,8 +93,6 @@ public class FirebaseDatabaseController : MonoBehaviour
                 
                 );
 
-            DataHolder.USER_DATA = _userData;
-
 
             onDataLoadedPlayer?.Invoke();
         }
@@ -105,10 +108,8 @@ public class FirebaseDatabaseController : MonoBehaviour
 
     }
 
-    public void SaveData(string id, string nickName, int goldCoins, int avatarIcon, float bestTime, int car)
+    private void SaveData(string id, string nickName, int goldCoins, int avatarIcon, float bestTime, int car)
     {
-        Debug.Log("SaveData");
-
         UserData user2229 = new UserData( id,  nickName,  goldCoins,avatarIcon,  bestTime,  car);
 
         string json = JsonUtility.ToJson(user2229);
@@ -117,10 +118,34 @@ public class FirebaseDatabaseController : MonoBehaviour
 
     }
 
+    public void SaveName( string nickName)
+    {
+        dbRef.Child("users").Child(UserDataTransfer.id).Child(StaticFields.FIREBASE_NAME).SetValueAsync(nickName);
+    }
+
+    public void SaveAvatar( int avatar)
+    {
+        dbRef.Child("users").Child(UserDataTransfer.id).Child(StaticFields.FIREBASE_AVATAR).SetValueAsync(avatar);
+    }
+
+    public void SaveCar(int avatar)
+    {
+        dbRef.Child("users").Child(UserDataTransfer.id).Child(StaticFields.FIREBASE_CAR).SetValueAsync(avatar);
+    }
+
     public void SingOut()
     {
         Authentification.SingOut();
     }
 
+    public void OnSearchGame()
+    {
+        DataHolder.USER_DATA = _userData;
+    }
+
+    public void OnQuitGame()
+    {
+        DataHolder.USER_DATA = null;
+    }
 
 }

@@ -34,7 +34,10 @@ public class Finisher : NetworkBehaviour
         if(currentTime < DataHolder.USER_DATA.bestTime)
         {
             _finishPanel.TextNewBestTime.text = "New best time: " + FromFloatToTime(currentTime);
+
+            DataHolder.USER_DATA.bestTime = currentTime;
         }
+
 
         _finishPanel.ShowPanel();
 

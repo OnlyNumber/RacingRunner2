@@ -29,7 +29,7 @@ public class ChangeNick : MonoBehaviour
         _fieldNickName.text = _fieldNickName.text;
         _textMain.text = _fieldNickName.text;
 
-        _firebase.ChangeCurrentUser(_firebase.UserDataTransfer.id, _fieldNickName.text, _firebase.UserDataTransfer.goldCoins, _firebase.UserDataTransfer.avatarIcon, _firebase.UserDataTransfer.bestTime, _firebase.UserDataTransfer.car);
+        _firebase.SaveName(_fieldNickName.text);
     }
 
     

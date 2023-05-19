@@ -34,8 +34,12 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     [SerializeField] private List<GameObject> _myCars;
 
+    [SerializeField] private TMP_Text _textCountdown;
+
     private void Start()
     {
+        _textCountdown = Playeringle.instance._textCountdown;
+
         _loadScreen = Playeringle.instance._loadScreen;
 
         _firstPlayerItem = Playeringle.instance._firstPlayer;
@@ -57,10 +61,8 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     public override void FixedUpdateNetwork()
     {
+        if(_isGame)
         _time += Runner.DeltaTime;
-
-        Debug.Log(_time);
-
     }
 
     [Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
@@ -101,7 +103,7 @@ public class FirebaseDataSetter : NetworkBehaviour
     {
         _loadScreen.ClosePanel();
 
-        yield return new WaitForSecondsRealtime(1);
+        yield return new WaitForSecondsRealtime(2);
 
         _firstPlayerItem.ShowPanel();
 
@@ -117,11 +119,50 @@ public class FirebaseDataSetter : NetworkBehaviour
 
         _panelVS.ClosePanel();
 
+        StartCoroutine(CountdownToStart());
+
+    }
+
+    private IEnumerator CountdownToStart()
+    {
+        _textCountdown.text = "5";
+
+        yield return new WaitForSecondsRealtime(1);
+
+        _textCountdown.text = "4";
+
+        yield return new WaitForSecondsRealtime(1);
+
+        _textCountdown.text = "3";
+
+        yield return new WaitForSecondsRealtime(1);
+
+        _textCountdown.text = "2";
+
+        yield return new WaitForSecondsRealtime(1);
+
+        _textCountdown.text = "1";
+
+        yield return new WaitForSecondsRealtime(1);
+
+        _textCountdown.text = "GO!";
+
         GetComponent<ISpeedControl>().MultiplyBoostScale(1);
 
         _isGame = true;
 
+        yield return new WaitForSecondsRealtime(1);
+        
+        _textCountdown.enabled = false;
+
+
     }
+
+
+
+
+
+
 
 
 }
