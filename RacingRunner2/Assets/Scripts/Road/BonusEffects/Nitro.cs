@@ -13,6 +13,8 @@ public class Nitro : NetworkBehaviour,IEffect
 
         objectForEffect.GetComponent<NitroSystem>().AddNitro(_addNitro);
 
+        Runner.Despawn(GetComponent<NetworkObject>());
+
         return null;
     }
     

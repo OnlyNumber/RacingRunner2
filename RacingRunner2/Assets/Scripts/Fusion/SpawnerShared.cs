@@ -10,6 +10,8 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 
     public event Action onPlayersConnected;
 
+    //public GameStarter startGame;
+
     public struct PlayerData
     {
         public PlayerData(string name, int avatar, int car)

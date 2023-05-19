@@ -9,6 +9,10 @@ using TMPro;
 public class FirebaseDataSetter : NetworkBehaviour
 {
 
+    public float _time;
+
+    private bool _isGame;
+
     [Networked(OnChanged = nameof(ChangeParameters))]
     private string _nickName { get; set; }
 
@@ -17,6 +21,8 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     [Networked]
     private int _car { get; set; }
+
+    [SerializeField] private PanelController _loadScreen;
 
     [SerializeField] private PlayerItem _firstPlayerItem;
 
@@ -30,19 +36,30 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     private void Start()
     {
-        _firstPlayerItem = PlayerInterfaceSingle.instance._firstPlayer;
+        _loadScreen = Playeringle.instance._loadScreen;
 
-        _secondPlayerItem = PlayerInterfaceSingle.instance._secondPlayer;
+        _firstPlayerItem = Playeringle.instance._firstPlayer;
 
-        _panelVS = PlayerInterfaceSingle.instance._panelVS;
+        _secondPlayerItem = Playeringle.instance._secondPlayer;
+
+        _panelVS = Playeringle.instance._panelVS;
 
         GetComponent<ISpeedControl>().MultiplyBoostScale(0);
 
         GetComponent<ISpeedControl>().MultiplySpeed(0);
 
+        if(HasInputAuthority)
         Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
 
         SpawnerShared.instance.onPlayersConnected += SetInfo;
+
+    }
+
+    public override void FixedUpdateNetwork()
+    {
+        _time += Runner.DeltaTime;
+
+        Debug.Log(_time);
 
     }
 
@@ -58,7 +75,7 @@ public class FirebaseDataSetter : NetworkBehaviour
     {
         changed.Behaviour.ChangeParameters();
     }
-
+    [ContextMenu("SetInfo")]
     public void SetInfo()
     {
         List<SpawnerShared.PlayerData> info = SpawnerShared.instance.CopyData();
@@ -82,6 +99,10 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     private IEnumerator ShowPanels()
     {
+        _loadScreen.ClosePanel();
+
+        yield return new WaitForSecondsRealtime(1);
+
         _firstPlayerItem.ShowPanel();
 
         _secondPlayerItem.ShowPanel();
@@ -97,6 +118,8 @@ public class FirebaseDataSetter : NetworkBehaviour
         _panelVS.ClosePanel();
 
         GetComponent<ISpeedControl>().MultiplyBoostScale(1);
+
+        _isGame = true;
 
     }
 

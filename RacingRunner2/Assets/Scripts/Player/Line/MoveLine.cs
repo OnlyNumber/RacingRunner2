@@ -27,11 +27,6 @@ public class MoveLine : NetworkBehaviour, ILineMover
         {
             movement.SetDirection(new Vector3(0, 0, 1));
         }
-
-        //transform.position = Vector3.MoveTowards(transform.position,new Vector3( linesX[_currentLine],transform.position.y, transform.position.z), _speed * Runner.DeltaTime);
-
-        //transform.position = new Vector3(transform.position.x + 1 * _speed * Runner.DeltaTime,0,transform.position.z);
-
     }
 
     public void MoveToLine(int line)

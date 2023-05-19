@@ -87,6 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+  _durationUntochable: 3
   _distanceToMove: -50
 --- !u!114 &1272570462571315657
 MonoBehaviour:

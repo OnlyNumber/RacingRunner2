@@ -15,7 +15,7 @@ C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57324
+60470
 Successfully changed project path to: C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2
 C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/User/Unity Projects/RacongRunner2Rep/RacingRunner2/RacingRunner2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 216.64 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 170.87 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,58 +63,183 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004470 seconds.
+Registered in 0.004996 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 146.40 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 179.02 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
+- Completed reload, in  0.735 seconds
 Domain Reload Profiling:
-	ReloadAssembly (731ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (553ms)
+		EndReloadAssembly (563ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (361ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (70ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010264 seconds.
+Registered in 0.013053 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 167.08 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 151.89 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2012ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1672ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1097ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (152ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (800ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 228 unused Assets / (167.0 KB). Loaded Objects now: 4201.
+Memory consumption went from 164.9 MB to 164.8 MB.
+Total: 7.236200 ms (FindLiveObjects: 0.458000 ms CreateObjectMapping: 0.372600 ms MarkObjects: 5.802600 ms  DeleteObjects: 0.600200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8864.005068 seconds.
+  path: Assets/Prebafs/Road/FinishFragment.prefab
+  artifactKey: Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prebafs/Road/FinishFragment.prefab using Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574608f56668d6acf69cc44387d05643') in 0.608525 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022547 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.77 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3380ms)
+		BeginReloadAssembly (1232ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (122ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (406ms)
+		EndReloadAssembly (1974ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (581ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1043ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (816ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.13 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.9 KB). Loaded Objects now: 4226.
+Memory consumption went from 167.6 MB to 167.5 MB.
+Total: 6.574300 ms (FindLiveObjects: 0.814600 ms CreateObjectMapping: 0.745900 ms MarkObjects: 4.789800 ms  DeleteObjects: 0.221900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015573 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
@@ -140,124 +265,206 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 (Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.655 seconds
+- Completed reload, in  1.910 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1656ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (1910ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (1324ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1688ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (333ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (810ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1175ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (495ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (966ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 21.24 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.8 KB). Loaded Objects now: 4241.
+Memory consumption went from 167.8 MB to 167.6 MB.
+Total: 8.614900 ms (FindLiveObjects: 1.275100 ms CreateObjectMapping: 0.560200 ms MarkObjects: 6.385900 ms  DeleteObjects: 0.391500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013919 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x00007] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at Google.XmlUtilities.ParseXmlTextFileElements (System.String filename, Google.Logger logger, Google.XmlUtilities+ParseElement parseElement) [0x0000f] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/XmlUtilities.cs:104 
+  at Google.ProjectSettings.Load () [0x00012] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:777 
+  at Google.ProjectSettings.LoadIfEmpty () [0x0001b] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:558 
+  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue, Google.SettingsLocation location) [0x0002b] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:606 
+  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue) [0x00000] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:619 
+  at Google.IOSResolver.get_VerboseLoggingEnabled () [0x00000] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1038 
+  at Google.IOSResolver..cctor () [0x00215] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1431ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.46 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.7 KB). Loaded Objects now: 4256.
+Memory consumption went from 167.8 MB to 167.7 MB.
+Total: 5.710700 ms (FindLiveObjects: 0.330800 ms CreateObjectMapping: 0.273000 ms MarkObjects: 4.894100 ms  DeleteObjects: 0.211600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 276.961537 seconds.
+  path: Assets/Prebafs/Road/FinishFragment.prefab
+  artifactKey: Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prebafs/Road/FinishFragment.prefab using Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc04c7840302b8d2ac54837df932da6') in 0.445442 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010605 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <0313f29eb857419498961dc39155d5eb>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <0313f29eb857419498961dc39155d5eb>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
+Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1224ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (988ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.13 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 16.67 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3839 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 228 unused Assets / (167.0 KB). Loaded Objects now: 4196.
-Memory consumption went from 165.0 MB to 164.8 MB.
-Total: 3.881300 ms (FindLiveObjects: 0.392000 ms CreateObjectMapping: 0.326800 ms MarkObjects: 2.908500 ms  DeleteObjects: 0.252100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010838 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 4.65 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <0313f29eb857419498961dc39155d5eb>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <0313f29eb857419498961dc39155d5eb>:0 
-  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
-Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.597 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1597ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1367ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (836ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (679ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 14.32 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (160.8 KB). Loaded Objects now: 4211.
-Memory consumption went from 163.0 MB to 162.9 MB.
-Total: 5.513600 ms (FindLiveObjects: 0.817200 ms CreateObjectMapping: 0.279700 ms MarkObjects: 4.102500 ms  DeleteObjects: 0.312500 ms)
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.8 KB). Loaded Objects now: 4271.
+Memory consumption went from 167.9 MB to 167.7 MB.
+Total: 5.520800 ms (FindLiveObjects: 0.531700 ms CreateObjectMapping: 0.313700 ms MarkObjects: 4.378500 ms  DeleteObjects: 0.295200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -271,80 +478,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6018.506359 seconds.
-  path: Assets/Prebafs/Player/PlayerCars.prefab
-  artifactKey: Guid(47628785baf74214e8f08987e0834d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Player/PlayerCars.prefab using Guid(47628785baf74214e8f08987e0834d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35466d1f22d6d640c2c6b6a0782c457') in 1.489866 seconds 
+  Time since last request: 58.715968 seconds.
+  path: Assets/Prebafs/Road/PowerUp/NitroBarrel.prefab
+  artifactKey: Guid(24eb4441c2ed7f44d996e6b9cb7696b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prebafs/Road/PowerUp/NitroBarrel.prefab using Guid(24eb4441c2ed7f44d996e6b9cb7696b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b7b0e5296d7c64e405043a0ff0d6c6') in 0.087723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.563137 seconds.
+  path: Assets/Prebafs/Road/RoadFragment.prefab
+  artifactKey: Guid(175bb2afa63ee0f4dbac632410a123d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prebafs/Road/RoadFragment.prefab using Guid(175bb2afa63ee0f4dbac632410a123d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197731c8105ce7d71907c7ef0619ba8e') in 0.194131 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009619 seconds.
+Registered in 0.009246 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.37 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 3.91 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <0313f29eb857419498961dc39155d5eb>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <0313f29eb857419498961dc39155d5eb>:0 
-  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
-Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
 Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
+- Completed reload, in  1.388 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1383ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1389ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1137ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1147ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (532ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (628ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
 				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (403ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.73 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 10.13 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 157 unused Assets / (163.2 KB). Loaded Objects now: 4238.
-Memory consumption went from 167.9 MB to 167.8 MB.
-Total: 3.095300 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.182500 ms MarkObjects: 2.482200 ms  DeleteObjects: 0.170000 ms)
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.7 KB). Loaded Objects now: 4287.
+Memory consumption went from 168.0 MB to 167.8 MB.
+Total: 4.853400 ms (FindLiveObjects: 0.393500 ms CreateObjectMapping: 0.449200 ms MarkObjects: 3.703300 ms  DeleteObjects: 0.306300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -357,19 +547,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 242.004674 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba1f54f8fa992bdb40994345bb0d067') in 0.095264 seconds 
-========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 19.30 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 25.59 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 152 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (158.2 KB). Loaded Objects now: 4238.
+Unloading 152 unused Assets / (158.0 KB). Loaded Objects now: 4287.
 Memory consumption went from 94.2 MB to 94.0 MB.
-Total: 3.453300 ms (FindLiveObjects: 0.289000 ms CreateObjectMapping: 0.191200 ms MarkObjects: 2.756800 ms  DeleteObjects: 0.215500 ms)
+Total: 3.687300 ms (FindLiveObjects: 0.373900 ms CreateObjectMapping: 0.314100 ms MarkObjects: 2.821900 ms  DeleteObjects: 0.176400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -383,64 +567,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 6.308378 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2449c291bf0c5ec96328ced0cea735') in 0.013347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.693163 seconds.
-  path: Assets/Prebafs/Road/RoadFragment 1.prefab
-  artifactKey: Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadFragment 1.prefab using Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928a453a7c838058891dc9b990f3c0f5') in 1.318830 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011011 seconds.
+Registered in 0.009984 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 7.65 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 2.19 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.695 seconds
+- Completed reload, in  1.760 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1696ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (1760ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1401ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1471ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (852ms)
+			SetupTypeCache (558ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (607ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (133ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (8ms)
-				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (522ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (468ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.46 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 12.12 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (160.9 KB). Loaded Objects now: 4254.
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.8 KB). Loaded Objects now: 4302.
 Memory consumption went from 168.1 MB to 167.9 MB.
-Total: 3.291000 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.193900 ms MarkObjects: 2.549400 ms  DeleteObjects: 0.185100 ms)
+Total: 4.316200 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.265500 ms MarkObjects: 3.511300 ms  DeleteObjects: 0.144200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -455,974 +627,180 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.886113 seconds.
-  path: Assets/Prebafs/Road/RoadFragment 1.prefab
-  artifactKey: Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadFragment 1.prefab using Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a456d3f0c156c66dd919e7a686238e18') in 0.180627 seconds 
+  Time since last request: 180.288839 seconds.
+  path: Assets/Prebafs/Player/PlayerCars.prefab
+  artifactKey: Guid(47628785baf74214e8f08987e0834d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prebafs/Player/PlayerCars.prefab using Guid(47628785baf74214e8f08987e0834d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadaee634da8bdc5e6fab27b4994583b') in 1.548370 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.622534 seconds.
-  path: Assets/Sprites/Nitro.mat
-  artifactKey: Guid(6358b741d4df85045a13f37f7b1b4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Nitro.mat using Guid(6358b741d4df85045a13f37f7b1b4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935761d3ee00187378f21a4977b64667') in 0.143568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.266886 seconds.
-  path: Assets/Photon/Fusion/Scripts/Prototyping/Materials/debug-start-button.png
-  artifactKey: Guid(c7d0c96f4d96542cd9a593afbcf2c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/Fusion/Scripts/Prototyping/Materials/debug-start-button.png using Guid(c7d0c96f4d96542cd9a593afbcf2c535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fddd3fad919c372bf6d320f022ed77') in 0.042620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Photon/Fusion/Scripts/Prototyping/Materials/debug-start-window.png
-  artifactKey: Guid(a7a6709449d68482c8c03bb546ddcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/Fusion/Scripts/Prototyping/Materials/debug-start-window.png using Guid(a7a6709449d68482c8c03bb546ddcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bd0eb427b2dac2a6fb99d768421faa') in 0.008466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Photon/Fusion/Scripts/Prototyping/Materials/debug-start-button-over.png
-  artifactKey: Guid(0bf88ab770bd548f2a1c9eecd1c8be06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/Fusion/Scripts/Prototyping/Materials/debug-start-button-over.png using Guid(0bf88ab770bd548f2a1c9eecd1c8be06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048c20af6f3786e137314fb31cce4718') in 0.031203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.827005 seconds.
-  path: Assets/Photon/Fusion/Scripts/Prototyping/Materials/FusionPrototypeGridBox.png
-  artifactKey: Guid(933188806222c8f47969cdea92996cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/Fusion/Scripts/Prototyping/Materials/FusionPrototypeGridBox.png using Guid(933188806222c8f47969cdea92996cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b22e2b18d96c6666bd191218945c214') in 0.026454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Photon/Fusion/Scripts/Prototyping/Materials/FusionPrototypeGridTexture.png
-  artifactKey: Guid(bcf7904fc6371a5409e0fbc3232dfc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/Fusion/Scripts/Prototyping/Materials/FusionPrototypeGridTexture.png using Guid(bcf7904fc6371a5409e0fbc3232dfc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ff860bc9c219a76e978f979009c6f1') in 0.012382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 104.236936 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Roof_01.fbx
-  artifactKey: Guid(b27d607763b826448ac23dc60524405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Roof_01.fbx using Guid(b27d607763b826448ac23dc60524405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c0cfa4a5b078ab1d9a00e50ab59868') in 0.042502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_04.fbx
-  artifactKey: Guid(ab8cfce7712cc0d49a39107f7244a80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_04.fbx using Guid(ab8cfce7712cc0d49a39107f7244a80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c987d21e9e835144844a437019ca4649') in 0.014943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_03.fbx
-  artifactKey: Guid(4719288324788364e8e2bf9d12763378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_03.fbx using Guid(4719288324788364e8e2bf9d12763378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b61911d121fb8b38591e080aad4aa1') in 0.013526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_07.fbx
-  artifactKey: Guid(771c0ee21d60fa845a60127f09435923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_07.fbx using Guid(771c0ee21d60fa845a60127f09435923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7015494c7a34891c89832cc073538bd') in 0.016366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.448616 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_08.fbx
-  artifactKey: Guid(5c6f84b0d97e8894a80be3e5b20a5993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Billboard_Sign_08.fbx using Guid(5c6f84b0d97e8894a80be3e5b20a5993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4601eddf94dedbffc5e431f61f043cf') in 0.032807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039237 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BloodPool_02.fbx
-  artifactKey: Guid(51e617dfb96a62143be60477abe13bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BloodPool_02.fbx using Guid(51e617dfb96a62143be60477abe13bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa0cc7ad891060eed463e73fabf51d7') in 0.013975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053476 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BloodPool_05.fbx
-  artifactKey: Guid(5081d6f6882185044bcbc63ad8012b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BloodPool_05.fbx using Guid(5081d6f6882185044bcbc63ad8012b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e58c3416f74a4b3c0bae11225246215') in 0.009262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BodyBag_01.fbx
-  artifactKey: Guid(f481f5f99abbaaa41862d0fb81540bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BodyBag_01.fbx using Guid(f481f5f99abbaaa41862d0fb81540bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cac01378a89d5690512bb13863cb50c') in 0.012053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.287720 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BodyBag_02.fbx
-  artifactKey: Guid(4788a1a4ef3d53c418306c4727cfc7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BodyBag_02.fbx using Guid(4788a1a4ef3d53c418306c4727cfc7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6406c91f180b1016b16c2e8014174d8b') in 0.024990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BookPodium_01.fbx
-  artifactKey: Guid(907fb21bd8bd8d440828edfd8d61a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BookPodium_01.fbx using Guid(907fb21bd8bd8d440828edfd8d61a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ac462c41cfefb605f189ef648a36f7') in 0.014592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bookshelf_01.fbx
-  artifactKey: Guid(297e505b5ea131141bee4b920917379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bookshelf_01.fbx using Guid(297e505b5ea131141bee4b920917379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb96f0cc99a8269e1da66c6d8180d0e') in 0.015401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027379 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Brick_01.fbx
-  artifactKey: Guid(c6413e5c163be6141b1f5d83344c7b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Brick_01.fbx using Guid(c6413e5c163be6141b1f5d83344c7b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ec8389e8765f1a87e03b765fc4550d') in 0.012463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Brick_03.fbx
-  artifactKey: Guid(afd557042136b5249935891ae65c5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Brick_03.fbx using Guid(afd557042136b5249935891ae65c5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2853bb29b45b115bc6de41a8e7ed64f4') in 0.011430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.306531 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Brick_Half_01.fbx
-  artifactKey: Guid(dac64862df325c44694baa06fb8c1b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Brick_Half_01.fbx using Guid(dac64862df325c44694baa06fb8c1b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88596959ea00a66223ba1155b6bf814d') in 0.035690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bullet_Casing_03.fbx
-  artifactKey: Guid(1f501c7cd6882a440b237b548bdd3cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bullet_Casing_03.fbx using Guid(1f501c7cd6882a440b237b548bdd3cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f797bca0b1cb32871e804fcaacfad3') in 0.014442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bullet_Casing_02.fbx
-  artifactKey: Guid(a8cde848df583d14eab4f8236c4dcab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bullet_Casing_02.fbx using Guid(a8cde848df583d14eab4f8236c4dcab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a9ebffdea843a12fd80ff39b856002') in 0.014057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002255 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BulletHoles_01.fbx
-  artifactKey: Guid(fb2dcd634974ad640ae59c80583b167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BulletHoles_01.fbx using Guid(fb2dcd634974ad640ae59c80583b167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f85cff10b85a54e4dc9985a2d687094') in 0.012585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BulletHoles_03.fbx
-  artifactKey: Guid(23fb2d7efe09ede448f5406699f0372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BulletHoles_03.fbx using Guid(23fb2d7efe09ede448f5406699f0372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0abf4741ce68d0585e6553cc6c9b72f') in 0.011183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024211 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BulletHoles_04.fbx
-  artifactKey: Guid(b8d9add58a66fe647ad6479d571583d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_BulletHoles_04.fbx using Guid(b8d9add58a66fe647ad6479d571583d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48903d2d140084d00a01503cedb087a8') in 0.012353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.318963 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bunker_RoofWire_01.fbx
-  artifactKey: Guid(b0b006a97d65ea045a4a8f654b480836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Bunker_RoofWire_01.fbx using Guid(b0b006a97d65ea045a4a8f654b480836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f445b428a219fc6ed60a0bca75d63f0f') in 0.028923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.959531 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Light_Industrial_Wall_01.fbx
-  artifactKey: Guid(002abef23dcbc6c4b92c9805d55f26c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Light_Industrial_Wall_01.fbx using Guid(002abef23dcbc6c4b92c9805d55f26c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe31ab8f0c6119b5091b7f02e68bf18') in 0.034990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_LightPole_Arm_01.fbx
-  artifactKey: Guid(0679dc10dc312804cb063f1920f3c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_LightPole_Arm_01.fbx using Guid(0679dc10dc312804cb063f1920f3c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b5251f612fbe286f12084187838810') in 0.013116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_LightPole_Base_02.fbx
-  artifactKey: Guid(cc819e010f527034d993e9249549498d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_LightPole_Base_02.fbx using Guid(cc819e010f527034d993e9249549498d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c671a474f80534c5700cef7e9b908da') in 0.012377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.109651 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_LightPole_Base_04.fbx
-  artifactKey: Guid(dcebe5dc4450dd045ae34ed6555510a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_LightPole_Base_04.fbx using Guid(dcebe5dc4450dd045ae34ed6555510a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d821f19f6785c79542816f76a00762') in 0.010225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.914710 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Log_Big_02.fbx
-  artifactKey: Guid(3390678532037e645b14ace13befa512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Log_Big_02.fbx using Guid(3390678532037e645b14ace13befa512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f60259d799cfe6500ca934f60b4b1b') in 0.038715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Log_Wire_01.fbx
-  artifactKey: Guid(7a89a95be3bafaa4a9e0860be9ef7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Log_Wire_01.fbx using Guid(7a89a95be3bafaa4a9e0860be9ef7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21af6cd33d320b9a1a481f4361696dc') in 0.018566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Log_Big_05.fbx
-  artifactKey: Guid(dfcd1512d800fb442b8187492e613bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Log_Big_05.fbx using Guid(dfcd1512d800fb442b8187492e613bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7476f648c24d441c1b2a10d12c53197c') in 0.014711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.844705 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Loud_Speaker_01.fbx
-  artifactKey: Guid(abc73f1083fb86040a49014a31edccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Loud_Speaker_01.fbx using Guid(abc73f1083fb86040a49014a31edccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a20a52588a4243ab4fb044d584500fc') in 0.066098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Luggage_Retro_01.fbx
-  artifactKey: Guid(848aceaedea34fd478f5b9dd2bce030a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Luggage_Retro_01.fbx using Guid(848aceaedea34fd478f5b9dd2bce030a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e659b303f4dcef09abdfa555a452dadc') in 0.017732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.988310 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Nuke_02.fbx
-  artifactKey: Guid(586359140c34177468a2ac9a6de1c03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Nuke_02.fbx using Guid(586359140c34177468a2ac9a6de1c03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cb75e01b071e515500617621b1e430') in 0.015266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Oven_Broken_01.fbx
-  artifactKey: Guid(b46137d9c207dc946b04181180bcb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Oven_Broken_01.fbx using Guid(b46137d9c207dc946b04181180bcb47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7279c8b31e6ce6e3c5bb49378a6ee2db') in 0.013744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.045579 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pallet_01.fbx
-  artifactKey: Guid(1726382fe5be7464190e05ea150d150e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pallet_01.fbx using Guid(1726382fe5be7464190e05ea150d150e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4560713e086405476b696b73dfb4edd') in 0.010197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pallet_03.fbx
-  artifactKey: Guid(9959c8fa0ab7421428a142876db1acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pallet_03.fbx using Guid(9959c8fa0ab7421428a142876db1acde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4cc83559acfa8459c5da96cd6bc5bc') in 0.010842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.133140 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pan_01.fbx
-  artifactKey: Guid(76be026db55cc9c4c96798320d97e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pan_01.fbx using Guid(76be026db55cc9c4c96798320d97e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02595cedf1c88fddf07a66b8ef8fd5fd') in 0.014498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Papers_02.fbx
-  artifactKey: Guid(edc23f9526539a14b9f00db0f2c02ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Papers_02.fbx using Guid(edc23f9526539a14b9f00db0f2c02ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ae06b9ea8ec7ab1214418be7c42fd') in 0.010487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024317 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Papers_03.fbx
-  artifactKey: Guid(08a3e846d93d4dc4385aec0da72c55f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Papers_03.fbx using Guid(08a3e846d93d4dc4385aec0da72c55f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96940f9540aa1ed7fa973664e9559180') in 0.011927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.308499 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Piano_01.fbx
-  artifactKey: Guid(c4beb35ca562c0d4588ac79a643481f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Piano_01.fbx using Guid(c4beb35ca562c0d4588ac79a643481f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54a1265e32ab45b1fb03c74e598c963') in 0.029353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.939962 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pool_Aboveground_01.fbx
-  artifactKey: Guid(e54e6af3edbe5c948868f107957e45bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Pool_Aboveground_01.fbx using Guid(e54e6af3edbe5c948868f107957e45bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4048136ae57fded6675ff8a03a8660e') in 0.030879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_PowerBoxes_01.fbx
-  artifactKey: Guid(2dc38b7842529594da1649b9be9bfc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_PowerBoxes_01.fbx using Guid(2dc38b7842529594da1649b9be9bfc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d54bed93234068baecd520590513ff') in 0.028202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Broken_01.fbx
-  artifactKey: Guid(8b476f56a6c83124fa9e3795376afef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Broken_01.fbx using Guid(8b476f56a6c83124fa9e3795376afef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34977f2a7498cbce4a756b732104a056') in 0.028088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.094633 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Broken_02.fbx
-  artifactKey: Guid(8529ea7600157b949a97fa2ec839c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Broken_02.fbx using Guid(8529ea7600157b949a97fa2ec839c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c52f8ce8fb33b7644fc71a26ea3386') in 0.023429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.707006 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Line_01.fbx
-  artifactKey: Guid(07164a1211c36ae49a228bc201d06d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Line_01.fbx using Guid(07164a1211c36ae49a228bc201d06d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed4d1ef184d5e80eafe1ee60fce5cd8') in 0.032056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Preset_01.fbx
-  artifactKey: Guid(b1adc934c32a4184693256af919c9dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Preset_01.fbx using Guid(b1adc934c32a4184693256af919c9dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881b28b2739feded1e47d10e467cab3d') in 0.018185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039785 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Preset_02.fbx
-  artifactKey: Guid(23dfd2457fb00f8488da0cbbdf4e787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Preset_02.fbx using Guid(23dfd2457fb00f8488da0cbbdf4e787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd94939266028696d61c0a72e09bc6e') in 0.012825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.462191 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Single_Broken_01.fbx
-  artifactKey: Guid(2f0164300ef2aa34ba9cd0de3e4b3ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Single_Broken_01.fbx using Guid(2f0164300ef2aa34ba9cd0de3e4b3ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe127a77aacd0128d53b28400844d159') in 0.031009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Single_Line_02.fbx
-  artifactKey: Guid(08ba954505edd0341b434a04c05fc979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Powerpole_Single_Line_02.fbx using Guid(08ba954505edd0341b434a04c05fc979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2a873808f772a93649ff6f3bd4b4ad') in 0.014878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Radio_01.fbx
-  artifactKey: Guid(74ac2bc1648d900499d19c6e27f27f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Radio_01.fbx using Guid(74ac2bc1648d900499d19c6e27f27f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5808718e0f593e021236e45806d039bd') in 0.015474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.337234 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Railing_01.fbx
-  artifactKey: Guid(e4f75f2d427bf1446a98fd56e7e3ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Railing_01.fbx using Guid(e4f75f2d427bf1446a98fd56e7e3ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ea7bfc166d2db8c177ee6635e8080a') in 0.023487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Ramp_02.fbx
-  artifactKey: Guid(835906b0d14079e4d8321aa851b122ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Ramp_02.fbx using Guid(835906b0d14079e4d8321aa851b122ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314a877b7be7d8c58e36a1ebc6306aef') in 0.019933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.033336 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Roof_Chimney.fbx
-  artifactKey: Guid(b98a93ed34b05884880e136cc2da5dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Roof_Chimney.fbx using Guid(b98a93ed34b05884880e136cc2da5dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3ccdb91334331e8e11262d7dbacb38') in 0.013559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.373132 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Roof_Satellite_Dish_01.fbx
-  artifactKey: Guid(94566510c3b47214ea99abc83433487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Roof_Satellite_Dish_01.fbx using Guid(94566510c3b47214ea99abc83433487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51982688a158ed9e5ee7d2abe816cff') in 0.030725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.417521 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_RopeClimb_01.fbx
-  artifactKey: Guid(f4a717c45d4328347a7abe7a63a6b580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_RopeClimb_01.fbx using Guid(f4a717c45d4328347a7abe7a63a6b580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0a730c93debbb8c92e84fcdb626c4c') in 0.046754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.182080 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_RubbishBin_03.fbx
-  artifactKey: Guid(1671b55fe4efa0e4980c3511412c16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_RubbishBin_03.fbx using Guid(1671b55fe4efa0e4980c3511412c16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6715604f7bce916649884fca1557c3') in 0.041245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063597 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rubble_Concrete_03.fbx
-  artifactKey: Guid(be04e0cd6a052fe40b8bc1619389f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rubble_Concrete_03.fbx using Guid(be04e0cd6a052fe40b8bc1619389f088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e21fb7010b7019d705f4d58d6ad27d') in 0.010017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rubble_Concrete_05.fbx
-  artifactKey: Guid(dfd4760c058d169459940d8502b624f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rubble_Concrete_05.fbx using Guid(dfd4760c058d169459940d8502b624f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e770063acd69bacab79fc57ddf909da') in 0.012222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.372872 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rubble_Concrete_06.fbx
-  artifactKey: Guid(8f63f5b419ad0b645aed8d14e43cc4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rubble_Concrete_06.fbx using Guid(8f63f5b419ad0b645aed8d14e43cc4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3762ff90024e5c993d1764e01ab23f6b') in 0.029385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rug_01.fbx
-  artifactKey: Guid(3a46c2cb4db4a26438ab4ea39a81e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rug_01.fbx using Guid(3a46c2cb4db4a26438ab4ea39a81e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9461da212e71d110745b22c4f91fc36c') in 0.014320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019863 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rug_02.fbx
-  artifactKey: Guid(81d491fb598c9164e82659ed2a3f545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rug_02.fbx using Guid(81d491fb598c9164e82659ed2a3f545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9975b8d754e1bb51c14a3f945ec7f79') in 0.012046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.958883 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rug_05.fbx
-  artifactKey: Guid(992a4b762c7bb774ca086a4ee19e0d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Rug_05.fbx using Guid(992a4b762c7bb774ca086a4ee19e0d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab0b394cbbfa006bfb1b9fa2385b720') in 0.022426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sandbag_Wall_03.fbx
-  artifactKey: Guid(dc084e6e0555ab344877e7ebc729e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sandbag_Wall_03.fbx using Guid(dc084e6e0555ab344877e7ebc729e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaaf2d6107342a05295ab2b5588c8c1') in 0.020326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sandbag_Wall_01.fbx
-  artifactKey: Guid(68155145016848643af34a447e0bb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sandbag_Wall_01.fbx using Guid(68155145016848643af34a447e0bb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e23b2baf6a272e6c9ff04becf943032') in 0.016021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.454770 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sandbag_Wall_End_01.fbx
-  artifactKey: Guid(d67f3c51c0fca76468a00ee22b3f08ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sandbag_Wall_End_01.fbx using Guid(d67f3c51c0fca76468a00ee22b3f08ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d1f9feda2ca2f3fefa11705a1214d6') in 0.035940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Scaffold_Base_01.fbx
-  artifactKey: Guid(6dd571a0c0d284741aea773c3c9ee752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Scaffold_Base_01.fbx using Guid(6dd571a0c0d284741aea773c3c9ee752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c9776dd401a013527b20908a14f9f6') in 0.018897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Seat_01.fbx
-  artifactKey: Guid(e5f1f2205ef01ff4bb848ebb7fa70152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Seat_01.fbx using Guid(e5f1f2205ef01ff4bb848ebb7fa70152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31c72cdc054bcf7604fac5825c86681') in 0.019648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.423500 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sheet_01.fbx
-  artifactKey: Guid(e1d727d1a82c54c4da2dd41de9f9185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sheet_01.fbx using Guid(e1d727d1a82c54c4da2dd41de9f9185b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a06642541d550a479679157adf7c4d4') in 0.040185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sheet_04.fbx
-  artifactKey: Guid(9a181bc677fcba74093b2c744e3d375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sheet_04.fbx using Guid(9a181bc677fcba74093b2c744e3d375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12dde64eb2238b4138cfb74b317ca2d') in 0.023347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Shelf_01_Combined.fbx
-  artifactKey: Guid(9ed9a815b7d3f1d4da85e28284e03739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Shelf_01_Combined.fbx using Guid(9ed9a815b7d3f1d4da85e28284e03739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa881e96288c4824e4490bea4820eb21') in 0.042081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Shipping_Container_01.fbx
-  artifactKey: Guid(f17b4959748c8514ca319a056aa7238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Shipping_Container_01.fbx using Guid(f17b4959748c8514ca319a056aa7238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19d9150b4d115932924fa10c6ff050c') in 0.091197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.737738 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Shipping_Container_02.fbx
-  artifactKey: Guid(25203772749429744bb7dc9693d66742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Shipping_Container_02.fbx using Guid(25203772749429744bb7dc9693d66742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58f1803e48f074d1878c083ef4e92bd') in 0.019689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.896403 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_01.fbx
-  artifactKey: Guid(b13984472135f374fbffecd12a5c2e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_01.fbx using Guid(b13984472135f374fbffecd12a5c2e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f1d115e99033fc7656ce2a66f6bce1') in 0.016508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.237026 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Danger_01.fbx
-  artifactKey: Guid(af5aa96ee93e35241b006faa33a5834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Danger_01.fbx using Guid(af5aa96ee93e35241b006faa33a5834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f91e896396af4e621eb273f566ff69') in 0.025307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Emergency_01.fbx
-  artifactKey: Guid(b4b4f7c780a5c274bb304d77e2e517f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Emergency_01.fbx using Guid(b4b4f7c780a5c274bb304d77e2e517f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb163a48552b782df78072bb0e00665') in 0.018032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.343809 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Food_01.fbx
-  artifactKey: Guid(ce9ef9aa6ec69de4d8d55a1f4009bbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Food_01.fbx using Guid(ce9ef9aa6ec69de4d8d55a1f4009bbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a6c6623b23de5eed7246590744975') in 0.022935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Hunting_01.fbx
-  artifactKey: Guid(6dd9f05d76733f64fb08d88d31fb3cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Hunting_01.fbx using Guid(6dd9f05d76733f64fb08d88d31fb3cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797efecbc048be90b9a7fcf1bef8a4c4') in 0.023114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_KeepOut_01.fbx
-  artifactKey: Guid(04b62919b95102c478de62fd69e03541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_KeepOut_01.fbx using Guid(04b62919b95102c478de62fd69e03541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06c9e1cc0cde8373602c83875d9ab88') in 0.018760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005461 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Market_01.fbx
-  artifactKey: Guid(dc3b4ff53824ad342ade7311417b525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Market_01.fbx using Guid(dc3b4ff53824ad342ade7311417b525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214df52fa6dc18bd8cfe5aa28b1f09e4') in 0.027234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_MissingPapers_01.fbx
-  artifactKey: Guid(d4c4d9a37446be14bbbd06e21b308da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_MissingPapers_01.fbx using Guid(d4c4d9a37446be14bbbd06e21b308da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1aa1ef9a72add788ecc51982b921649') in 0.017014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.227448 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_MissingPapers_02.fbx
-  artifactKey: Guid(207afa297fd21f342bc21a84cd97aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_MissingPapers_02.fbx using Guid(207afa297fd21f342bc21a84cd97aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17781ad40f183037f769502b634b856b') in 0.022978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Pets_01.fbx
-  artifactKey: Guid(cc65db23b8bc93c46ac9f13d161f5f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Pets_01.fbx using Guid(cc65db23b8bc93c46ac9f13d161f5f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2f8bd4b3958238977a0e371ed46e9c') in 0.014500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.552200 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Quarantine_01.fbx
-  artifactKey: Guid(56351ec007773234c9dc09e1add10adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Quarantine_01.fbx using Guid(56351ec007773234c9dc09e1add10adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b7a7a7168aafade85d587fb42bc623') in 0.066916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.375288 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Repairs_01.fbx
-  artifactKey: Guid(5016a99f954f2534092c21cac496bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Repairs_01.fbx using Guid(5016a99f954f2534092c21cac496bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11df627d8893ece8d53301236a4bd3f') in 0.018083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_SafeHouse_01.fbx
-  artifactKey: Guid(dd984a6bacda81443a2bacbc97a15c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_SafeHouse_01.fbx using Guid(dd984a6bacda81443a2bacbc97a15c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450a6a5e418997214f1025e86cf96fa2') in 0.011000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.814619 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Shop_01.fbx
-  artifactKey: Guid(cc20ee7e497099f4198862da1f06cb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Sign_Shop_01.fbx using Guid(cc20ee7e497099f4198862da1f06cb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ecc475bdb0e665fff9bc99060f9a37') in 0.037655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.416790 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_SupplyPile_03.fbx
-  artifactKey: Guid(b957f5008bd444140881605a30fccd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_SupplyPile_03.fbx using Guid(b957f5008bd444140881605a30fccd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9661566f7f62575114a4a5d365038f2') in 0.034901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044755 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_SupplyPile_05.fbx
-  artifactKey: Guid(76c22cdbe786d294fb055921c4cc4cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_SupplyPile_05.fbx using Guid(76c22cdbe786d294fb055921c4cc4cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb40a5fc08f972dacb5aac1a3dd8d57') in 0.013070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.445293 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Target_01.fbx
-  artifactKey: Guid(3a39cdac35d6ddd4d824bd0ff654f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Target_01.fbx using Guid(3a39cdac35d6ddd4d824bd0ff654f141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c278c8ad3dbca27f6ab6260835d3bf65') in 0.027591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.192681 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Television_Broken_01.fbx
-  artifactKey: Guid(f52178e0b0355ba44acf170926c8aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Television_Broken_01.fbx using Guid(f52178e0b0355ba44acf170926c8aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c745265f25048f94f141436934b1b7') in 0.014525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tent_Dome_01.fbx
-  artifactKey: Guid(f9e26e6bef3b05449b76a83f777b9946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tent_Dome_01.fbx using Guid(f9e26e6bef3b05449b76a83f777b9946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aca5254f2954b72ad552285451e19d') in 0.028852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.077932 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tent_Dome_Damaged_01.fbx
-  artifactKey: Guid(65fe3011a2867654eac03dab2e813ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tent_Dome_Damaged_01.fbx using Guid(65fe3011a2867654eac03dab2e813ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8c57280aca920685dd0bcc98a50f47') in 0.011075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tent_Long_Damaged_01.fbx
-  artifactKey: Guid(f87f4f3ab27acc44ea449a3acfc35a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tent_Long_Damaged_01.fbx using Guid(f87f4f3ab27acc44ea449a3acfc35a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757f79610041dacfbe857df4a9a157d9') in 0.011194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.465289 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tire_01.fbx
-  artifactKey: Guid(fc51065748cf3d94d9949bdcb016fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tire_01.fbx using Guid(fc51065748cf3d94d9949bdcb016fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4928290a8e6447e1f635b4cfe9da7b06') in 0.034344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tire_Pile_04.fbx
-  artifactKey: Guid(17f886ab75c74e74193226257a49077b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tire_Pile_04.fbx using Guid(17f886ab75c74e74193226257a49077b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f50b3be8f63c16d9c1fb02ef5483516') in 0.015201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tire_Pile_02.fbx
-  artifactKey: Guid(d87f71e496fb3dc418a1665bf24af915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tire_Pile_02.fbx using Guid(d87f71e496fb3dc418a1665bf24af915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db727fea1e97827b4d952caec749467e') in 0.015128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.172275 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toaster_01.fbx
-  artifactKey: Guid(397781eb1c390b44397d6f960fcaf622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toaster_01.fbx using Guid(397781eb1c390b44397d6f960fcaf622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fcb53b3f270ae1ee2f0992171d5123') in 0.023472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toilet_Broken_01.fbx
-  artifactKey: Guid(e0a74cf0112cdcb4ab0cfee22348e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toilet_Broken_01.fbx using Guid(e0a74cf0112cdcb4ab0cfee22348e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92fc9bb7a9f6515298005393b5497b7') in 0.015287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023622 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toilet_Bucket_01.fbx
-  artifactKey: Guid(130bf388c21fe1a4590f72d0fbd415ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toilet_Bucket_01.fbx using Guid(130bf388c21fe1a4590f72d0fbd415ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c55a104cb3913ec8bdc72cceba980b2') in 0.017664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.459749 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toilet_Portable_01.fbx
-  artifactKey: Guid(f4374662454c57a47bbf1741aa5c687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toilet_Portable_01.fbx using Guid(f4374662454c57a47bbf1741aa5c687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856976142ebfe7b5766d3d739ece32e3') in 0.066379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toy_Bear_01.fbx
-  artifactKey: Guid(2b43ecc81eb420b458e63b2c9598a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Toy_Bear_01.fbx using Guid(2b43ecc81eb420b458e63b2c9598a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8308ef8da0c92fdb698ebb09d4e5c45a') in 0.016855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tool_Bucket_03.fbx
-  artifactKey: Guid(8ba7d0dd2f560fa47ac6f58e92dceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Tool_Bucket_03.fbx using Guid(8ba7d0dd2f560fa47ac6f58e92dceb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c279f6e9dd10df17b0f04d32fa45bd3') in 0.021762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.717037 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_04.fbx
-  artifactKey: Guid(97d90593682a8774889fa1b4d2dd3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_04.fbx using Guid(97d90593682a8774889fa1b4d2dd3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baf39321b2f42df3de4860a742136ee') in 0.034744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.409303 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_06.fbx
-  artifactKey: Guid(2531bc6ccaedbf045ae7aa7b33aa70e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_06.fbx using Guid(2531bc6ccaedbf045ae7aa7b33aa70e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c538da41f2af73d13a98e969b677769') in 0.032019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_08.fbx
-  artifactKey: Guid(4559cdccfbae118459cc44b8b6640391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_08.fbx using Guid(4559cdccfbae118459cc44b8b6640391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bf28ef068dad5ad86ed4ddbc9b8e16') in 0.018329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.332245 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_09.fbx
-  artifactKey: Guid(90baa8785395bed47b7173364079d74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashBag_09.fbx using Guid(90baa8785395bed47b7173364079d74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1c35b4669eee3e3c7f693cad31d650') in 0.036925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_03.fbx
-  artifactKey: Guid(beb42d8f7bc03f64ba7875c8a8d170f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_03.fbx using Guid(beb42d8f7bc03f64ba7875c8a8d170f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce619b77ee2000042ea051724f5f1161') in 0.062029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_01.fbx
-  artifactKey: Guid(d84e78b10d021ad4382b85d250894c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_01.fbx using Guid(d84e78b10d021ad4382b85d250894c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd154fb9935dca7e0c6c56ad750de43d4') in 0.055500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.383727 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_05.fbx
-  artifactKey: Guid(2bd483d36e2c74140b28a85c40b131ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_05.fbx using Guid(2bd483d36e2c74140b28a85c40b131ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3ece94e437de7c2313a1f09221877c') in 0.070267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_10.fbx
-  artifactKey: Guid(7635b2d7775f07f448b3c69e8af97a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_10.fbx using Guid(7635b2d7775f07f448b3c69e8af97a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdaae7b9ca6778edaf39c22708c68d1') in 0.053985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_08.fbx
-  artifactKey: Guid(9ff1605801d05b747b9f87d682c6d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_08.fbx using Guid(9ff1605801d05b747b9f87d682c6d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c25590bc400a3205833aa171ec91c6') in 0.044194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.266426 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_11.fbx
-  artifactKey: Guid(cb0f0b072190aff418c395de6078e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_11.fbx using Guid(cb0f0b072190aff418c395de6078e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7852a9d9d9c3bcb0796fb4d97f1729') in 0.025211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.137477 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_Wall_02.fbx
-  artifactKey: Guid(ae895004cefe06846bbd52723e50237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_TrashPile_Wall_02.fbx using Guid(ae895004cefe06846bbd52723e50237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d1276d7b958d2cdcb40a30bfab5b2a') in 0.022251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Umbrella_01.fbx
-  artifactKey: Guid(b038be0c6d5b31445b740c97b41984c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Umbrella_01.fbx using Guid(b038be0c6d5b31445b740c97b41984c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5507e996c97aad6e04db83b43bc4a525') in 0.022011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046222 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Umbrella_Closed_01.fbx
-  artifactKey: Guid(5f9f25b7215f33a4cbf5e153df329dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Umbrella_Closed_01.fbx using Guid(5f9f25b7215f33a4cbf5e153df329dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca2dbd837b26462a208ff073679066a') in 0.024765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.094906 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Vents_End_01.fbx
-  artifactKey: Guid(b62b893fc445a3a44884a9464ba3f076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Vents_End_01.fbx using Guid(b62b893fc445a3a44884a9464ba3f076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269369f9c7247129ad1ac97e0a2a2ef3') in 0.011657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Vents_Straight_01.fbx
-  artifactKey: Guid(36fe423bae6dddc4491e031e10b5fe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Prop_Vents_Straight_01.fbx using Guid(36fe423bae6dddc4491e031e10b5fe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022a6a8f1d3e855261dfab598911908c') in 0.015698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.000112 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Bomb_GasCan_01.fbx
-  artifactKey: Guid(fef0eaa21a613924a803dfad7ce8cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Bomb_GasCan_01.fbx using Guid(fef0eaa21a613924a803dfad7ce8cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00219ff8212c2a057356a47b2682b7a4') in 0.022703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.392768 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Butcher_01.fbx
-  artifactKey: Guid(58ae634836740a644965e4f2a19d44ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Butcher_01.fbx using Guid(58ae634836740a644965e4f2a19d44ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d4b1eba74688f48a87ee60ddcf9171') in 0.037622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_CrossBow_Clean_01.fbx
-  artifactKey: Guid(964dc8af9a7545040b3eb82ff200ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_CrossBow_Clean_01.fbx using Guid(964dc8af9a7545040b3eb82ff200ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4900e6fd3ed8e817a6dcd9ea5c581039') in 0.089347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_FlameThrower_01.fbx
-  artifactKey: Guid(c60c430e4a17d854197a94e555745aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_FlameThrower_01.fbx using Guid(c60c430e4a17d854197a94e555745aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544056a786c6e8d5a24e21b1f27ea33c') in 0.033324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Cross_01.fbx
-  artifactKey: Guid(0dd72bc0b9cd7a04591f7984e296cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Cross_01.fbx using Guid(0dd72bc0b9cd7a04591f7984e296cbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09c75299a3f4debb0de9ddef0d5fc0b') in 0.016566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.358415 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Flashbang_01.fbx
-  artifactKey: Guid(34629ac29638c9645afd7cc702dac80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Flashbang_01.fbx using Guid(34629ac29638c9645afd7cc702dac80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef843d72bde7f00d28a2c6a09a340ff') in 0.049996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.350122 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Hammer_01.fbx
-  artifactKey: Guid(0e3eac6834efcde4e9b57d1714588038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Hammer_01.fbx using Guid(0e3eac6834efcde4e9b57d1714588038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65a360f32c86acec733c07d457a419f') in 0.019173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_HuntingRifle_Clean_01.fbx
-  artifactKey: Guid(2cc7b8ab74a2dfe4db5e2b8abe10cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_HuntingRifle_Clean_01.fbx using Guid(2cc7b8ab74a2dfe4db5e2b8abe10cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41fc80f5e74f6ee1c3ffe8295da9d89') in 0.040250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.566533 seconds.
-  path: Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Hybrid_01.fbx
-  artifactKey: Guid(b1736d79a2fc9be4b88db1fafd3c0c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonApocalypse/Models/SM_Wep_Hybrid_01.fbx using Guid(b1736d79a2fc9be4b88db1fafd3c0c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a60b3fcc0c83f43db4ce45d7d321d9') in 0.105102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 179.719265 seconds.
-  path: Assets/Prebafs/Road/StartFragment.prefab
-  artifactKey: Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/StartFragment.prefab using Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a8808416c226292724a76c80403666') in 0.176934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.186197 seconds.
-  path: Assets/Prebafs/Road/StartFragment 1.prefab
-  artifactKey: Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/StartFragment 1.prefab using Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ae083dafb5ad1c6c3d3fc08711c5fd') in 0.064968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.463634 seconds.
-  path: Assets/Prebafs/Road/FinishFragment.prefab
-  artifactKey: Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/FinishFragment.prefab using Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caf25a9587c28712b129770d202cd77') in 0.089926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.992950 seconds.
-  path: Assets/Prebafs/Road/FinishFragment.prefab
-  artifactKey: Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/FinishFragment.prefab using Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a19f5670e86b4294063664c828c9cca') in 0.065745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.747741 seconds.
+  Time since last request: 13.294669 seconds.
   path: Assets/Prebafs/Road/RoadFragment.prefab
   artifactKey: Guid(175bb2afa63ee0f4dbac632410a123d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadFragment.prefab using Guid(175bb2afa63ee0f4dbac632410a123d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bf422585d2bb7242e1b522751ea067') in 0.137030 seconds 
+Start importing Assets/Prebafs/Road/RoadFragment.prefab using Guid(175bb2afa63ee0f4dbac632410a123d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09107695b281c1b4bd0ff7319329dfde') in 0.399800 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.893251 seconds.
-  path: Assets/Prebafs/Road/StartFragment.prefab
-  artifactKey: Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/StartFragment.prefab using Guid(dc816905dc2ada54da1a8b677c5db414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3338c012d749a3c66f5ba7e272b50ec2') in 0.090600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 201.989469 seconds.
-  path: Assets/Photon/Fusion/Scripts/Prototyping/Prefabs/BallPrototype.prefab
-  artifactKey: Guid(61b6ef4ffff3d8f4498968869591d6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/Fusion/Scripts/Prototyping/Prefabs/BallPrototype.prefab using Guid(61b6ef4ffff3d8f4498968869591d6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc37b6ff6c2e07f985384dd80e054e3a') in 0.016659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.650165 seconds.
-  path: Assets/Photon/Fusion/Editor/Resources/icons/networked-property-icon.png
-  artifactKey: Guid(9d1a679741319604a85979784032907e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/Fusion/Editor/Resources/icons/networked-property-icon.png using Guid(9d1a679741319604a85979784032907e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb2434625dabe921fa267d257b8a511') in 0.013056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_Aerial_01_Convex.asset
-  artifactKey: Guid(e5385ac24cdf7b24985cb44f4ed57742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonMilitary/Models/CollisionConvex/SM_Prop_Aerial_01_Convex.asset using Guid(e5385ac24cdf7b24985cb44f4ed57742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c04c96e6a8c2d177aa92dedc4042d48') in 0.011911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/PolygonMilitary/Models/SM_Prop_Aerial_01.fbx
-  artifactKey: Guid(2ef1f912f9045e14c990e23fd4057662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PolygonMilitary/Models/SM_Prop_Aerial_01.fbx using Guid(2ef1f912f9045e14c990e23fd4057662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c3a831c81913b8b83403730b7038ca') in 0.046719 seconds 
+  Time since last request: 0.265493 seconds.
+  path: Assets/Prebafs/Road/Obstacles/Car obstacle.prefab
+  artifactKey: Guid(d9de9d5df7dd0eb4482bac14ec373231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prebafs/Road/Obstacles/Car obstacle.prefab using Guid(d9de9d5df7dd0eb4482bac14ec373231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3a155a9ef29335a4f06cc6727c4222') in 0.118424 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013849 seconds.
+Registered in 0.009932 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 4.26 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 2.03 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.039 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2040ms)
-		BeginReloadAssembly (203ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1664ms)
-			LoadAssemblies (147ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (544ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (822ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (646ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 16.17 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (160.9 KB). Loaded Objects now: 4312.
-Memory consumption went from 169.3 MB to 169.1 MB.
-Total: 8.309400 ms (FindLiveObjects: 0.599400 ms CreateObjectMapping: 0.653700 ms MarkObjects: 6.662200 ms  DeleteObjects: 0.392300 ms)
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <0313f29eb857419498961dc39155d5eb>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <0313f29eb857419498961dc39155d5eb>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
+Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:FusionILWeaverTriggerImporter/ConfigHash: 551ea9813040f695a4b383b6c6db3b9c -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 72.791080 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50449dc3079c696c20acda34042f635') in 0.030485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.462488 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fec4da585eea8a44a49c0dc137c35d') in 0.007159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.852134 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015bfee1cd6a21128c0b5565dae096ef') in 0.007473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.498771 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699ff19a962e04b0049aada6cd83ac05') in 0.006387 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010599 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
+- Completed reload, in  1.259 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1544ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1260ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1324ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1013ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (825ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (556ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (30ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (661ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (431ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 17.74 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 10.17 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (160.9 KB). Loaded Objects now: 4327.
-Memory consumption went from 169.3 MB to 169.2 MB.
-Total: 5.783200 ms (FindLiveObjects: 0.628500 ms CreateObjectMapping: 0.962600 ms MarkObjects: 3.726700 ms  DeleteObjects: 0.464100 ms)
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 157 unused Assets / (164.5 KB). Loaded Objects now: 4319.
+Memory consumption went from 168.4 MB to 168.2 MB.
+Total: 4.025100 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.462800 ms MarkObjects: 2.975600 ms  DeleteObjects: 0.247900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 551ea9813040f695a4b383b6c6db3b9c -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109.378730 seconds.
+  path: Assets/Prebafs/Road/Obstacles/Car obstacle.prefab
+  artifactKey: Guid(d9de9d5df7dd0eb4482bac14ec373231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prebafs/Road/Obstacles/Car obstacle.prefab using Guid(d9de9d5df7dd0eb4482bac14ec373231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e3905c2e597d2eda43f0241ea5bc92') in 0.190248 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009498 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <0313f29eb857419498961dc39155d5eb>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <0313f29eb857419498961dc39155d5eb>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
+Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1112ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.78 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.9 KB). Loaded Objects now: 4334.
+Memory consumption went from 168.4 MB to 168.2 MB.
+Total: 4.948000 ms (FindLiveObjects: 0.438000 ms CreateObjectMapping: 0.346000 ms MarkObjects: 4.009000 ms  DeleteObjects: 0.154000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1438,50 +816,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011202 seconds.
+Registered in 0.013488 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 2.31 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
+- Completed reload, in  1.414 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1353ms)
+	ReloadAssembly (1414ms)
 		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1122ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (532ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (598ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (411ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.15 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 9.17 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 152 unused Assets / (160.7 KB). Loaded Objects now: 4342.
-Memory consumption went from 169.4 MB to 169.2 MB.
-Total: 3.508900 ms (FindLiveObjects: 0.455700 ms CreateObjectMapping: 0.216600 ms MarkObjects: 2.677600 ms  DeleteObjects: 0.157900 ms)
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.9 KB). Loaded Objects now: 4349.
+Memory consumption went from 168.4 MB to 168.2 MB.
+Total: 3.171900 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.196200 ms MarkObjects: 2.555700 ms  DeleteObjects: 0.139500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1495,170 +873,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 112.815299 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40e3820084353fa07f5757e6f47d2bf') in 0.024293 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013235 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <0313f29eb857419498961dc39155d5eb>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <0313f29eb857419498961dc39155d5eb>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1040)
+Google.IOSResolver:.cctor () (at /Users/drsanta/dev/tmp/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:726)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/drsanta/dev/tmp/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1379ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (905ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (741ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 21.21 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.9 KB). Loaded Objects now: 4364.
+Memory consumption went from 168.4 MB to 168.2 MB.
+Total: 10.729600 ms (FindLiveObjects: 0.647800 ms CreateObjectMapping: 0.615300 ms MarkObjects: 7.631300 ms  DeleteObjects: 1.831700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 551ea9813040f695a4b383b6c6db3b9c -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 7.510433 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c6102dc34ede42b187ea345ca33198') in 0.015768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.088237 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5dfc37164f5d4c36b666e48eeeb65f') in 0.007710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.784504 seconds.
-  path: Assets/Prebafs/Road/RoadSpawner.prefab
-  artifactKey: Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/RoadSpawner.prefab using Guid(2fefd592ea8e0ef4cbaffcd7f32c1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6842c53d7d573dffccac0da7a4e9f1') in 0.010291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.694118 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free
-  artifactKey: Guid(bc48a7a4c9123894e944516b1c92d5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free using Guid(bc48a7a4c9123894e944516b1c92d5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53e527f66fbabb8763945442606b5c9') in 0.002018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.878594 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs
-  artifactKey: Guid(265684f584731c948854c5b6c2a6bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs using Guid(265684f584731c948854c5b6c2a6bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46ec126d2bbf9564bb3aded8733e08c') in 0.002035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061410 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_01_free_obs.prefab
-  artifactKey: Guid(63f7e3a5ea486a9438b4cd3142c7dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_01_free_obs.prefab using Guid(63f7e3a5ea486a9438b4cd3142c7dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2c12e3ebd178d1a39fb58ee367056f') in 0.050896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Sign_free_obs.prefab
-  artifactKey: Guid(fca05fc86b15f0d4da25ed7793db4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Sign_free_obs.prefab using Guid(fca05fc86b15f0d4da25ed7793db4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb16a1aff6c86fbfb41ebb3094e7f230') in 0.011053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Fence_concrete_free_obs.prefab
-  artifactKey: Guid(7f98c8176bfca7347b11006aac2c90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Fence_concrete_free_obs.prefab using Guid(7f98c8176bfca7347b11006aac2c90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7f2c5c874d51345edf81b635b7e7f1') in 0.016167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_for_banner_free_obs.prefab
-  artifactKey: Guid(27f69fe37e0c8c44f97be1aba8f406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_for_banner_free_obs.prefab using Guid(27f69fe37e0c8c44f97be1aba8f406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7634a5f4838223b28198700349c4bf96') in 0.018709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arrow_01_free_obs.prefab
-  artifactKey: Guid(b2de576461b3e6349bb43cd827e123ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arrow_01_free_obs.prefab using Guid(b2de576461b3e6349bb43cd827e123ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913825dc65586f4d4590c23cbb107e5e') in 0.013865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab
-  artifactKey: Guid(2e1e65078fb46104b990555c32488a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Flag_free_obs.prefab using Guid(2e1e65078fb46104b990555c32488a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4110723715107541b34c6c7ee7089f7') in 0.014695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arrow_02_free_obs.prefab
-  artifactKey: Guid(9c94a8e4ef130f449b9ac967b05bda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arrow_02_free_obs.prefab using Guid(9c94a8e4ef130f449b9ac967b05bda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c08b098f4e86e638f69d915d6cc4a5') in 0.016913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.103960 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Tire_free_obs.prefab
-  artifactKey: Guid(0a9f73a18c612c34a9773c0dd0fae0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Tire_free_obs.prefab using Guid(0a9f73a18c612c34a9773c0dd0fae0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89bda039456e75e45ab8acc03c59a0c') in 0.024066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.153073 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Tribune_free_obs.prefab
-  artifactKey: Guid(d83bf5421fa587548b541193382273ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Tribune_free_obs.prefab using Guid(d83bf5421fa587548b541193382273ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd5911f5a827f639357a8998d36d1c8') in 0.008748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.090262 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Textures/Track_Texture.png
-  artifactKey: Guid(df3a2f2806cd8074cb8235cf73db76f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Textures/Track_Texture.png using Guid(df3a2f2806cd8074cb8235cf73db76f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95322987ae3f34c5485b989f81e68cc0') in 0.017827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.769531 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Arch_01_free.fbx
-  artifactKey: Guid(ee05a77639c729f448c842f5462f0b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Arch_01_free.fbx using Guid(ee05a77639c729f448c842f5462f0b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8411979f256a56f29ebc0c9fc43aab8e') in 0.042918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Sign_free.fbx
-  artifactKey: Guid(fd3accc54eafe0a4c8fbd42c3b715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Sign_free.fbx using Guid(fd3accc54eafe0a4c8fbd42c3b715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6747243e0e6ec5f7054cb11b3baf652a') in 0.025965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Arch_for_banner_free.fbx
-  artifactKey: Guid(f07e09f6d3fc20744a9f77e776732341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Arch_for_banner_free.fbx using Guid(f07e09f6d3fc20744a9f77e776732341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c346a739043493641cf3e14c637993b') in 0.017616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Arrow_02_free.fbx
-  artifactKey: Guid(e687b0964c1445b4d9ff1a06b1a9a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Arrow_02_free.fbx using Guid(e687b0964c1445b4d9ff1a06b1a9a80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d855a7e548ee31f396127c6f09874b') in 0.018458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Flag_free.fbx
-  artifactKey: Guid(6503076fc48824e4f87cd11e064396e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Flag_free.fbx using Guid(6503076fc48824e4f87cd11e064396e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d54d28a46bc08f4f7f8f556ac737b0a') in 0.020976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Fence_concrete_free.fbx
-  artifactKey: Guid(6cf1be92d81a7174088097d2d5df2eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Fence_concrete_free.fbx using Guid(6cf1be92d81a7174088097d2d5df2eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9211b5971991b486ddcd34882450f2') in 0.018919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.137463 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Materials/Environment_Free_Material.mat
-  artifactKey: Guid(b191529dbda163843876d34008f8139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Materials/Environment_Free_Material.mat using Guid(b191529dbda163843876d34008f8139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab65dab2366813e0260a66569232e7e') in 0.025298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.702291 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Tire_free.fbx
-  artifactKey: Guid(7827ac7a6723ad24493257d6e9ee9ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Tire_free.fbx using Guid(7827ac7a6723ad24493257d6e9ee9ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba924b657374a47dce0dd0756c3853da') in 0.038396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.186187 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Models/Tribune_free.fbx
-  artifactKey: Guid(29a2224320214ef489d7ecf10d4141dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Models/Tribune_free.fbx using Guid(29a2224320214ef489d7ecf10d4141dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55343af979b01408da89396f41a7587b') in 0.032326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 231.305661 seconds.
-  path: Assets/Prebafs/Road/FinishFragment.prefab
-  artifactKey: Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/FinishFragment.prefab using Guid(5fcab300047992d409fe18c58c1af775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec73c4a8e331612fb84bfc2cb46431d1') in 0.169377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.176425 seconds.
-  path: Assets/Prebafs/Road/Obstacles/Car obstacle.prefab
-  artifactKey: Guid(d9de9d5df7dd0eb4482bac14ec373231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/Obstacles/Car obstacle.prefab using Guid(d9de9d5df7dd0eb4482bac14ec373231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405cca965a84eb489bec3ca190cfa4c6') in 0.170747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.598695 seconds.
-  path: Assets/Prebafs/Road/PowerUp/NitroBarrel.prefab
-  artifactKey: Guid(24eb4441c2ed7f44d996e6b9cb7696b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prebafs/Road/PowerUp/NitroBarrel.prefab using Guid(24eb4441c2ed7f44d996e6b9cb7696b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838d2b067f1eee86a2056e71848dc5c3') in 0.043217 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012133 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Unity Projects\RacongRunner2Rep\RacingRunner2\RacingRunner2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1850ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1595ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1136ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (1003ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.72 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3821 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (160.8 KB). Loaded Objects now: 4379.
+Memory consumption went from 168.4 MB to 168.3 MB.
+Total: 7.600100 ms (FindLiveObjects: 0.626900 ms CreateObjectMapping: 0.539500 ms MarkObjects: 6.128400 ms  DeleteObjects: 0.302900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 551ea9813040f695a4b383b6c6db3b9c -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

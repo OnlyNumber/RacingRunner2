@@ -5,6 +5,8 @@ using Fusion;
 
 public class DestroyedCar : NetworkBehaviour, IEffect
 {
+    [SerializeField] private float _durationUntochable;
+
     [SerializeField] private float _distanceToMove;
 
     public Coroutine Effect(GameObject objectForEffect)
@@ -13,12 +15,17 @@ public class DestroyedCar : NetworkBehaviour, IEffect
 
         objectForEffect.GetComponent<IChangePosition>().MovePos(new Vector3(0, 0, _distanceToMove));
 
-        return null;
+        return StartCoroutine(StartEffect(objectForEffect));
     }
 
-    private IEnumerator StartEffect()
+    private IEnumerator StartEffect(GameObject objectForEffect)
     {
-        yield return new WaitForSecondsRealtime(1);
+        objectForEffect.layer = StaticFields.UNTOUCHABLE_LAYER;
+
+        yield return new WaitForSecondsRealtime(_durationUntochable);
+
+        objectForEffect.layer = StaticFields.PLAYER_LAYER;
+
     }
 
 }

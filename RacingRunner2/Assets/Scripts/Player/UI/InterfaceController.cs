@@ -38,13 +38,13 @@ public class InterfaceController : MonoBehaviour
 
         _nitroSystem.OnNitroChange += ChangeNitroAmount;
 
-        _nitroButton = PlayerInterfaceSingle.instance.drivingInterface.nitroButton;
+        _nitroButton = Playeringle.instance.drivingInterface.nitroButton;
 
-        _speedometrArrow = PlayerInterfaceSingle.instance.drivingInterface._speedArrow;
+        _speedometrArrow = Playeringle.instance.drivingInterface._speedArrow;
 
-        _nitroIndicator = PlayerInterfaceSingle.instance.drivingInterface.nitroStep;
+        _nitroIndicator = Playeringle.instance.drivingInterface.nitroStep;
 
-        _place = PlayerInterfaceSingle.instance.drivingInterface.place;
+        _place = Playeringle.instance.drivingInterface.place;
 
         EventTrigger.Entry firstEntry = new EventTrigger.Entry();
 
@@ -71,7 +71,7 @@ public class InterfaceController : MonoBehaviour
     {
         if (_networkObject.HasInputAuthority)
         {
-            PlayerInterfaceSingle.instance._camera.Follow = transform;
+            Playeringle.instance._camera.Follow = transform;
         }
 
 

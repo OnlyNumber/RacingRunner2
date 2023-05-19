@@ -34,7 +34,33 @@ public class ColliderChecker : NetworkBehaviour
             negativeEffect = other.GetComponent<IEffect>().Effect(gameObject);
         }
 
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            if (negativeEffect != null)
+            {
+                StopCoroutine(negativeEffect);
+            }
+
+            other.gameObject.GetComponent<Finisher>().FinishGame(GetComponent<FirebaseDataSetter>()._time);
+
+            GetComponent<ISpeedControl>().MultiplyBoost(0);
+
+            GetComponent<ISpeedControl>().MultiplySpeed(0);
+
+            Debug.Log("Finish");
+
+
+        }
+
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+
+
+    }
+
 
 
 

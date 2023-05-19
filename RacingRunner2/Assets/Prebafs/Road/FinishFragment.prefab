@@ -3995,10 +3995,11 @@ GameObject:
   - component: {fileID: 6817818886765229827}
   - component: {fileID: 2161001026210525076}
   - component: {fileID: 6667071344134597677}
-  - component: {fileID: 8092854401715174659}
+  - component: {fileID: 4466538875642357600}
+  - component: {fileID: 8515197691316734920}
   m_Layer: 10
   m_Name: FinishFragment
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4041,7 +4042,8 @@ MonoBehaviour:
     RawGuidValue: 5fcab300047992d409fe18c58c1af775
   NestedObjects: []
   NetworkedBehaviours:
-  - {fileID: 8092854401715174659}
+  - {fileID: 4466538875642357600}
+  - {fileID: 8515197691316734920}
   SimulationBehaviours: []
 --- !u!65 &6667071344134597677
 BoxCollider:
@@ -4051,12 +4053,25 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6817818886765229836}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 21.23587, y: 6.42869, z: 5.2268333}
   m_Center: {x: -0.31767845, y: 2.7437663, z: 19.683416}
---- !u!114 &8092854401715174659
+--- !u!114 &4466538875642357600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817818886765229836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566c43d95119c934dafc06a32e329d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+--- !u!114 &8515197691316734920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
