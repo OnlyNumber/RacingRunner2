@@ -25,16 +25,26 @@ public class ItemLeaderBoard : MonoBehaviour
 
         _textNickname.text = name;
 
-        if (time % 60 > 10)
+        if (time > 0)
         {
-            _textTime.text = $" {(int)(time / 60)} : {(int)(time % 60)}";
-        }
-        else
-        {
-            _textTime.text = $" {(int)(time / 60)} : 0{(int)(time % 60)}";
+            if (time % 60 > 10)
+            {
+                _textTime.text = $" {(int)(time / 60)} : {(int)(time % 60)}";
+            }
+            else
+            {
+                _textTime.text = $" {(int)(time / 60)} : 0{(int)(time % 60)}";
+            }
+
+            _textPlace.text = place.ToString();
         }
 
-        _textPlace.text = place.ToString();
+        else
+        {
+            _textTime.text = "00:00";
+
+            _textPlace.text = "None";
+        }
 
 
     }

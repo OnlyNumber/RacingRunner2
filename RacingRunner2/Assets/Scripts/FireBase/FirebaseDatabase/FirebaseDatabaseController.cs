@@ -55,6 +55,7 @@ public class FirebaseDatabaseController : MonoBehaviour
 
             foreach (DataSnapshot clidSnapshot in snapshot.Children)
             {
+                if(float.Parse(clidSnapshot.Child(StaticFields.FIREBASE_BEST_TIME).Value.ToString()) > 0)
                 ReverseList.Add(clidSnapshot);
             }
 

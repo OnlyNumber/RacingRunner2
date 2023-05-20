@@ -13,9 +13,15 @@ public class Nitro : NetworkBehaviour,IEffect
 
         objectForEffect.GetComponent<NitroSystem>().AddNitro(_addNitro);
 
-        Runner.Despawn(GetComponent<NetworkObject>());
+        gameObject.SetActive(false);
 
         return null;
     }
-    
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Runner.Despawn(GetComponent<NetworkObject>());
+    }
+
+
 }

@@ -26,30 +26,40 @@ public class ControllLereaderBoard : MonoBehaviour
 
         bool isPlayerPlaced = false;
 
-       // Debug.Log(_amountBestPlayers + " == " + _firebase.ReverseList.Count);
+        Debug.Log(_amountBestPlayers + " == " + _firebase.ReverseList.Count);
+
+        for (int index = 0; index < _firebase.ReverseList.Count; index++)
+        {
+
+
+            Debug.Log("INDEX =" + index + "  " + _firebase.ReverseList[index].Child(StaticFields.FIREBASE_NAME).Value.ToString() + "==BestTime==" + float.Parse(_firebase.ReverseList[index].Child(StaticFields.FIREBASE_BEST_TIME).Value.ToString()));
+        }
+
+
 
         for (int index = 0; index < _amountBestPlayers; index++)
         {
             //Debug.Log(index);
+            //Debug.Log(_firebase.ReverseList[index].Child(StaticFields.FIREBASE_NAME).Value.ToString() + "==BestTime==" + float.Parse(_firebase.ReverseList[index].Child(StaticFields.FIREBASE_BEST_TIME).Value.ToString()));
+
 
             if (float.Parse(_firebase.ReverseList[index].Child("bestTime").Value.ToString()) < 0)
             {
-                Debug.Log(float.Parse(_firebase.ReverseList[index].Child("bestTime").Value.ToString()));
+                Debug.Log("BestTime" + float.Parse(_firebase.ReverseList[index].Child(StaticFields.FIREBASE_BEST_TIME).Value.ToString()));
                 continue;
             }
 
 
-            if(_firebase.ReverseList[index].Child("id").Value.ToString() == _firebase.UserDataTransfer.id)
+            if (_firebase.ReverseList[index].Child("id").Value.ToString() == _firebase.UserDataTransfer.id)
             {
                 color = StaticFields.SELECTED_COLOR;
                 isPlayerPlaced = true;
-
             }
             else
             {
                 color = StaticFields.NOT_SELECTED_COLOR;
             }
-            
+
 
 
             Instantiate(_itemLeaderBoardPrefab, _layoutLeaderBoard).InitItem(color,
@@ -59,40 +69,40 @@ public class ControllLereaderBoard : MonoBehaviour
                 _firebase.ReverseList.IndexOf(_firebase.ReverseList[index]) + 1);
         }
 
-        if(!isPlayerPlaced)
+        if (!isPlayerPlaced)
         {
             Firebase.Database.DataSnapshot player = null;
 
             foreach (var item in _firebase.ReverseList)
             {
-                
 
-                if(item.Child("nickName").Value.ToString() == _firebase.UserDataTransfer.nickName)
+
+                if (item.Child("nickName").Value.ToString() == _firebase.UserDataTransfer.nickName)
                 {
                     player = item;
                 }
 
             }
 
+            if (_firebase.UserDataTransfer.bestTime > 0)
+            {
+                Instantiate(_itemLeaderBoardPrefab,
+                    _layoutLeaderBoard).InitItem(StaticFields.SELECTED_COLOR,
+                    _sprites[_firebase.UserDataTransfer.avatarIcon],
+                    _firebase.UserDataTransfer.nickName,
+                    _firebase.UserDataTransfer.bestTime,
+                    _firebase.ReverseList.IndexOf(player) + 1);
+            }
+            else
+            {
+                Instantiate(_itemLeaderBoardPrefab,
+                    _layoutLeaderBoard).InitItem(StaticFields.SELECTED_COLOR,
+                    _sprites[_firebase.UserDataTransfer.avatarIcon],
+                    _firebase.UserDataTransfer.nickName,
+                    _firebase.UserDataTransfer.bestTime,
+                    -1);
+            }
 
-
-
-
-
-
-            Instantiate(_itemLeaderBoardPrefab, _layoutLeaderBoard).InitItem(StaticFields.SELECTED_COLOR,
-                _sprites[_firebase.UserDataTransfer.avatarIcon],
-                _firebase.UserDataTransfer.nickName,
-                _firebase.UserDataTransfer.bestTime,
-                _firebase.ReverseList.IndexOf(player) + 1);
         }
-
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

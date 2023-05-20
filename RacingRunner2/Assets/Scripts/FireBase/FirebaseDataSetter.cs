@@ -22,7 +22,7 @@ public class FirebaseDataSetter : NetworkBehaviour
     [Networked]
     private int _car { get; set; }
 
-    [SerializeField] private PanelController _loadScreen;
+    [SerializeField] private LoadScreen _loadScreen;
 
     [SerializeField] private PlayerItem _firstPlayerItem;
 
@@ -38,15 +38,15 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     private void Start()
     {
-        _textCountdown = Playeringle.instance._textCountdown;
+        _textCountdown = PlayerSingleUI.instance._textCountdown;
 
-        _loadScreen = Playeringle.instance._loadScreen;
+        _loadScreen = PlayerSingleUI.instance._loadScreen;
 
-        _firstPlayerItem = Playeringle.instance._firstPlayer;
+        _firstPlayerItem = PlayerSingleUI.instance._firstPlayer;
 
-        _secondPlayerItem = Playeringle.instance._secondPlayer;
+        _secondPlayerItem = PlayerSingleUI.instance._secondPlayer;
 
-        _panelVS = Playeringle.instance._panelVS;
+        _panelVS = PlayerSingleUI.instance._panelVS;
 
         GetComponent<ISpeedControl>().MultiplyBoostScale(0);
 
@@ -80,10 +80,14 @@ public class FirebaseDataSetter : NetworkBehaviour
     [ContextMenu("SetInfo")]
     public void SetInfo()
     {
+        GetComponent<InterfaceController>().Check();
+
         List<SpawnerShared.PlayerData> info = SpawnerShared.instance.CopyData();
 
+        
         _firstPlayerItem.SetInfo(_myAvatars[info[0].avatar], info[0].name);
-
+        
+        if(info.Count >= 2)
         _secondPlayerItem.SetInfo(_myAvatars[info[1].avatar], info[1].name);
 
         StartCoroutine(ShowPanels());

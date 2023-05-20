@@ -37,8 +37,11 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 
     [SerializeField] private RoadSpawner _roadSpawner;
 
-    public List<PlayerData> _userData = new List<PlayerData>();
+    
 
+    private List<PlayerData> _userData = new List<PlayerData>();
+
+    private List<Transform> playersTransforms = new List<Transform>();
 
     private void Start()
     {
@@ -59,6 +62,9 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
             Runner.Spawn(_roadSpawner, null, null, null, (Runner, obj) =>
                 {
                     obj.GetComponent<ISpawner>().Spawn();
+
+                    playersTransforms.Add(obj.transform);
+
                 });
             
         }
@@ -83,6 +89,11 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         if (_userData.Count == 2)
         {
             onPlayersConnected?.Invoke();
+
+            Runner.SessionInfo.IsOpen = false;
+
+            Runner.SessionInfo.IsVisible = false;
+
         }
 
     }
@@ -99,7 +110,22 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         return copyData;
     }
 
+public Transform FindNotSelf(Transform self)
+    {
+        foreach (var item in playersTransforms)
+        {
 
+            if(!item.GetComponent<NetworkObject>().HasInputAuthority)
+            {
+                return item;
+            }
+
+        }
+
+        return null;
+
+        //self.GetComponent<NetworkObject>().Id;
+    }
 
 
 

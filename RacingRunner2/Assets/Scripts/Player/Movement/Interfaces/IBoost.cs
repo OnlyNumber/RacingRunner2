@@ -5,6 +5,8 @@ using System;
 
 public interface IBoost
 {
+
+    public float GetBoost();
     public float GetBoostScale();
     public void MultiplyBoostScale(float multiply);
 

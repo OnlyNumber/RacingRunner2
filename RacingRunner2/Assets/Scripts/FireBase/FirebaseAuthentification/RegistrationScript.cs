@@ -93,6 +93,8 @@ public class RegistrationScript : Authentification
 
                         SaveData();
 
+                        Debug.Log("StaticFields.MENU_SCENE");
+
                         StartLoadScene(StaticFields.MENU_SCENE);
                     }
 

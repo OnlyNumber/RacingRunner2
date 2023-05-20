@@ -8,7 +8,7 @@ public class NitroSystem : NetworkBehaviour, IPercantage
 {
     public event Action OnNitroChange;
 
-    private float _currentAmountOfNitro;
+    [SerializeField] private float _currentAmountOfNitro;
 
     private bool _isActiveBoost;
 
@@ -40,19 +40,26 @@ public class NitroSystem : NetworkBehaviour, IPercantage
 
     [SerializeField] private float _nitroBoost;
 
+    private float _currentBoost;
+
     IBoost _playerBoost;
 
     private void Start()
     {
+        
         CurrentAmountOfNitro = 0;
 
         _playerBoost = GetComponent<IBoost>();
+
+        _currentBoost = _playerBoost.GetBoost();
+
+        //Debug.Log(_currentBoost);
 
     }
 
     public override void FixedUpdateNetwork()
     {
-        if(_isActiveBoost && CurrentAmountOfNitro > 0)
+        if(_isActiveBoost)
         {
             Boosting();
         }    
@@ -62,18 +69,23 @@ public class NitroSystem : NetworkBehaviour, IPercantage
 
     public void ActivateBoost()
     {
-        
-        _isActiveBoost = true;
+        if (CurrentAmountOfNitro > 0)
+        {
+            _isActiveBoost = true;
 
-        _playerBoost.MultiplyBoost(_nitroBoost);
 
+            _playerBoost.MultiplyBoost(_nitroBoost);
+        }
     }
 
     public void DeactivateBoost()
     {
-        _isActiveBoost = false;
+        if (_isActiveBoost)
+        {
+            _isActiveBoost = false;
 
-        _playerBoost.MultiplyBoost(1/_nitroBoost);
+            _playerBoost.MultiplyBoost(1 / _nitroBoost);
+        }
     }
 
 
@@ -88,6 +100,12 @@ public class NitroSystem : NetworkBehaviour, IPercantage
     public void Boosting()
     {
         CurrentAmountOfNitro -= _speedDecreaceNitro * Runner.DeltaTime;
+
+        if (CurrentAmountOfNitro <= 0 )
+        {
+            DeactivateBoost();
+        }
+
     }
 
     public float GetPercent()

@@ -7,7 +7,7 @@ public class MenuController : MonoBehaviour
 {
 
     [SerializeField] private LoadScreen _loadingScreen;
-
+    
     [SerializeField] private PanelController _mainPanel;
 
     [SerializeField] private FirebaseDatabaseController _firebase;

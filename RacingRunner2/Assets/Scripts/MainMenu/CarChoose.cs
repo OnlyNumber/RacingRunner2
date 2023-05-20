@@ -38,7 +38,7 @@ public class CarChoose : MonoBehaviour
 
         _myCars[_currentCar].SetActive(true);
 
-        Debug.Log(_firebase.UserDataTransfer.avatarIcon);
+        //Debug.Log(_firebase.UserDataTransfer.avatarIcon);
 
     }
 

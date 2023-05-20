@@ -8,16 +8,12 @@ using UnityEngine.EventSystems;
 
 public class InterfaceController : MonoBehaviour
 {
-    [SerializeField]
     private Image _nitroIndicator;
 
-    [SerializeField]
     private TMP_Text _place;
 
-    [SerializeField]
     private Transform _speedometrArrow;
 
-    [SerializeField]
     private Button _nitroButton;
 
     private ISpeedControl _speedController;
@@ -32,19 +28,26 @@ public class InterfaceController : MonoBehaviour
 
     [SerializeField] EventTrigger _evet;
 
+    private Transform _anotherPlayer;
+
+    
+
     private void Awake()
     {
         _speedController = GetComponent<ISpeedControl>();
 
-        _nitroSystem.OnNitroChange += ChangeNitroAmount;
+        Debug.Log("Interface");
 
-        _nitroButton = Playeringle.instance.drivingInterface.nitroButton;
+        
+        _nitroButton = PlayerSingleUI.instance.drivingInterface.nitroButton;
 
-        _speedometrArrow = Playeringle.instance.drivingInterface._speedArrow;
+        _speedometrArrow = PlayerSingleUI.instance.drivingInterface._speedArrow;
 
-        _nitroIndicator = Playeringle.instance.drivingInterface.nitroStep;
+        _nitroIndicator = PlayerSingleUI.instance.drivingInterface.nitroStep;
 
-        _place = Playeringle.instance.drivingInterface.place;
+        _place = PlayerSingleUI.instance.drivingInterface.place;
+
+
 
         EventTrigger.Entry firstEntry = new EventTrigger.Entry();
 
@@ -55,24 +58,36 @@ public class InterfaceController : MonoBehaviour
         EventTrigger.Entry secondEntry = new EventTrigger.Entry();
 
 
-
         secondEntry.eventID = EventTriggerType.PointerUp;
 
         secondEntry.callback.AddListener((a) => { GetComponent<NitroSystem>().DeactivateBoost(); });
-
-
 
         _nitroButton.GetComponent<EventTrigger>().triggers.Add(firstEntry);
 
         _nitroButton.GetComponent<EventTrigger>().triggers.Add(secondEntry);
     }
 
+    public void Check()
+    {
+        if (_networkObject.HasStateAuthority)
+        {
+            Debug.Log("_networkObject.HasInputAuthority" + _networkObject.HasInputAuthority);
+            _nitroSystem.OnNitroChange += ChangeNitroAmount;
+        }
+    }
+
+
     private void Start()
     {
         if (_networkObject.HasInputAuthority)
         {
-            Playeringle.instance._camera.Follow = transform;
+            PlayerSingleUI.instance._camera.Follow = transform;
+
+
         }
+
+        SpawnerShared.instance.onPlayersConnected += SetAnotherPlayer;
+
 
 
     }
@@ -82,6 +97,7 @@ public class InterfaceController : MonoBehaviour
         if (_networkObject.HasInputAuthority)
         {
             UpdateInterface();
+            MyPlace();
         }
     }
 
@@ -101,4 +117,25 @@ public class InterfaceController : MonoBehaviour
     {
         ChangeSpeedometr();
     }
+
+    private void MyPlace()
+    {
+        if (_anotherPlayer != null)
+        {
+            if (transform.position.z > _anotherPlayer.position.z)
+            {
+                _place.text = "1/2";
+            }
+            else
+            {
+                _place.text = "2/2";
+            }
+        }
+    }
+
+    private void SetAnotherPlayer()
+    {
+        _anotherPlayer = SpawnerShared.instance.FindNotSelf(transform);
+    }
+
 }

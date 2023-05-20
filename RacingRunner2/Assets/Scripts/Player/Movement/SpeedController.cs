@@ -61,4 +61,9 @@ public class SpeedController : NetworkBehaviour, ISpeedControl
     {
         _boost *= multiply;
     }
+
+    public float GetBoost()
+    {
+        return _boost;
+    }
 }
