@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
   _amountOfRoadsFragment: 60
-  _distanceBetweenFragments: 69
+  _distanceBetweenFragments: 138
   _roadFragment: {fileID: 2161001026210525076, guid: 175bb2afa63ee0f4dbac632410a123d6, type: 3}
   _startFragment: {fileID: 2161001026210525076, guid: dc816905dc2ada54da1a8b677c5db414, type: 3}
   _finishFragment: {fileID: 2161001026210525076, guid: 5fcab300047992d409fe18c58c1af775, type: 3}
