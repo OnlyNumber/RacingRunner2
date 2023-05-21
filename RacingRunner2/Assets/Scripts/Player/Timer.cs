@@ -4,24 +4,22 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    private float _time;
+    [SerializeField] private GameStarter _gameStarter;
 
-    private bool _isGame;
+    public float MyTime { get; private set; }
+
+    
 
     private void Update()
     {
-        
+        if (_gameStarter.IsGame == true)
+        {
+            SetTime();
+        }
     }
 
     private void SetTime()
     {
-        _time += Time.deltaTime;
+        MyTime += Time.deltaTime;
     }
-
-    public float GetTime()
-    {
-        return _time;
-    }
-
-
 }

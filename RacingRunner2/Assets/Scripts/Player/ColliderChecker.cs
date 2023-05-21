@@ -36,28 +36,15 @@ public class ColliderChecker : NetworkBehaviour
                 StopCoroutine(negativeEffect);
             }
 
-            other.gameObject.GetComponent<Finisher>().FinishGame(GetComponent<FirebaseDataSetter>()._time);
+            other.gameObject.GetComponent<Finisher>().FinishGame(GetComponent<Timer>().MyTime);
 
             GetComponent<ISpeedControl>().MultiplyBoost(0);
 
             GetComponent<ISpeedControl>().MultiplySpeed(0);
 
             Debug.Log("Finish");
-
-
         }
 
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        
-
-
-    }
-
-
-
-
 
 }
