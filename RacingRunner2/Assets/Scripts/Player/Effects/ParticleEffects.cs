@@ -25,24 +25,25 @@ public class ParticleEffects : PlayerEffect
 
         _nitroButton = PlayerSingleUI.instance.DrivingInterface.nitroButton;
 
-        WriteMethods(StartWheelParticle, EventTriggerType.PointerDown);
+        if (MyNetworkObject.HasInputAuthority)
+        {
+            WriteMethods(StartWheelParticle, EventTriggerType.PointerDown);
 
-        WriteMethods(StopWheelParticle, EventTriggerType.PointerUp);
+            WriteMethods(StopWheelParticle, EventTriggerType.PointerUp);
+        }
+        _windParticles.Stop();
 
         _leftWheelParticle.Stop();
 
         _rightWheelParticles.Stop();
 
-    }
+        if (MyNetworkObject.HasInputAuthority)
+        {
+            Debug.Log("ParticleEffects");
 
-    private void OnEnable()
-    {
-        SpeedEffect.OnPlayerEffects += SomeEffect;
-    }
+            SpeedEffect.OnPlayerEffects += SomeEffect;
+        }
 
-    private void OnDisable()
-    {
-        SpeedEffect.OnPlayerEffects -= SomeEffect;
     }
 
     private void WriteMethods(Action someMethod, EventTriggerType type)
@@ -78,8 +79,12 @@ public class ParticleEffects : PlayerEffect
     {
         if (percents > _percentOfStart)
         {
+            //Debug.Log("percents > _percentOfStart");
+
             if (!_windParticles.isPlaying)
             {
+                Debug.Log("!_windParticles.isPlaying");
+
                 _windParticles.Play();
             }
         }

@@ -5,6 +5,7 @@ using Cinemachine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System;
+using Fusion;
 
 public class SpeedEffects : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class SpeedEffects : MonoBehaviour
     public PlayerEffect OnPlayerEffects;
 
     private IPercantage percents;
-
 
     private void Start()
     {

@@ -116,6 +116,8 @@ public class InterfaceController : MonoBehaviour
 
     private void MyPlace()
     {
+        
+
         if (_anotherPlayer != null)
         {
             if (transform.position.z > _anotherPlayer.position.z)
@@ -127,11 +129,15 @@ public class InterfaceController : MonoBehaviour
                 _place.text = "2/2";
             }
         }
+        
     }
 
     private void SetAnotherPlayer()
     {
         _anotherPlayer = SpawnerShared.instance.FindNotSelf(transform);
+
+        Debug.Log("Find?" + _anotherPlayer);
+    
     }
 
 }

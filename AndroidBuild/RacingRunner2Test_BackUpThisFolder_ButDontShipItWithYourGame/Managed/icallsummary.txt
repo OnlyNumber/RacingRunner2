@@ -759,11 +759,13 @@ UnityEngine.Object::Internal_InstantiateSingle_Injected
 UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
+UnityEngine.ParticleSystem::get_isPlaying
 UnityEngine.ParticleSystem::get_useAutoRandomSeed
 UnityEngine.ParticleSystem::get_time
 UnityEngine.ParticleSystem::EmitOld_Internal
 UnityEngine.ParticleSystem::Emit_Injected
 UnityEngine.ParticleSystem::Emit_Internal
+UnityEngine.ParticleSystem::Play
 UnityEngine.ParticleSystem::Simulate
 UnityEngine.ParticleSystem::Stop
 UnityEngine.ParticleSystem::set_randomSeed

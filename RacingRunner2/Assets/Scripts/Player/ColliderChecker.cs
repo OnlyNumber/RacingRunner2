@@ -9,6 +9,7 @@ public class ColliderChecker : NetworkBehaviour
 
     private Coroutine negativeEffect;
 
+    [SerializeField] private Timer _time;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -36,7 +37,8 @@ public class ColliderChecker : NetworkBehaviour
                 StopCoroutine(negativeEffect);
             }
 
-            other.gameObject.GetComponent<Finisher>().FinishGame(GetComponent<Timer>().MyTime);
+            if(HasInputAuthority)
+            other.gameObject.GetComponent<Finisher>().FinishGame(_time.MyTime);
 
             GetComponent<ISpeedControl>().MultiplyBoost(0);
 

@@ -12876,6 +12876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+  _time: {fileID: 1046061613347317513}
 --- !u!114 &1851074203292798966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13046,6 +13047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedEffect: {fileID: 8456467574108367242}
+  MyNetworkObject: {fileID: 8380200498017229092}
   _amplitudeGain: 1
   _frequencyGain: 1
   _startFOV: 40
@@ -13063,6 +13065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedEffect: {fileID: 8456467574108367242}
+  MyNetworkObject: {fileID: 8380200498017229092}
   _percentOfStart: 0.3
   _leftWheelParticle: {fileID: 3818731499917640360}
   _rightWheelParticles: {fileID: 5004656366853915484}

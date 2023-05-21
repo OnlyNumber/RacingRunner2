@@ -446,6 +446,12 @@ struct MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689  : public RuntimeArr
 
 
 
+// System.Void UnityEngine.ParticleSystem::Play(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_m4A59E0A2C7CA49EF75287A067305ABB314A16E62 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, bool ___withChildren0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.ParticleSystem::Stop(System.Boolean,UnityEngine.ParticleSystemStopBehavior)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Stop_mB5761CB85083F593FFEC3D27931CACF1855A6326 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, bool ___withChildren0, int32_t ___stopBehavior1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.ParticleSystem::Stop(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Stop_m6CA855033D5CE2D3AF7927B6709BC65DBCD632DF (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, bool ___withChildren0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ParticleSystem::Emit_Internal(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Emit_Internal_m54D6D9A78E8634846C9DB6445C0E0A0885E8A20E (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, int32_t ___count0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.ParticleSystem::Emit_Injected(UnityEngine.ParticleSystem/EmitParams&,System.Int32)
@@ -513,6 +519,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Boolean UnityEngine.ParticleSystem::get_isPlaying()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParticleSystem_get_isPlaying_mC5170DA3C904670B88200C8DA1E0F8FC1BC7C42B (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) 
+{
+	typedef bool (*ParticleSystem_get_isPlaying_mC5170DA3C904670B88200C8DA1E0F8FC1BC7C42B_ftn) (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1*);
+	static ParticleSystem_get_isPlaying_mC5170DA3C904670B88200C8DA1E0F8FC1BC7C42B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (ParticleSystem_get_isPlaying_mC5170DA3C904670B88200C8DA1E0F8FC1BC7C42B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ParticleSystem::get_isPlaying()");
+	bool icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
 // System.Single UnityEngine.ParticleSystem::get_time()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ParticleSystem_get_time_mDB612DCED4B4345E40BE98597A5895F48BC0ECDC (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) 
 {
@@ -560,6 +576,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Simulate_m514E1FCC76A6882
 	_il2cpp_icall_func = (ParticleSystem_Simulate_m514E1FCC76A6882650BD237E1D14B43ECAA97643_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ParticleSystem::Simulate(System.Single,System.Boolean,System.Boolean,System.Boolean)");
 	_il2cpp_icall_func(__this, ___t0, ___withChildren1, ___restart2, ___fixedTimeStep3);
 }
+// System.Void UnityEngine.ParticleSystem::Play(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_m4A59E0A2C7CA49EF75287A067305ABB314A16E62 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, bool ___withChildren0, const RuntimeMethod* method) 
+{
+	typedef void (*ParticleSystem_Play_m4A59E0A2C7CA49EF75287A067305ABB314A16E62_ftn) (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1*, bool);
+	static ParticleSystem_Play_m4A59E0A2C7CA49EF75287A067305ABB314A16E62_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (ParticleSystem_Play_m4A59E0A2C7CA49EF75287A067305ABB314A16E62_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ParticleSystem::Play(System.Boolean)");
+	_il2cpp_icall_func(__this, ___withChildren0);
+}
+// System.Void UnityEngine.ParticleSystem::Play()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) 
+{
+	{
+		ParticleSystem_Play_m4A59E0A2C7CA49EF75287A067305ABB314A16E62(__this, (bool)1, NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.ParticleSystem::Stop(System.Boolean,UnityEngine.ParticleSystemStopBehavior)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Stop_mB5761CB85083F593FFEC3D27931CACF1855A6326 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, bool ___withChildren0, int32_t ___stopBehavior1, const RuntimeMethod* method) 
 {
@@ -568,6 +601,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Stop_mB5761CB85083F593FFE
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (ParticleSystem_Stop_mB5761CB85083F593FFEC3D27931CACF1855A6326_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.ParticleSystem::Stop(System.Boolean,UnityEngine.ParticleSystemStopBehavior)");
 	_il2cpp_icall_func(__this, ___withChildren0, ___stopBehavior1);
+}
+// System.Void UnityEngine.ParticleSystem::Stop(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Stop_m6CA855033D5CE2D3AF7927B6709BC65DBCD632DF (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, bool ___withChildren0, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = ___withChildren0;
+		ParticleSystem_Stop_mB5761CB85083F593FFEC3D27931CACF1855A6326(__this, L_0, 1, NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.ParticleSystem::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Stop_m2D8D4967496EF0F5BFEF679C49A9E65A9646C423 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) 
+{
+	{
+		ParticleSystem_Stop_m6CA855033D5CE2D3AF7927B6709BC65DBCD632DF(__this, (bool)1, NULL);
+		return;
+	}
 }
 // System.Void UnityEngine.ParticleSystem::Emit(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Emit_m3E9E6359087607E84E0D4D35844D80D9452AD72D (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, int32_t ___count0, const RuntimeMethod* method) 

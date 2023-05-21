@@ -24,19 +24,14 @@ public class CameraEffects : PlayerEffect
 
         _shakeCamera = _virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
+        if (MyNetworkObject.HasInputAuthority)
+        {
+            Debug.Log("CameraEffects");
+
+            SpeedEffect.OnPlayerEffects += SomeEffect;
+        }
+
     }
-
-    private void OnEnable()
-    {
-        SpeedEffect.OnPlayerEffects += SomeEffect;
-    }
-
-    private void OnDisable()
-    {
-        SpeedEffect.OnPlayerEffects -= SomeEffect;
-    }
-
-
 
     public override void SomeEffect(float percents)
     {

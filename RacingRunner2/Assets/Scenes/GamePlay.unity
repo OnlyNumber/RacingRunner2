@@ -502,8 +502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 74}
-  m_SizeDelta: {x: 329.2761, y: 94.7165}
+  m_AnchoredPosition: {x: 16.3329, y: 60.9291}
+  m_SizeDelta: {x: 337.8002, y: 73.6549}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355936993
 MonoBehaviour:
@@ -1262,8 +1262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 235}
-  m_SizeDelta: {x: 329.2761, y: 94.71649}
+  m_AnchoredPosition: {x: 16.3285, y: -50.1466}
+  m_SizeDelta: {x: 337.8002, y: 73.655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693970968
 MonoBehaviour:
@@ -1484,7 +1484,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -6211,8 +6211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -312}
-  m_SizeDelta: {x: 277.6265, y: 77.9458}
+  m_AnchoredPosition: {x: 16.330597, y: -139.45982}
+  m_SizeDelta: {x: 337.8043, y: 60.6134}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &862537380
 MonoBehaviour:
@@ -7123,7 +7123,7 @@ RectTransform:
   m_GameObject: {fileID: 1412849693}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2091603250}
@@ -7136,8 +7136,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -129.756, y: -967.6739}
+  m_AnchoredPosition: {x: 0, y: 0.0014648438}
+  m_SizeDelta: {x: 0, y: -738.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1412849695
 MonoBehaviour:
@@ -7193,8 +7193,8 @@ MonoBehaviour:
   TextTime: {fileID: 2091603251}
   TextPlace: {fileID: 355936993}
   TextBestTime: {fileID: 693970968}
-  TextNewBestTime: {fileID: 0}
-  ButtonFinish: {fileID: 0}
+  TextNewBestTime: {fileID: 2094334738}
+  ButtonFinish: {fileID: 862537380}
 --- !u!1 &1419144604
 GameObject:
   m_ObjectHideFlags: 0
@@ -8717,8 +8717,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -89}
-  m_SizeDelta: {x: 329.2761, y: 94.71649}
+  m_AnchoredPosition: {x: 16.3329, y: 112.403}
+  m_SizeDelta: {x: 337.8002, y: 73.655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2091603251
 MonoBehaviour:
@@ -8852,8 +8852,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -74.936}
-  m_SizeDelta: {x: 329.28, y: 50.0037}
+  m_AnchoredPosition: {x: 16.330896, y: -16.058304}
+  m_SizeDelta: {x: 337.8043, y: 38.8846}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2094334738
 MonoBehaviour:

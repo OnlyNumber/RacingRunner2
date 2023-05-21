@@ -14,8 +14,6 @@ public class Finisher : NetworkBehaviour
 
     private void Start()
     {
-        //_firebase = Playeringle.instance._firebase;
-
         _finishPanel = PlayerSingleUI.instance.Finish;
     }
 
