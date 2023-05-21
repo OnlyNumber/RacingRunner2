@@ -16,7 +16,7 @@ public class Finisher : NetworkBehaviour
     {
         //_firebase = Playeringle.instance._firebase;
 
-        _finishPanel = PlayerSingleUI.instance._finish;
+        _finishPanel = PlayerSingleUI.instance.Finish;
     }
 
     public void FinishGame(float currentTime)

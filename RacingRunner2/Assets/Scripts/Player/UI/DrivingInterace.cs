@@ -8,7 +8,7 @@ public class DrivingInterace : MonoBehaviour
 {
     public TMP_Text place;
 
-    public Image nitroStep;
+    public Image nitroIndicator;
 
     public Button nitroButton;
 

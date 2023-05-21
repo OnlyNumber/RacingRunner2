@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using Fusion;
 using UnityEngine.EventSystems;
+using System;
 
 public class InterfaceController : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class InterfaceController : MonoBehaviour
 
     [SerializeField] private NetworkObject _networkObject;
 
-    [SerializeField] EventTrigger _evet;
+    //[SerializeField] EventTrigger _evet;
 
     private Transform _anotherPlayer;
 
@@ -39,32 +40,29 @@ public class InterfaceController : MonoBehaviour
         Debug.Log("Interface");
 
         
-        _nitroButton = PlayerSingleUI.instance.drivingInterface.nitroButton;
+        _nitroButton = PlayerSingleUI.instance.DrivingInterface.nitroButton;
 
-        _speedometrArrow = PlayerSingleUI.instance.drivingInterface._speedArrow;
+        _speedometrArrow = PlayerSingleUI.instance.DrivingInterface._speedArrow;
 
-        _nitroIndicator = PlayerSingleUI.instance.drivingInterface.nitroStep;
+        _nitroIndicator = PlayerSingleUI.instance.DrivingInterface.nitroIndicator;
 
-        _place = PlayerSingleUI.instance.drivingInterface.place;
+        _place = PlayerSingleUI.instance.DrivingInterface.place;
 
+        WriteMethods(GetComponent<NitroSystem>().ActivateBoost, EventTriggerType.PointerDown);
 
+        WriteMethods(GetComponent<NitroSystem>().DeactivateBoost, EventTriggerType.PointerUp);
+    }
 
-        EventTrigger.Entry firstEntry = new EventTrigger.Entry();
+    private void WriteMethods(Action someMethod, EventTriggerType type)
+    {
+        EventTrigger.Entry entry = new EventTrigger.Entry();
 
-        firstEntry.eventID = EventTriggerType.PointerDown;
+        entry.eventID = type;
 
-        firstEntry.callback.AddListener((a) => { GetComponent<NitroSystem>().ActivateBoost(); });
+        entry.callback.AddListener((ev) => { someMethod(); });
 
-        EventTrigger.Entry secondEntry = new EventTrigger.Entry();
+        _nitroButton.GetComponent<EventTrigger>().triggers.Add(entry);
 
-
-        secondEntry.eventID = EventTriggerType.PointerUp;
-
-        secondEntry.callback.AddListener((a) => { GetComponent<NitroSystem>().DeactivateBoost(); });
-
-        _nitroButton.GetComponent<EventTrigger>().triggers.Add(firstEntry);
-
-        _nitroButton.GetComponent<EventTrigger>().triggers.Add(secondEntry);
     }
 
     public void Check()
@@ -81,7 +79,7 @@ public class InterfaceController : MonoBehaviour
     {
         if (_networkObject.HasInputAuthority)
         {
-            PlayerSingleUI.instance._camera.Follow = transform;
+            PlayerSingleUI.instance.Camera.Follow = transform;
 
 
         }

@@ -464,7 +464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   place: {fileID: 867799608}
-  nitroStep: {fileID: 490163710}
+  nitroIndicator: {fileID: 490163710}
   nitroButton: {fileID: 679024775}
   _speedArrow: {fileID: 1912571272}
 --- !u!1 &355936991
@@ -850,7 +850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462103506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.1, y: 98, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damping: {x: 0, y: 0, z: 0}
-  ShoulderOffset: {x: 0, y: 5, z: -20}
+  ShoulderOffset: {x: 0, y: 5, z: -15}
   VerticalArmLength: 0.4
   CameraSide: 1
   CameraDistance: 2
@@ -1078,10 +1078,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NoiseProfile: {fileID: 0}
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
   m_PivotOffset: {x: 0, y: 0, z: 0}
-  m_AmplitudeGain: 1
-  m_FrequencyGain: 1
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 0
   mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &679024773
 GameObject:
@@ -6953,7 +6953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315177318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.1, y: 98, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7268,7 +7268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1468181913
 Transform:
   m_ObjectHideFlags: 0
@@ -7300,14 +7300,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1ed3de92810a74890df71887d7bf55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _camera: {fileID: 1315177319}
-  drivingInterface: {fileID: 283713636}
-  _firstPlayer: {fileID: 1370329697}
-  _secondPlayer: {fileID: 1419144606}
-  _panelVS: {fileID: 1863195978}
-  _loadScreen: {fileID: 410694646}
-  _finish: {fileID: 1412849697}
-  _textCountdown: {fileID: 1583409232}
+  Camera: {fileID: 1315177319}
+  DrivingInterface: {fileID: 283713636}
+  FirstPlayer: {fileID: 1370329697}
+  SecondPlayer: {fileID: 1419144606}
+  PanelVS: {fileID: 1863195978}
+  LoadScreen: {fileID: 410694646}
+  Finish: {fileID: 1412849697}
+  TextCountdown: {fileID: 1583409232}
+  WindParticles: {fileID: 811489593}
 --- !u!1 &1528954072
 GameObject:
   m_ObjectHideFlags: 0

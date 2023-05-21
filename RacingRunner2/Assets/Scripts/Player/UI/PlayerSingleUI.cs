@@ -8,21 +8,23 @@ public class PlayerSingleUI : MonoBehaviour
 {
     public static PlayerSingleUI instance;
 
-    public CinemachineVirtualCamera _camera;
+    public CinemachineVirtualCamera Camera;
 
-    public DrivingInterace drivingInterface;
+    public DrivingInterace DrivingInterface;
 
-    public PlayerItem _firstPlayer;
+    public PlayerItem FirstPlayer;
 
-    public PlayerItem _secondPlayer;
+    public PlayerItem SecondPlayer;
 
-    public PanelController _panelVS;
+    public PanelController PanelVS;
 
-    public LoadScreen _loadScreen;
+    public LoadScreen LoadScreen;
 
-    public FinishPanel _finish;
+    public FinishPanel Finish;
 
-    public TMP_Text _textCountdown;
+    public TMP_Text TextCountdown;
+
+    public ParticleSystem WindParticles;
 
     void Start()
     {

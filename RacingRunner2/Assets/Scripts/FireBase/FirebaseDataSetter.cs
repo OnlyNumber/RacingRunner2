@@ -38,15 +38,15 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     private void Start()
     {
-        _textCountdown = PlayerSingleUI.instance._textCountdown;
+        _textCountdown = PlayerSingleUI.instance.TextCountdown;
 
-        _loadScreen = PlayerSingleUI.instance._loadScreen;
+        _loadScreen = PlayerSingleUI.instance.LoadScreen;
 
-        _firstPlayerItem = PlayerSingleUI.instance._firstPlayer;
+        _firstPlayerItem = PlayerSingleUI.instance.FirstPlayer;
 
-        _secondPlayerItem = PlayerSingleUI.instance._secondPlayer;
+        _secondPlayerItem = PlayerSingleUI.instance.SecondPlayer;
 
-        _panelVS = PlayerSingleUI.instance._panelVS;
+        _panelVS = PlayerSingleUI.instance.PanelVS;
 
         GetComponent<ISpeedControl>().MultiplyBoostScale(0);
 
@@ -84,7 +84,7 @@ public class FirebaseDataSetter : NetworkBehaviour
 
         List<SpawnerShared.PlayerData> info = SpawnerShared.instance.CopyData();
 
-        
+        if(info.Count > 1)
         _firstPlayerItem.SetInfo(_myAvatars[info[0].avatar], info[0].name);
         
         if(info.Count >= 2)
