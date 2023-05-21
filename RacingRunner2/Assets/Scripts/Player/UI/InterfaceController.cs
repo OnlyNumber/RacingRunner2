@@ -27,8 +27,6 @@ public class InterfaceController : MonoBehaviour
 
     [SerializeField] private NetworkObject _networkObject;
 
-    //[SerializeField] EventTrigger _evet;
-
     private Transform _anotherPlayer;
 
     

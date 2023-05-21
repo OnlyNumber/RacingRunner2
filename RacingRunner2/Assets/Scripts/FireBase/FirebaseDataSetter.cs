@@ -77,6 +77,18 @@ public class FirebaseDataSetter : NetworkBehaviour
     {
         changed.Behaviour.ChangeParameters();
     }
+
+    private void ChangeParameters()
+    {
+        SpawnerShared.instance.CheckAndAdd(new SpawnerShared.PlayerData(_nickName, _avatar, _car));
+
+        _myCars[_car].SetActive(true);
+    }
+
+
+
+
+
     [ContextMenu("SetInfo")]
     public void SetInfo()
     {
@@ -94,14 +106,6 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     }
 
-
-    private void ChangeParameters()
-    {
-        SpawnerShared.instance.CheckAndAdd(new SpawnerShared.PlayerData(_nickName, _avatar, _car));
-
-        _myCars[_car].SetActive(true);
-
-    }
 
     private IEnumerator ShowPanels()
     {
@@ -158,8 +162,6 @@ public class FirebaseDataSetter : NetworkBehaviour
         yield return new WaitForSecondsRealtime(1);
         
         _textCountdown.enabled = false;
-
-
     }
 
 
