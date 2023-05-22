@@ -33,8 +33,6 @@ public class CameraEffects : PlayerEffect
 
     }
 
-
-
     public override void SomeEffect(float percents)
     {
 

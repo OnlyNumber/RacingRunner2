@@ -7,7 +7,7 @@ using Fusion;
 using UnityEngine.EventSystems;
 using System;
 
-public class InterfaceController : MonoBehaviour
+public class UIController : MonoBehaviour
 {
     private Image _nitroIndicator;
 

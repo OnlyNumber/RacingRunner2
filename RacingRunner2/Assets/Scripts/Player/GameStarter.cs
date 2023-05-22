@@ -21,6 +21,8 @@ public class GameStarter : NetworkBehaviour
 
     [SerializeField] private List<Sprite> _myAvatars;
 
+    [SerializeField] private int _waitToStart;
+
     private void Start()
     {
         _textCountdown = PlayerSingleUI.instance.TextCountdown;
@@ -40,7 +42,7 @@ public class GameStarter : NetworkBehaviour
     [ContextMenu("SetInfo")]
     public void SetInfo()
     {
-        GetComponent<InterfaceController>().Check();
+        GetComponent<UIController>().Check();
 
         List<SpawnerShared.PlayerData> info = SpawnerShared.instance.CopyData();
 
@@ -80,25 +82,17 @@ public class GameStarter : NetworkBehaviour
 
     private IEnumerator CountdownToStart()
     {
-        _textCountdown.text = "5";
+        int timer = _waitToStart;
 
-        yield return new WaitForSecondsRealtime(1);
+        while (timer > 0)
+        {
 
-        _textCountdown.text = "4";
+            _textCountdown.text = timer.ToString();
 
-        yield return new WaitForSecondsRealtime(1);
+            yield return new WaitForSecondsRealtime(1);
 
-        _textCountdown.text = "3";
 
-        yield return new WaitForSecondsRealtime(1);
-
-        _textCountdown.text = "2";
-
-        yield return new WaitForSecondsRealtime(1);
-
-        _textCountdown.text = "1";
-
-        yield return new WaitForSecondsRealtime(1);
+        };
 
         _textCountdown.text = "GO!";
 

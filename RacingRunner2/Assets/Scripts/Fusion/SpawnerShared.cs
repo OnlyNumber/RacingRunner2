@@ -66,15 +66,8 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         }
         if (player == Runner.LocalPlayer)
         {
-            Runner.Spawn(_playerPrebaf, Vector3.zero, Quaternion.identity, player, (Runner, obj) =>
-            {
-                //playersTransforms.Add(obj.transform);
-
-            });
+            Runner.Spawn(_playerPrebaf, Vector3.zero, Quaternion.identity, player);
         }
-
-        //Runner.Player
-
     }
 
     public void CheckAndAdd(PlayerData user)

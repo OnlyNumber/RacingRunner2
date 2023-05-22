@@ -48,7 +48,7 @@ public class ColliderChecker : NetworkBehaviour
                     effect.UnsubscribeEffect();
                 }
 
-                GetComponent<InterfaceController>().SetOffDrivingInterface();
+                GetComponent<UIController>().SetOffDrivingInterface();
             }
             GetComponent<ISpeedControl>().MultiplyBoost(0);
         }

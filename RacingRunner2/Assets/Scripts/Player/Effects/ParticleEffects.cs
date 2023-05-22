@@ -17,8 +17,6 @@ public class ParticleEffects : PlayerEffect
 
     private Button _nitroButton;
 
-
-
     private void Start()
     {
         _windParticles = PlayerSingleUI.instance.WindParticles;
@@ -69,9 +67,6 @@ public class ParticleEffects : PlayerEffect
 
         _rightWheelParticles.Stop();
     }
-
-
-   
 
     public override void SomeEffect(float percents)
     {

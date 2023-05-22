@@ -12,6 +12,15 @@ public class NitroSystem : NetworkBehaviour, IPercantage
 
     private bool _isActiveBoost;
 
+
+    [SerializeField] private float _speedDecreaceNitro;
+
+    [SerializeField] private float _maxAmountOfNitro;
+
+    [SerializeField] private float _nitroBoost;
+
+    IBoost _playerBoost;
+
     private float CurrentAmountOfNitro
     {
         get
@@ -33,28 +42,11 @@ public class NitroSystem : NetworkBehaviour, IPercantage
 
         }
     }
-
-    [SerializeField] private float _speedDecreaceNitro;
-
-    [SerializeField] private float _maxAmountOfNitro;
-
-    [SerializeField] private float _nitroBoost;
-
-    private float _currentBoost;
-
-    IBoost _playerBoost;
-
     private void Start()
     {
-        
         CurrentAmountOfNitro = 0;
 
         _playerBoost = GetComponent<IBoost>();
-
-        _currentBoost = _playerBoost.GetBoost();
-
-        //Debug.Log(_currentBoost);
-
     }
 
     public override void FixedUpdateNetwork()
@@ -64,8 +56,6 @@ public class NitroSystem : NetworkBehaviour, IPercantage
             Boosting();
         }    
     }
-
-    
 
     public void ActivateBoost()
     {
