@@ -37,14 +37,17 @@ public class ColliderChecker : NetworkBehaviour
                 StopCoroutine(negativeEffect);
             }
 
-            if(HasInputAuthority)
-            other.gameObject.GetComponent<Finisher>().FinishGame(_time.MyTime);
+            if (HasInputAuthority)
+            {
+                other.gameObject.GetComponent<Finisher>().FinishGame(_time.MyTime);
 
+                PlayerSingleUI.instance.Camera.Follow = null;
+            }
             GetComponent<ISpeedControl>().MultiplyBoost(0);
 
-            GetComponent<ISpeedControl>().MultiplySpeed(0);
+            //foreach()
 
-            Debug.Log("Finish");
+            //GetComponent<ISpeedControl>().MultiplySpeed(0);
         }
 
     }

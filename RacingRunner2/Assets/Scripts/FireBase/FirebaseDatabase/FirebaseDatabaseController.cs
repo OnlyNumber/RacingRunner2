@@ -122,16 +122,24 @@ public class FirebaseDatabaseController : MonoBehaviour
     public void SaveName( string nickName)
     {
         dbRef.Child("users").Child(UserDataTransfer.id).Child(StaticFields.FIREBASE_NAME).SetValueAsync(nickName);
+
+        _userData.nickName = nickName;
+
+
     }
 
     public void SaveAvatar( int avatar)
     {
         dbRef.Child("users").Child(UserDataTransfer.id).Child(StaticFields.FIREBASE_AVATAR).SetValueAsync(avatar);
+
+        _userData.avatarIcon = avatar;
     }
 
-    public void SaveCar(int avatar)
+    public void SaveCar(int car)
     {
-        dbRef.Child("users").Child(UserDataTransfer.id).Child(StaticFields.FIREBASE_CAR).SetValueAsync(avatar);
+        dbRef.Child("users").Child(UserDataTransfer.id).Child(StaticFields.FIREBASE_CAR).SetValueAsync(car);
+
+        _userData.car = car;
     }
 
     public void SingOut()

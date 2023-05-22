@@ -33,6 +33,8 @@ public class CameraEffects : PlayerEffect
 
     }
 
+
+
     public override void SomeEffect(float percents)
     {
 
@@ -43,5 +45,8 @@ public class CameraEffects : PlayerEffect
         _shakeCamera.m_FrequencyGain = percents * _frequencyGain;
     }
 
-    
+    public override void UnsubscribeEffect()
+    {
+        SpeedEffect.OnPlayerEffects -= SomeEffect;
+    }
 }

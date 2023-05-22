@@ -35,9 +35,6 @@ public class InterfaceController : MonoBehaviour
     {
         _speedController = GetComponent<ISpeedControl>();
 
-        Debug.Log("Interface");
-
-        
         _nitroButton = PlayerSingleUI.instance.DrivingInterface.nitroButton;
 
         _speedometrArrow = PlayerSingleUI.instance.DrivingInterface._speedArrow;
@@ -78,11 +75,10 @@ public class InterfaceController : MonoBehaviour
         if (_networkObject.HasInputAuthority)
         {
             PlayerSingleUI.instance.Camera.Follow = transform;
-
-
+            SpawnerShared.instance.onPlayersConnected += SetAnotherPlayer;
         }
 
-        SpawnerShared.instance.onPlayersConnected += SetAnotherPlayer;
+
 
 
 
@@ -136,7 +132,7 @@ public class InterfaceController : MonoBehaviour
     {
         _anotherPlayer = SpawnerShared.instance.FindNotSelf(transform);
 
-        Debug.Log("Find?" + _anotherPlayer);
+        Debug.Log("Find?" + _anotherPlayer.GetComponent<NetworkObject>().Id);
     
     }
 

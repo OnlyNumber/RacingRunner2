@@ -9,10 +9,6 @@ using TMPro;
 public class FirebaseDataSetter : NetworkBehaviour
 {
 
-    public float _time;
-
-    private bool _isGame;
-
     [Networked(OnChanged = nameof(ChangeParameters))]
     private string _nickName { get; set; }
 
@@ -31,6 +27,8 @@ public class FirebaseDataSetter : NetworkBehaviour
 
     private void Start()
     {
+        SpawnerShared.instance.AddTransform(transform);
+
         _firstPlayerItem = PlayerSingleUI.instance.FirstPlayer;
 
         _secondPlayerItem = PlayerSingleUI.instance.SecondPlayer;
@@ -42,12 +40,6 @@ public class FirebaseDataSetter : NetworkBehaviour
 
         if(HasInputAuthority)
         Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
-    }
-
-    public override void FixedUpdateNetwork()
-    {
-        if(_isGame)
-        _time += Runner.DeltaTime;
     }
 
     [Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]

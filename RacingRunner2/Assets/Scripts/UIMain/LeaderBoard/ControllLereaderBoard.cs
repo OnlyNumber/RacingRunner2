@@ -39,9 +39,6 @@ public class ControllLereaderBoard : MonoBehaviour
 
         for (int index = 0; index < _amountBestPlayers; index++)
         {
-            //Debug.Log(index);
-            //Debug.Log(_firebase.ReverseList[index].Child(StaticFields.FIREBASE_NAME).Value.ToString() + "==BestTime==" + float.Parse(_firebase.ReverseList[index].Child(StaticFields.FIREBASE_BEST_TIME).Value.ToString()));
-
 
             if (float.Parse(_firebase.ReverseList[index].Child("bestTime").Value.ToString()) < 0)
             {

@@ -10,8 +10,6 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 
     public event Action onPlayersConnected;
 
-    //public GameStarter startGame;
-
     public struct PlayerData
     {
         public PlayerData(string name, int avatar, int car)
@@ -63,15 +61,20 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
                 {
                     obj.GetComponent<ISpawner>().Spawn();
 
-                    playersTransforms.Add(obj.transform);
-
                 });
             
         }
         if (player == Runner.LocalPlayer)
         {
-            Runner.Spawn(_playerPrebaf, Vector3.zero, Quaternion.identity, player);
+            Runner.Spawn(_playerPrebaf, Vector3.zero, Quaternion.identity, player, (Runner, obj) =>
+            {
+                //playersTransforms.Add(obj.transform);
+
+            });
         }
+
+        //Runner.Player
+
     }
 
     public void CheckAndAdd(PlayerData user)
@@ -110,21 +113,29 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
         return copyData;
     }
 
-public Transform FindNotSelf(Transform self)
+    public void AddTransform(Transform playerTransform)
     {
+        playersTransforms.Add(playerTransform);
+    }
+
+    public Transform FindNotSelf(Transform self)
+    {
+        Debug.Log("FindNotSelf");
+
         foreach (var item in playersTransforms)
         {
+            Debug.Log(item.GetComponent<NetworkObject>().Id);
 
-            if(!item.GetComponent<NetworkObject>().HasInputAuthority)
+            if (!item.GetComponent<NetworkObject>().HasStateAuthority)
             {
+                Debug.Log(item.GetComponent<NetworkObject>().Id);
+
                 return item;
             }
 
         }
 
         return null;
-
-        //self.GetComponent<NetworkObject>().Id;
     }
 
 

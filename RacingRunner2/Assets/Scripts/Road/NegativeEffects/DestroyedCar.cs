@@ -11,6 +11,8 @@ public class DestroyedCar : NetworkBehaviour, IEffect
 
     public Coroutine Effect(GameObject objectForEffect)
     {
+        objectForEffect.GetComponent<ISpeedControl>().MultiplyBoostScale(1);
+
         objectForEffect.GetComponent<ISpeedControl>().MultiplySpeed(0);
 
         objectForEffect.GetComponent<IChangePosition>().MovePos(new Vector3(0, 0, _distanceToMove));

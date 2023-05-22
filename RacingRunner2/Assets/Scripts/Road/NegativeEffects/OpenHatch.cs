@@ -18,7 +18,10 @@ public class OpenHatch : NetworkBehaviour, IEffect
 
     public Coroutine Effect(GameObject objectForEffect)
     {
+        objectForEffect.GetComponent<ISpeedControl>().MultiplyBoostScale(1);
+
         objectForEffect.GetComponent<ISpeedControl>().MultiplySpeed(_powerOfSpeedDecreace);
+
 
         return null;
     }

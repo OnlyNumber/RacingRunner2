@@ -94,5 +94,8 @@ public class ParticleEffects : PlayerEffect
         }
     }
 
-    
+    public override void UnsubscribeEffect()
+    {
+        SpeedEffect.OnPlayerEffects += SomeEffect;
+    }
 }

@@ -10,4 +10,6 @@ public abstract class PlayerEffect : MonoBehaviour
     [SerializeField] protected NetworkObject MyNetworkObject;
 
     public abstract void SomeEffect(float percents);
+
+    public abstract void UnsubscribeEffect();
 }

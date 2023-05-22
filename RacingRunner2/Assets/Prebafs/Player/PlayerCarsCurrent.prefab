@@ -12713,7 +12713,6 @@ GameObject:
   - component: {fileID: 1934123816145852100}
   - component: {fileID: 3756238553825105953}
   - component: {fileID: 1527591621234160936}
-  - component: {fileID: 6569827577584448075}
   - component: {fileID: 8456467574108367242}
   - component: {fileID: 6888882833886762523}
   - component: {fileID: 1011727882722655456}
@@ -12801,7 +12800,6 @@ MonoBehaviour:
   - {fileID: 8705932864936630403}
   - {fileID: 1934123816145852100}
   - {fileID: 1527591621234160936}
-  - {fileID: 6569827577584448075}
   - {fileID: 7323537222016429213}
   SimulationBehaviours: []
 --- !u!114 &2997927580515245933
@@ -12999,7 +12997,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  _time: 0
   _myCars:
   - {fileID: 1843591387854616015}
   - {fileID: 2434908442487036247}
@@ -13007,21 +13004,6 @@ MonoBehaviour:
   - {fileID: 5609006422393222647}
   - {fileID: 5314163521843709502}
   - {fileID: 5815931204749575875}
---- !u!114 &6569827577584448075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026684066982617448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ab4cd92a8e6d7f449cbfef1ffab0722, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolationDataSource: 0
-  _camera: {fileID: 0}
-  _audioListener: {fileID: 0}
 --- !u!114 &8456467574108367242
 MonoBehaviour:
   m_ObjectHideFlags: 0
