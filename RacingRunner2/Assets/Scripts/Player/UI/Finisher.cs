@@ -5,8 +5,6 @@ using Fusion;
 
 public class Finisher : NetworkBehaviour
 {
-    //private FirebaseDatabaseController _firebase;
-
     private FinishPanel _finishPanel;
 
     [Networked]
@@ -23,7 +21,7 @@ public class Finisher : NetworkBehaviour
 
         _finishPanel.TextTime.text = FromFloatToTime(currentTime);
 
-        _finishPanel.TextBestTime.text = FromFloatToTime(DataHolder.USER_DATA.bestTime);
+        _finishPanel.TextBestTime.text = "My best time: " + FromFloatToTime(DataHolder.USER_DATA.bestTime);
 
         _finishPanel.TextPlace.text = $" Place: {_place}/2";
 

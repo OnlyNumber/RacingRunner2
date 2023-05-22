@@ -5,13 +5,20 @@ using Fusion;
 
 public class FragmentSpawner : NetworkBehaviour, ISpawner
 {
-    [SerializeField] private List<LinePoints> _spawnPoints;
+    [SerializeField] private List<LinePoints> mySpawnPoints;
+
+   
+
+    private void Start()
+    {
+        //mySpawnPoints = GetComponentsInChildren<ISpawner>();
+    }
 
     public void Spawn()
     {
-        foreach(var spawnPoint in _spawnPoints)
+        foreach(var spawnPoint in mySpawnPoints)
         {
-            spawnPoint.GetComponent<ISpawner>().Spawn();
+            spawnPoint.Spawn();
         }
 
     }

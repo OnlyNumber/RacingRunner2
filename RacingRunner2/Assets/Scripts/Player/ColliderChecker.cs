@@ -42,12 +42,15 @@ public class ColliderChecker : NetworkBehaviour
                 other.gameObject.GetComponent<Finisher>().FinishGame(_time.MyTime);
 
                 PlayerSingleUI.instance.Camera.Follow = null;
+
+                foreach (var effect in GetComponents<PlayerEffect>())
+                {
+                    effect.UnsubscribeEffect();
+                }
+
+                GetComponent<InterfaceController>().SetOffDrivingInterface();
             }
             GetComponent<ISpeedControl>().MultiplyBoost(0);
-
-            //foreach()
-
-            //GetComponent<ISpeedControl>().MultiplySpeed(0);
         }
 
     }

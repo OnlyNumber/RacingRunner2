@@ -48,5 +48,9 @@ public class CameraEffects : PlayerEffect
     public override void UnsubscribeEffect()
     {
         SpeedEffect.OnPlayerEffects -= SomeEffect;
+
+        _shakeCamera.m_AmplitudeGain = 0;
+
+        _shakeCamera.m_FrequencyGain = 0;
     }
 }

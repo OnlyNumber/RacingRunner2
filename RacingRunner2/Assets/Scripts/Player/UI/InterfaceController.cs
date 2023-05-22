@@ -77,11 +77,6 @@ public class InterfaceController : MonoBehaviour
             PlayerSingleUI.instance.Camera.Follow = transform;
             SpawnerShared.instance.onPlayersConnected += SetAnotherPlayer;
         }
-
-
-
-
-
     }
 
     private void Update()
@@ -112,8 +107,6 @@ public class InterfaceController : MonoBehaviour
 
     private void MyPlace()
     {
-        
-
         if (_anotherPlayer != null)
         {
             if (transform.position.z > _anotherPlayer.position.z)
@@ -134,6 +127,21 @@ public class InterfaceController : MonoBehaviour
 
         Debug.Log("Find?" + _anotherPlayer.GetComponent<NetworkObject>().Id);
     
+    }
+
+    public void SetOffDrivingInterface()
+    {
+        _nitroIndicator.enabled = false;
+
+        _place.enabled = false;
+
+        _speedometrArrow.GetComponentInParent<Image>().enabled = false;
+
+        _speedometrArrow.gameObject.SetActive(false);
+
+        _nitroButton.gameObject.SetActive(false);
+
+
     }
 
 }

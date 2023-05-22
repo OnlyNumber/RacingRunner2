@@ -39,8 +39,6 @@ public class ParticleEffects : PlayerEffect
 
         if (MyNetworkObject.HasInputAuthority)
         {
-            Debug.Log("ParticleEffects");
-
             SpeedEffect.OnPlayerEffects += SomeEffect;
         }
 
@@ -79,12 +77,8 @@ public class ParticleEffects : PlayerEffect
     {
         if (percents > _percentOfStart)
         {
-            //Debug.Log("percents > _percentOfStart");
-
             if (!_windParticles.isPlaying)
             {
-                Debug.Log("!_windParticles.isPlaying");
-
                 _windParticles.Play();
             }
         }
@@ -96,6 +90,13 @@ public class ParticleEffects : PlayerEffect
 
     public override void UnsubscribeEffect()
     {
-        SpeedEffect.OnPlayerEffects += SomeEffect;
+        SpeedEffect.OnPlayerEffects -= SomeEffect;
+
+        _windParticles.Stop();
+
+        _leftWheelParticle.Stop();
+
+        _rightWheelParticles.Stop();
+
     }
 }
