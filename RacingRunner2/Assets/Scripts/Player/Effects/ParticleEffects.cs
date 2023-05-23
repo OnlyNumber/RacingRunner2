@@ -9,37 +9,22 @@ public class ParticleEffects : PlayerEffect
 {
     [SerializeField] private float _percentOfStart;
 
-    [SerializeField] private ParticleSystem _leftWheelParticle;
+    private ParticleSystem[] _wheelParticles;
 
-    [SerializeField] private ParticleSystem _rightWheelParticles;
+    [SerializeField] private ParticleSystem _windParticles;
 
-    private ParticleSystem _windParticles;
+    [SerializeField] private Button _nitroButton;
 
-    private Button _nitroButton;
 
-    private void Start()
+    public override void StartInit(GameObject player)
     {
-        _windParticles = PlayerSingleUI.instance.WindParticles;
+        WriteMethods(StartWheelParticle, EventTriggerType.PointerDown);
 
-        _nitroButton = PlayerSingleUI.instance.DrivingInterface.nitroButton;
+        WriteMethods(StopWheelParticle, EventTriggerType.PointerUp);
 
-        if (MyNetworkObject.HasInputAuthority)
-        {
-            WriteMethods(StartWheelParticle, EventTriggerType.PointerDown);
+        _wheelParticles = player.GetComponentsInChildren<ParticleSystem>();
 
-            WriteMethods(StopWheelParticle, EventTriggerType.PointerUp);
-        }
-        _windParticles.Stop();
-
-        _leftWheelParticle.Stop();
-
-        _rightWheelParticles.Stop();
-
-        if (MyNetworkObject.HasInputAuthority)
-        {
-            SpeedEffect.OnPlayerEffects += SomeEffect;
-        }
-
+        SpeedEffect.OnPlayerEffects += SomeEffect;
     }
 
     private void WriteMethods(Action someMethod, EventTriggerType type)
@@ -56,16 +41,18 @@ public class ParticleEffects : PlayerEffect
 
     public void StartWheelParticle()
     {
-        _leftWheelParticle.Play();
-
-        _rightWheelParticles.Play();
+        foreach (var item in _wheelParticles)
+        {
+            item.Play();
+        }
     }
 
     public void StopWheelParticle()
     {
-        _leftWheelParticle.Stop();
-
-        _rightWheelParticles.Stop();
+        foreach (var item in _wheelParticles)
+        {
+            item.Stop();
+        }
     }
 
     public override void SomeEffect(float percents)
@@ -89,9 +76,10 @@ public class ParticleEffects : PlayerEffect
 
         _windParticles.Stop();
 
-        _leftWheelParticle.Stop();
-
-        _rightWheelParticles.Stop();
+        foreach (var item in _wheelParticles)
+        {
+            item.Stop();
+        }
 
     }
 }

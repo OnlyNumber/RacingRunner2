@@ -5,9 +5,6 @@ using UnityEngine.UI;
 
 public class ChooseAvatarTable : MonoBehaviour
 {
-
-    
-
     [SerializeField] private List<Image> _buttonToSelect;
     
     [SerializeField] private FirebaseDatabaseController _firebase;

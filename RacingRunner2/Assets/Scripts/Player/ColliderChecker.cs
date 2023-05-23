@@ -5,54 +5,57 @@ using Fusion;
 
 public class ColliderChecker : NetworkBehaviour
 {
-    private Coroutine positiveEffect;
-
     private Coroutine negativeEffect;
-
-    [SerializeField] private Timer _time;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Obstacle"))
+        switch(other.gameObject.tag)
         {
-            if (negativeEffect != null)
-            {
-                StopCoroutine(negativeEffect);
-            }
-
-            negativeEffect = other.GetComponent<IEffect>().Effect(gameObject);
-        }
-
-        if (other.gameObject.CompareTag("PowerUp"))
-        {
-            Debug.Log("PowerUp");
-
-            negativeEffect = other.GetComponent<IEffect>().Effect(gameObject);
-        }
-
-        if (other.gameObject.CompareTag("Finish"))
-        {
-            if (negativeEffect != null)
-            {
-                StopCoroutine(negativeEffect);
-            }
-
-            if (HasInputAuthority)
-            {
-                other.gameObject.GetComponent<Finisher>().FinishGame(_time.MyTime);
-
-                PlayerSingleUI.instance.Camera.Follow = null;
-
-                foreach (var effect in GetComponents<PlayerEffect>())
+            case "Obstacle":
                 {
-                    effect.UnsubscribeEffect();
+                    if (negativeEffect != null)
+                    {
+                        StopCoroutine(negativeEffect);
+                    }
+                    negativeEffect = other.GetComponent<IEffect>().Effect(gameObject);
+
+                    break;
                 }
 
-                GetComponent<UIController>().SetOffDrivingInterface();
-            }
-            GetComponent<ISpeedControl>().MultiplyBoost(0);
-        }
+            case "PowerUp":
+                {
+                    negativeEffect = other.GetComponent<IEffect>().Effect(gameObject);
 
+                    break;
+                }
+
+            case "Finish":
+                {
+                    if (negativeEffect != null)
+                    {
+                        StopCoroutine(negativeEffect);
+                    }
+
+                    if (HasInputAuthority)
+                    {
+                        other.gameObject.GetComponent<Finisher>().FinishGame(PlayerSingleUI.instance.timer.MyTime);
+
+                        PlayerSingleUI.instance.Camera.Follow = null;
+
+                        foreach (var effect in PlayerSingleUI.instance._effects)
+                        {
+                            effect.UnsubscribeEffect();
+                        }
+
+                        PlayerSingleUI.instance._ui.SetOffDrivingInterface();
+                    }
+
+                    GetComponent<ISpeedControl>().MultiplyBoost(0);
+
+                    break;
+                }
+
+        }
     }
 
 }

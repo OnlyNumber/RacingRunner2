@@ -18,32 +18,30 @@ public class FirebaseDataSetter : NetworkBehaviour
     [Networked]
     private int _car { get; set; }
 
-
-    private PlayerItem _firstPlayerItem;
-
-    private PlayerItem _secondPlayerItem;
-
     [SerializeField] private List<GameObject> _myCars;
 
     private void Start()
     {
+
+        if (HasInputAuthority)
+        {
+            PlayerSingleUI.instance.StartInit(gameObject);
+        }
+
         SpawnerShared.instance.AddTransform(transform);
-
-        _firstPlayerItem = PlayerSingleUI.instance.FirstPlayer;
-
-        _secondPlayerItem = PlayerSingleUI.instance.SecondPlayer;
-
 
         GetComponent<ISpeedControl>().MultiplyBoostScale(0);
 
         GetComponent<ISpeedControl>().MultiplySpeed(0);
 
-        if(HasInputAuthority)
-        Rpc_RequestChangeSkin( DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
+        if (HasInputAuthority)
+        {
+            Rpc_RequestChangeSkin(DataHolder.USER_DATA.nickName, DataHolder.USER_DATA.avatarIcon, DataHolder.USER_DATA.car);
+        }
     }
 
     [Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
-    private void Rpc_RequestChangeSkin(string name,int avatar, int car, RpcInfo info = default)
+    private void Rpc_RequestChangeSkin(string name, int avatar, int car, RpcInfo info = default)
     {
         this._nickName = name;
         this._avatar = avatar;

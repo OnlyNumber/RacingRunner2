@@ -9,7 +9,6 @@ using UnityEngine.SceneManagement;
 public class LogInScript : Authentification
 {
 
-
     [SerializeField]
     private TMP_InputField _emailField;
     [SerializeField]
@@ -20,8 +19,6 @@ public class LogInScript : Authentification
         base.StartInit();
 
     }
-    
-
 
     public void LogInButton()
     {

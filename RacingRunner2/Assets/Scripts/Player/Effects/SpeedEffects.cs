@@ -15,12 +15,11 @@ public class SpeedEffects : MonoBehaviour
 
     private IPercantage percents;
 
-    private void Start()
+    public void StartInit(GameObject player)
     {
-        percents = GetComponent<ISpeedControl>();
+        percents = player.GetComponent<ISpeedControl>();
     }
-
-
+    
     private void Update()
     {
         OnPlayerEffects?.Invoke(percents.GetPercent());

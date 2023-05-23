@@ -7,9 +7,10 @@ public abstract class PlayerEffect : MonoBehaviour
 {
     [SerializeField] protected SpeedEffects SpeedEffect;
 
-    [SerializeField] protected NetworkObject MyNetworkObject;
-
     public abstract void SomeEffect(float percents);
 
     public abstract void UnsubscribeEffect();
+
+    public abstract void StartInit(GameObject transform);
+
 }

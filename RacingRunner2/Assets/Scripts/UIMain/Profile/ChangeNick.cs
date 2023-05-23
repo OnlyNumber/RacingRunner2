@@ -3,8 +3,6 @@ using TMPro;
 
 public class ChangeNick : MonoBehaviour
 {
-    //private 
-
     [SerializeField] private FirebaseDatabaseController _firebase;
 
     [SerializeField] private TMP_InputField _fieldNickName;

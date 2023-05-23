@@ -25,17 +25,17 @@ public class PlayerInputHandler : MonoBehaviour
 
         isMobile = Application.isMobilePlatform;
 
-            if (!isMobile)
-            {
+        if (!isMobile)
+        {
 
-                platformControl = new ComputerPlatform(checkZone);
+            platformControl = new ComputerPlatform(checkZone);
 
-            }
-            else
-            {
+        }
+        else
+        {
 
-                platformControl = new MobilePlatform(checkZone);
-            }
+            platformControl = new MobilePlatform(checkZone);
+        }
 
     }
 
@@ -61,7 +61,7 @@ public class PlayerInputHandler : MonoBehaviour
                 }
         }
     }
-  
+
 
 
 }

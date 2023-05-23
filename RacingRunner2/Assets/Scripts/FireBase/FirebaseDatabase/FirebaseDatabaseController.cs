@@ -72,7 +72,6 @@ public class FirebaseDatabaseController : MonoBehaviour
 
         if (user.Exception != null)
         {
-            Debug.Log("you");
             Debug.Log(user.Exception);
         }
         else if (user.Result == null)

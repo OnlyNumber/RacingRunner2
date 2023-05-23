@@ -18,10 +18,6 @@ public class Authentification : MonoBehaviour
 
     public virtual void StartInit()
     {
-        
-
-        //_loadScreen.ClosePanel();
-
         StartCoroutine(CheckAndFixDependenciesAsync());
     }
 

@@ -25,8 +25,6 @@ public class Finisher : NetworkBehaviour
 
         _finishPanel.TextPlace.text = $" Place: {_place}/2";
 
-
-
         if(currentTime < DataHolder.USER_DATA.bestTime)
         {
             _finishPanel.TextNewBestTime.text = "New best time: " + FromFloatToTime(currentTime);

@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 4fc0a64347ccfdc4b87ed9c92dab14c1, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: c2e14c036febdf84a83eaa91ec096b04, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e307be93235f054fbc577f837911034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerPrebaf: {fileID: 8810933915888456119, guid: 9a83cf844f585f747a3d82ca0ffdd9b2, type: 3}
+  _playerPrebaf: {fileID: 5299487298709667114, guid: b0d6d0dacc1712845a5fe9c15b6d04c4, type: 3}
   _roadSpawner: {fileID: 6406184140235774525, guid: 2fefd592ea8e0ef4cbaffcd7f32c1c3c, type: 3}
 --- !u!114 &278767056
 MonoBehaviour:
@@ -6890,6 +6890,144 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045898684}
   m_CullTransparentMesh: 1
+--- !u!1 &1257617121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1257617122}
+  - component: {fileID: 1257617127}
+  - component: {fileID: 1257617128}
+  - component: {fileID: 1257617125}
+  - component: {fileID: 1257617124}
+  - component: {fileID: 1257617126}
+  - component: {fileID: 1257617123}
+  m_Layer: 0
+  m_Name: UIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1257617122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257617121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1468181913}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1257617123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257617121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b238fb2bcff791b45ad2e262bc7776c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1257617124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257617121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ae89de2892a7242a3fa1af073bec51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedEffect: {fileID: 1257617123}
+  _percentOfStart: 0.3
+  _windParticles: {fileID: 811489593}
+  _nitroButton: {fileID: 679024775}
+--- !u!114 &1257617125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257617121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7eaa50402410e649b23b893765334e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedEffect: {fileID: 1257617123}
+  _amplitudeGain: 1
+  _frequencyGain: 1
+  _startFOV: 40
+  _endFOV: 20
+--- !u!114 &1257617126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257617121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ea666cd019dcd408447a410149afac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _loadScreen: {fileID: 410694646}
+  playerItems:
+  - {fileID: 1370329697}
+  - {fileID: 1419144606}
+  _panelVS: {fileID: 1863195978}
+  _textCountdown: {fileID: 1583409232}
+  _myAvatars:
+  - {fileID: 21300000, guid: 1801d954d4736c547ae949c76a0a82bc, type: 3}
+  - {fileID: 21300000, guid: f1e26711000d1c24aab7a7ed0b84927b, type: 3}
+  - {fileID: 21300000, guid: e488389b7f54fd947a7fd0656c1c29b7, type: 3}
+  - {fileID: 21300000, guid: a2e06dcd6a4ff704d958dd3461214d10, type: 3}
+  - {fileID: 21300000, guid: 3a846ca4057661c4ca5cb1fbe6d5fffe, type: 3}
+  _waitToStart: 5
+--- !u!114 &1257617127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257617121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab886a53fbf57247a83517d5cad84b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameStarter: {fileID: 1257617126}
+--- !u!114 &1257617128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257617121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868610ba712cd504aae70df231b42cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nitroIndicator: {fileID: 490163710}
+  _place: {fileID: 867799608}
+  _speedometrArrow: {fileID: 1912571272}
+  _nitroButton: {fileID: 679024775}
+  _minSpeedometr: 60
+  _maxSpeedometr: -240
 --- !u!1 &1315177318
 GameObject:
   m_ObjectHideFlags: 0
@@ -7285,6 +7423,7 @@ Transform:
   - {fileID: 991820622}
   - {fileID: 1674675312}
   - {fileID: 1795685194}
+  - {fileID: 1257617122}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7301,14 +7440,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Camera: {fileID: 1315177319}
-  DrivingInterface: {fileID: 283713636}
-  FirstPlayer: {fileID: 1370329697}
-  SecondPlayer: {fileID: 1419144606}
-  PanelVS: {fileID: 1863195978}
   LoadScreen: {fileID: 410694646}
   Finish: {fileID: 1412849697}
-  TextCountdown: {fileID: 1583409232}
-  WindParticles: {fileID: 811489593}
+  timer: {fileID: 1257617127}
+  <_effectController>k__BackingField: {fileID: 1257617123}
+  <_effects>k__BackingField:
+  - {fileID: 1257617125}
+  - {fileID: 1257617124}
+  <_ui>k__BackingField: {fileID: 1257617128}
+  <_gameStarter>k__BackingField: {fileID: 1257617126}
 --- !u!1 &1528954072
 GameObject:
   m_ObjectHideFlags: 0

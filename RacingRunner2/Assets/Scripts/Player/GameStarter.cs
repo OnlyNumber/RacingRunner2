@@ -5,55 +5,44 @@ using Fusion;
 using System;
 using TMPro;
 
-public class GameStarter : NetworkBehaviour
+public class GameStarter : MonoBehaviour
 {
     public bool IsGame { get; private set; }
 
-    private LoadScreen _loadScreen;
+    [SerializeField] private LoadScreen _loadScreen;
 
-    private PlayerItem _firstPlayerItem;
+    [SerializeField] private List<PlayerItem> playerItems;
 
-    private PlayerItem _secondPlayerItem;
+    [SerializeField] private PanelController _panelVS;
 
-    private PanelController _panelVS;
-
-    private TMP_Text _textCountdown;
+    [SerializeField] private TMP_Text _textCountdown;
 
     [SerializeField] private List<Sprite> _myAvatars;
 
     [SerializeField] private int _waitToStart;
 
+    private Transform _myPlayer;
+
     private void Start()
     {
-        _textCountdown = PlayerSingleUI.instance.TextCountdown;
-
-        _loadScreen = PlayerSingleUI.instance.LoadScreen;
-
-        _firstPlayerItem = PlayerSingleUI.instance.FirstPlayer;
-
-        _secondPlayerItem = PlayerSingleUI.instance.SecondPlayer;
-
-        _panelVS = PlayerSingleUI.instance.PanelVS;
-
-
         SpawnerShared.instance.onPlayersConnected += SetInfo;
+    }
+
+    public void StartInit(GameObject player)
+    {
+        _myPlayer = player.transform;
     }
 
     [ContextMenu("SetInfo")]
     public void SetInfo()
     {
-        GetComponent<UIController>().Check();
-
         List<SpawnerShared.PlayerData> info = SpawnerShared.instance.CopyData();
 
-        if (info.Count > 1)
-            _firstPlayerItem.SetInfo(_myAvatars[info[0].avatar], info[0].name);
-
-        if (info.Count >= 2)
-            _secondPlayerItem.SetInfo(_myAvatars[info[1].avatar], info[1].name);
-
+        for (int i = 0; i < info.Count; i++)
+        {
+            playerItems[i].SetInfo(_myAvatars[info[i].avatar], info[i].name);
+        }
         StartCoroutine(ShowPanels());
-
     }
 
     private IEnumerator ShowPanels()
@@ -62,15 +51,17 @@ public class GameStarter : NetworkBehaviour
 
         yield return new WaitForSecondsRealtime(2);
 
-        _firstPlayerItem.ShowPanel();
-
-        _secondPlayerItem.ShowPanel();
+        foreach (var item in playerItems)
+        {
+            item.ShowPanel();
+        }
 
         yield return new WaitForSecondsRealtime(2);
 
-        _firstPlayerItem.ClosePanel();
-
-        _secondPlayerItem.ClosePanel();
+        foreach (var item in playerItems)
+        {
+            item.ClosePanel();
+        }
 
         yield return new WaitForSecondsRealtime(2);
 
@@ -86,17 +77,17 @@ public class GameStarter : NetworkBehaviour
 
         while (timer > 0)
         {
-
             _textCountdown.text = timer.ToString();
 
             yield return new WaitForSecondsRealtime(1);
 
+            timer--;
 
         };
 
         _textCountdown.text = "GO!";
 
-        GetComponent<ISpeedControl>().MultiplyBoostScale(1);
+        _myPlayer.GetComponent<ISpeedControl>()?.MultiplyBoostScale(1);
 
         IsGame = true;
 

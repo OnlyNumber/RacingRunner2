@@ -19,7 +19,4 @@ public class UserData
         this.bestTime = bestTime;
         this.car = car;
     }
-
-
-
 }

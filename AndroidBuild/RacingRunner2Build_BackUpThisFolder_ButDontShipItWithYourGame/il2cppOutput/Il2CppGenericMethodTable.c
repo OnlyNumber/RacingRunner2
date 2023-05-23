@@ -34832,6 +34832,6 @@ const Il2CppGenericMethodFunctionsDefinitions g_Il2CppGenericMethodFunctions[348
 { 38914, 34727, 283, 6770},
 { 38915, 34728, 284, 6771},
 { 38916, 34729, 285, 6772},
-{ 42418, 0, 0, -1},
-{ 42419, 0, 0, -1},
+{ 42421, 0, 0, -1},
+{ 42422, 0, 0, -1},
 };

@@ -90,11 +90,7 @@ public class RegistrationScript : Authentification
                     else
                     {
                         DataHolder.firebaseUser = User;
-
                         SaveData();
-
-                        Debug.Log("StaticFields.MENU_SCENE");
-
                         StartLoadScene(StaticFields.MENU_SCENE);
                     }
 

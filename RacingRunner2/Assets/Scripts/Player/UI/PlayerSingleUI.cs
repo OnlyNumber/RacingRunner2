@@ -10,21 +10,19 @@ public class PlayerSingleUI : MonoBehaviour
 
     public CinemachineVirtualCamera Camera;
 
-    public DrivingInterace DrivingInterface;
-
-    public PlayerItem FirstPlayer;
-
-    public PlayerItem SecondPlayer;
-
-    public PanelController PanelVS;
-
     public LoadScreen LoadScreen;
 
     public FinishPanel Finish;
 
-    public TMP_Text TextCountdown;
+    public Timer timer;
 
-    public ParticleSystem WindParticles;
+    [field: SerializeField] public SpeedEffects _effectController { private set; get; }
+
+    [field: SerializeField] public PlayerEffect[] _effects { private set; get; }
+
+    [field: SerializeField] public UIController _ui { private set; get; }
+
+    [field: SerializeField] public GameStarter _gameStarter { private set; get; }
 
     void Start()
     {
@@ -33,6 +31,25 @@ public class PlayerSingleUI : MonoBehaviour
             instance = this;
         }
     }
+
+    public void StartInit(GameObject player)
+    {
+        
+
+        _effectController.StartInit(player);
+
+        _gameStarter.StartInit(player);
+
+
+        foreach (var item in _effects)
+        {
+            item.StartInit(player);
+        }
+
+        _ui.StartInit(player);
+
+    }
+
 
     
 }

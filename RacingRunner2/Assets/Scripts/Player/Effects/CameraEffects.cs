@@ -18,18 +18,13 @@ public class CameraEffects : PlayerEffect
     [SerializeField] private float _endFOV;
 
 
-    private void Start()
+    public override void StartInit(GameObject player)
     {
         _virtualCamera = PlayerSingleUI.instance.Camera;
 
         _shakeCamera = _virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
-        if (MyNetworkObject.HasInputAuthority)
-        {
-            Debug.Log("CameraEffects");
-
-            SpeedEffect.OnPlayerEffects += SomeEffect;
-        }
+        SpeedEffect.OnPlayerEffects += SomeEffect;
 
     }
 

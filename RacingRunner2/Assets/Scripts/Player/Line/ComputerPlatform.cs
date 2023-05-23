@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ComputerPlatform : IPlatform
 {
-    Vector2 tapPosition;
+    private Vector2 tapPosition;
     private Vector2 secondTap;
 
     private bool isSwiping;

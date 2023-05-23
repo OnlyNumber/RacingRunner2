@@ -9,45 +9,46 @@ using System;
 
 public class UIController : MonoBehaviour
 {
-    private Image _nitroIndicator;
+    [SerializeField] private Image _nitroIndicator;
 
-    private TMP_Text _place;
+    [SerializeField] private TMP_Text _place;
 
-    private Transform _speedometrArrow;
+    [SerializeField] private Transform _speedometrArrow;
 
-    private Button _nitroButton;
+    [SerializeField] private Button _nitroButton;
 
     private ISpeedControl _speedController;
 
-    [SerializeField] private NitroSystem _nitroSystem;
+    private NitroSystem _nitroSystem;
 
     [SerializeField] private float _minSpeedometr;
 
     [SerializeField] private float _maxSpeedometr;
 
-    [SerializeField] private NetworkObject _networkObject;
-
     private Transform _anotherPlayer;
 
-    
+    private Transform _myPlayer;
+   
 
-    private void Awake()
+    public void StartInit(GameObject player)
     {
-        _speedController = GetComponent<ISpeedControl>();
+        _myPlayer = player.transform;
 
-        _nitroButton = PlayerSingleUI.instance.DrivingInterface.nitroButton;
+        PlayerSingleUI.instance.Camera.Follow = _myPlayer;
 
-        _speedometrArrow = PlayerSingleUI.instance.DrivingInterface._speedArrow;
+        SpawnerShared.instance.onPlayersConnected += SetAnotherPlayer;
 
-        _nitroIndicator = PlayerSingleUI.instance.DrivingInterface.nitroIndicator;
+        _speedController = _myPlayer.GetComponent<ISpeedControl>();
 
-        _place = PlayerSingleUI.instance.DrivingInterface.place;
+        _nitroSystem = _myPlayer.GetComponent<NitroSystem>();
 
-        WriteMethods(GetComponent<NitroSystem>().ActivateBoost, EventTriggerType.PointerDown);
+        WriteMethods(_nitroSystem.ActivateBoost, EventTriggerType.PointerDown);
 
-        WriteMethods(GetComponent<NitroSystem>().DeactivateBoost, EventTriggerType.PointerUp);
+        WriteMethods(_nitroSystem.DeactivateBoost, EventTriggerType.PointerUp);
+
+        _nitroSystem.OnNitroChange += ChangeNitroAmount;
+
     }
-
     private void WriteMethods(Action someMethod, EventTriggerType type)
     {
         EventTrigger.Entry entry = new EventTrigger.Entry();
@@ -60,32 +61,13 @@ public class UIController : MonoBehaviour
 
     }
 
-    public void Check()
-    {
-        if (_networkObject.HasStateAuthority)
-        {
-            Debug.Log("_networkObject.HasInputAuthority" + _networkObject.HasInputAuthority);
-            _nitroSystem.OnNitroChange += ChangeNitroAmount;
-        }
-    }
-
-
-    private void Start()
-    {
-        if (_networkObject.HasInputAuthority)
-        {
-            PlayerSingleUI.instance.Camera.Follow = transform;
-            SpawnerShared.instance.onPlayersConnected += SetAnotherPlayer;
-        }
-    }
-
     private void Update()
     {
-        if (_networkObject.HasInputAuthority)
-        {
+        //if (_networkObject.HasInputAuthority)
+        //{
             UpdateInterface();
-            MyPlace();
-        }
+
+        //}
     }
 
     public void ChangeNitroAmount()
@@ -97,19 +79,22 @@ public class UIController : MonoBehaviour
 
     public void ChangeSpeedometr()
     {
+        if(_speedController != null)
         _speedometrArrow.eulerAngles = new Vector3(0, 0, _minSpeedometr + _maxSpeedometr * _speedController.GetPercent());
     }
     
     private void UpdateInterface()
     {
         ChangeSpeedometr();
+        MyPlace();
+
     }
 
     private void MyPlace()
     {
         if (_anotherPlayer != null)
         {
-            if (transform.position.z > _anotherPlayer.position.z)
+            if (_myPlayer.position.z > _anotherPlayer.position.z)
             {
                 _place.text = "1/2";
             }
@@ -123,7 +108,7 @@ public class UIController : MonoBehaviour
 
     private void SetAnotherPlayer()
     {
-        _anotherPlayer = SpawnerShared.instance.FindNotSelf(transform);
+        _anotherPlayer = SpawnerShared.instance.FindNotSelf(_myPlayer);
 
         Debug.Log("Find?" + _anotherPlayer.GetComponent<NetworkObject>().Id);
     

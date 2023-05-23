@@ -35,8 +35,6 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 
     [SerializeField] private RoadSpawner _roadSpawner;
 
-    
-
     private List<PlayerData> _userData = new List<PlayerData>();
 
     private List<Transform> playersTransforms = new List<Transform>();
@@ -130,7 +128,4 @@ public class SpawnerShared : SimulationBehaviour, IPlayerJoined
 
         return null;
     }
-
-
-
 }
